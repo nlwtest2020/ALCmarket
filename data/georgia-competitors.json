@@ -1,0 +1,107 @@
+{
+  "market": "Georgia (Tbilisi)",
+  "currency": "GEL/EUR",
+  "data_date": "2026-02-17",
+  "sources": ["languageinternational.com", "languagecourse.net", "theknowledgeacademy.com", "aztechtraining.com"],
+  "competitors": [
+    {
+      "name": "Georgian Courses (Language Schools)",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["Georgian", "One-to-One", "Group Courses", "Various Durations"],
+      "pricing": {
+        "one_to_one_weekly": {
+          "amount": 300,
+          "currency": "EUR",
+          "per": "week",
+          "lessons_per_week": 20,
+          "hours_per_week": 20,
+          "hourly_rate_eur": 15,
+          "notes": "4 lessons/day, 5 days/week"
+        }
+      }
+    },
+    {
+      "name": "Language International Schools",
+      "type": "Language School",
+      "tier": "budget",
+      "services": ["Georgian", "English", "European Languages"],
+      "pricing": {
+        "courses_starting": {
+          "amount": 102,
+          "currency": "USD",
+          "duration": "variable",
+          "hourly_rate_est": 12,
+          "notes": "Starting price for variable duration courses"
+        }
+      }
+    },
+    {
+      "name": "The Knowledge Academy",
+      "type": "Tech Bootcamp",
+      "tier": "premium",
+      "services": ["Coding Training", "IT Training", "Programming", "In-Person & Online"],
+      "pricing": {
+        "bootcamp_intensive": {
+          "amount": 1495,
+          "currency": "EUR",
+          "duration_days": "typically 5-10 days",
+          "hourly_rate_est": 100,
+          "notes": "Based on typical bootcamp duration estimates"
+        }
+      }
+    },
+    {
+      "name": "AZTech Training",
+      "type": "Tech Bootcamp",
+      "tier": "premium",
+      "services": ["Bootcamp Courses", "Tech Training", "International Standards"],
+      "pricing": {
+        "bootcamp": {
+          "amount": 1500,
+          "currency": "EUR",
+          "hourly_rate_est": 100,
+          "notes": "Estimated based on market comparable"
+        }
+      }
+    }
+  ],
+  "instructor_market": {
+    "software_dev_rates": {
+      "range_hourly": {
+        "min": 25,
+        "max": 99,
+        "currency": "USD"
+      },
+      "context": "Offshore software development services rates"
+    },
+    "remote_work_trend": "Significant increase in remote/hybrid arrangements, especially post-2020"
+  },
+  "market_observations": {
+    "price_tiers": {
+      "budget": {
+        "hourly_rate_eur": 12,
+        "tier_type": "Group language courses, high volume"
+      },
+      "mid": {
+        "hourly_rate_eur": 15,
+        "tier_type": "One-to-one language instruction, established schools"
+      },
+      "premium": {
+        "hourly_rate_eur": 100,
+        "tier_type": "Tech bootcamps, intensive programs"
+      }
+    },
+    "market_characteristics": [
+      "Strong tech bootcamp market with premium pricing",
+      "Language learning competitive at mid-tier pricing",
+      "Geographic advantage for international students",
+      "Growing tech sector with talent development focus"
+    ],
+    "gaps_identified": [
+      "Mid-tier tech skills (not full bootcamp) underserved",
+      "Professional language training limited",
+      "Niche skill combinations (tech + language) rare"
+    ]
+  }
+}

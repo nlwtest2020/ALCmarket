@@ -1,0 +1,94 @@
+{
+  "market": "Moldova (Chișinău)",
+  "currency": "MDL/EUR",
+  "data_date": "2026-02-17",
+  "sources": ["languagecourse.net", "topenglish.md", "western-overseas.com"],
+  "competitors": [
+    {
+      "name": "Chisinau Language School",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["Russian", "English", "Individual Lessons", "Group Courses"],
+      "pricing": {
+        "individual_lesson": {
+          "amount": 30,
+          "currency": "EUR",
+          "per": "hour",
+          "hourly_rate_eur": 30,
+          "notes": "Single individual lesson rate"
+        }
+      }
+    },
+    {
+      "name": "Top English School",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["English", "Group Courses", "All Proficiency Levels"],
+      "pricing": {
+        "group_course_4months": {
+          "amount": 6400,
+          "currency": "MDL",
+          "duration_months": 4,
+          "total_hours": 96,
+          "frequency": "Regular schedule",
+          "hourly_rate_mld": 66.67,
+          "hourly_rate_eur": 3.33,
+          "notes": "Beginner through Upper-Intermediate, includes materials"
+        }
+      }
+    },
+    {
+      "name": "DGNI (Romanian Language Program)",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["Romanian", "Professional Programs"],
+      "pricing": {
+        "estimated_hourly": {
+          "amount": 15,
+          "currency": "EUR",
+          "hourly_rate_eur": 15,
+          "notes": "Estimated based on market rates"
+        }
+      }
+    }
+  ],
+  "instructor_market": {
+    "avg_teacher_salary_monthly": {
+      "amount": 500,
+      "currency": "EUR",
+      "context": "Average gross monthly wage for teachers"
+    },
+    "national_avg_salary": {
+      "amount": 550,
+      "currency": "EUR",
+      "context": "National average across all sectors"
+    },
+    "hourly_equiv": {
+      "amount": 3,
+      "currency": "EUR",
+      "calculation": "Based on 160 working hours/month"
+    },
+    "it_sector_growth": "Significant 2025 salary growth due to high demand"
+  },
+  "market_observations": {
+    "price_tiers": {
+      "budget": {
+        "hourly_rate_eur": 3,
+        "tier_type": "Group courses, community focus"
+      },
+      "mid": {
+        "hourly_rate_eur": 15,
+        "tier_type": "Established schools, quality reputation"
+      },
+      "premium": {
+        "hourly_rate_eur": 30,
+        "tier_type": "Individual lessons, specialized instruction"
+      }
+    },
+    "gaps_identified": [
+      "Tech skills training underdeveloped compared to language learning",
+      "Premium tech bootcamp offerings rare",
+      "Group-based skill courses limited"
+    ]
+  }
+}

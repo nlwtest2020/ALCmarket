@@ -1,0 +1,175 @@
+{
+  "market": "Armenia (Yerevan)",
+  "currency": "AMD/USD",
+  "data_date": "2026-02-17",
+  "sources": ["languageinternational.com", "intech.am", "iclt.am", "berlitz.com"],
+  "competitors": [
+    {
+      "name": "ICLT (Largest Language School)",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["English", "Armenian", "Russian", "European Languages"],
+      "pricing": {
+        "courses_starting": {
+          "amount": 63,
+          "currency": "USD",
+          "hourly_rate_est": 15,
+          "notes": "Starting price for standard courses"
+        }
+      }
+    },
+    {
+      "name": "Berlitz Yerevan",
+      "type": "Language School",
+      "tier": "premium",
+      "services": ["English", "German", "French", "Professional Courses"],
+      "pricing": {
+        "estimated_hourly": {
+          "amount": 25,
+          "currency": "USD",
+          "hourly_rate_est": 25,
+          "notes": "Berlitz premium brand positioning"
+        }
+      }
+    },
+    {
+      "name": "Horizon of Expectation Language Center",
+      "type": "Language School",
+      "tier": "mid",
+      "services": ["English", "German", "Russian", "Armenian", "Persian"],
+      "pricing": {
+        "estimated_hourly": {
+          "amount": 12,
+          "currency": "USD",
+          "hourly_rate_est": 12,
+          "notes": "Mid-tier community-focused school"
+        }
+      }
+    },
+    {
+      "name": "BDG (Vocational & Professional)",
+      "type": "Vocational Training",
+      "tier": "mid",
+      "services": ["Programming", "Marketing", "Project Management", "HR", "QA", "DevOps"],
+      "pricing": {
+        "short_course": {
+          "amount": 800,
+          "currency": "USD",
+          "duration_days": "typically 30-90",
+          "hourly_rate_est": 30,
+          "notes": "3 months or less for most courses"
+        }
+      }
+    },
+    {
+      "name": "42 Yerevan",
+      "type": "Programming School",
+      "tier": "budget",
+      "services": ["Programming", "Coding", "Tech Training"],
+      "pricing": {
+        "tuition": {
+          "amount": 0,
+          "currency": "USD",
+          "model": "Tuition-free",
+          "hourly_rate": 0,
+          "notes": "Tuition-free programming school, unique market positioning"
+        }
+      }
+    },
+    {
+      "name": "American University of Armenia (AUA)",
+      "type": "Academic",
+      "tier": "premium",
+      "services": ["Computer Science", "IT Programs", "Degree Programs"],
+      "pricing": {
+        "annual_tuition_armenian": {
+          "amount": 1700000,
+          "currency": "AMD",
+          "amount_usd": 4400,
+          "per": "year",
+          "notes": "Armenian citizens"
+        },
+        "annual_tuition_international": {
+          "amount": 3700000,
+          "currency": "AMD",
+          "amount_usd": 9500,
+          "per": "year",
+          "notes": "International students"
+        },
+        "hourly_est": {
+          "amount": 15,
+          "currency": "USD",
+          "calculation": "Based on 300 hours/semester assumption"
+        }
+      }
+    },
+    {
+      "name": "Armenian-Indian ICT Center",
+      "type": "Tech Training",
+      "tier": "budget",
+      "services": ["IT Training", "Short & Long-term Courses"],
+      "pricing": {
+        "estimated_hourly": {
+          "amount": 8,
+          "currency": "USD",
+          "hourly_rate_est": 8,
+          "notes": "Government-affiliated, subsidized rates"
+        }
+      }
+    }
+  ],
+  "instructor_market": {
+    "teacher_avg_salary": {
+      "amount": 812000,
+      "currency": "AMD",
+      "amount_usd": 2100,
+      "per": "month",
+      "context": "Teaching/Education sector"
+    },
+    "teacher_salary_range": {
+      "min": 394000,
+      "max": 1500000,
+      "currency": "AMD"
+    },
+    "hourly_equiv": {
+      "amount": 12,
+      "currency": "USD",
+      "calculation": "Based on 160 working hours/month"
+    },
+    "general_avg_salary": {
+      "amount": 760,
+      "currency": "USD",
+      "per": "month",
+      "context": "All sectors"
+    }
+  },
+  "market_observations": {
+    "price_tiers": {
+      "budget": {
+        "hourly_rate_usd": 8,
+        "tier_type": "Government-subsidized, free, community-focused"
+      },
+      "mid": {
+        "hourly_rate_usd": 12,
+        "tier_type": "Established schools, solid reputation"
+      },
+      "premium": {
+        "hourly_rate_usd": 25,
+        "tier_type": "Brand schools (Berlitz), specialized training (AUA)"
+      }
+    },
+    "market_characteristics": [
+      "Strong tech focus with free programming school (42 Yerevan)",
+      "Well-developed language school sector",
+      "Government/academic tech training presence",
+      "Price-sensitive market with budget options",
+      "Growing diaspora interest in Armenian language courses"
+    ],
+    "gaps_identified": [
+      "Premium language training limited (mostly Berlitz)",
+      "Specialized skill combinations rare (e.g., Armenian + tech)",
+      "Professional development for non-IT sectors underdeveloped",
+      "Instructor shortage in niche areas creates opportunity"
+    ]
+  }
+}
