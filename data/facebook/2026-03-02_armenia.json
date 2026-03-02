@@ -1,0 +1,102 @@
+{
+  "scraped_at": "2026-03-02T15:00:00",
+  "competitors": [
+    {
+      "competitor_name": "ICLT - Yerevan",
+      "market": "Armenia",
+      "url": "https://www.facebook.com/ICLTArmenia",
+      "mobile_url": "https://mbasic.facebook.com/ICLTArmenia",
+      "name": "ICLT - Yerevan",
+      "followers": 3200,
+      "posts": [
+        {
+          "text": "English proficiency test preparation - new batch starts March 5",
+          "type": "text",
+          "date": "2026-03-01T11:00:00",
+          "likes": 142,
+          "comments": 28,
+          "shares": 10
+        },
+        {
+          "text": "Student testimonials: Success stories from our graduates",
+          "type": "image",
+          "date": "2026-02-27T14:20:00",
+          "likes": 198,
+          "comments": 41,
+          "shares": 15
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 170.0,
+        "total_likes": 340,
+        "total_comments": 69,
+        "total_shares": 25,
+        "video_percentage": 0.0,
+        "posts_per_week": 1.6
+      }
+    },
+    {
+      "competitor_name": "Berlitz Yerevan",
+      "market": "Armenia",
+      "url": "https://www.facebook.com/BerlitzArmenia",
+      "mobile_url": "https://mbasic.facebook.com/BerlitzArmenia",
+      "name": "Berlitz Yerevan",
+      "followers": 4100,
+      "posts": [
+        {
+          "text": "Premium language training for professionals and executives",
+          "type": "video",
+          "date": "2026-03-02T10:30:00",
+          "likes": 285,
+          "comments": 52,
+          "shares": 24
+        },
+        {
+          "text": "Berlitz success: Corporate team training program",
+          "type": "image",
+          "date": "2026-02-26T16:15:00",
+          "likes": 195,
+          "comments": 36,
+          "shares": 12
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 240.0,
+        "total_likes": 480,
+        "total_comments": 88,
+        "total_shares": 36,
+        "video_percentage": 50.0,
+        "posts_per_week": 2.1
+      }
+    },
+    {
+      "competitor_name": "BDG Training Center",
+      "market": "Armenia",
+      "url": "https://www.facebook.com/BDGArmenia",
+      "mobile_url": "https://mbasic.facebook.com/BDGArmenia",
+      "name": "BDG Training Center",
+      "followers": 2450,
+      "posts": [
+        {
+          "text": "Tech skills in demand: Data Science bootcamp enrollment open",
+          "type": "text",
+          "date": "2026-03-01T09:45:00",
+          "likes": 165,
+          "comments": 31,
+          "shares": 14
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 1,
+        "avg_engagement_rate": 165.0,
+        "total_likes": 165,
+        "total_comments": 31,
+        "total_shares": 14,
+        "video_percentage": 0.0,
+        "posts_per_week": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+
+{% block title %}Content Analysis - ALC Competitive Intelligence Tracker{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h1 class="display-6"><i class="bi bi-chat-dots"></i> Content Analysis</h1>
+        <p class="text-muted">Compare engagement rates and posting strategies</p>
+    </div>
+    <div class="col-md-4 text-end">
+        <div class="btn-group" role="group">
+            {% for market in markets %}
+            <a href="?market={{ market }}" class="btn btn-sm {% if selected_market == market %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                {{ market }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% if summary.competitors %}
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0">Facebook Engagement Rates</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="facebookEngagementChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0">Instagram Engagement Rates</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="instagramEngagementChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0">Facebook Posting Frequency</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="facebookFrequencyChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0">Instagram Posting Frequency</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="instagramFrequencyChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const summary = {{ summary | tojson }};
+const competitors = summary.competitors || [];
+
+// Facebook Engagement Chart
+const fbEngagementLabels = [];
+const fbEngagementData = [];
+competitors.forEach(c => {
+    if (c.facebook) {
+        fbEngagementLabels.push(c.name);
+        fbEngagementData.push(c.facebook.engagement_rate || 0);
+    }
+});
+
+if (fbEngagementData.length > 0) {
+    new Chart(document.getElementById('facebookEngagementChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: fbEngagementLabels,
+            datasets: [{
+                label: 'Engagement Rate',
+                data: fbEngagementData,
+                backgroundColor: '#FF6384',
+                borderColor: '#FF6384',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: { color: '#ccc' }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                y: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+}
+
+// Instagram Engagement Chart
+const igEngagementLabels = [];
+const igEngagementData = [];
+competitors.forEach(c => {
+    if (c.instagram) {
+        igEngagementLabels.push(c.name);
+        igEngagementData.push(c.instagram.engagement_rate || 0);
+    }
+});
+
+if (igEngagementData.length > 0) {
+    new Chart(document.getElementById('instagramEngagementChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: igEngagementLabels,
+            datasets: [{
+                label: 'Engagement Rate',
+                data: igEngagementData,
+                backgroundColor: '#E4405F',
+                borderColor: '#E4405F',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: { color: '#ccc' }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                y: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+}
+
+// Facebook Posting Frequency
+const fbFreqLabels = [];
+const fbFreqData = [];
+competitors.forEach(c => {
+    if (c.facebook) {
+        fbFreqLabels.push(c.name);
+        fbFreqData.push(c.facebook.posting_frequency || 0);
+    }
+});
+
+if (fbFreqData.length > 0) {
+    new Chart(document.getElementById('facebookFrequencyChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: fbFreqLabels,
+            datasets: [{
+                label: 'Posts per Week',
+                data: fbFreqData,
+                backgroundColor: '#36A2EB',
+                borderColor: '#36A2EB',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: { color: '#ccc' }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                y: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+}
+
+// Instagram Posting Frequency
+const igFreqLabels = [];
+const igFreqData = [];
+competitors.forEach(c => {
+    if (c.instagram) {
+        igFreqLabels.push(c.name);
+        igFreqData.push(c.instagram.posting_frequency || 0);
+    }
+});
+
+if (igFreqData.length > 0) {
+    new Chart(document.getElementById('instagramFrequencyChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: igFreqLabels,
+            datasets: [{
+                label: 'Posts per Week',
+                data: igFreqData,
+                backgroundColor: '#4BC0C0',
+                borderColor: '#4BC0C0',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: { color: '#ccc' }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                y: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+}
+</script>
+{% else %}
+<div class="alert alert-warning">
+    <i class="bi bi-exclamation-triangle"></i> No data available. Run the scrapers to populate the dashboard.
+</div>
+{% endif %}
+{% endblock %}

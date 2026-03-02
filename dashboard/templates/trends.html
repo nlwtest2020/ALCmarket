@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block title %}Trends - ALC Competitive Intelligence Tracker{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h1 class="display-6"><i class="bi bi-graph-up"></i> Follower Trends</h1>
+        <p class="text-muted">Track follower growth over time</p>
+    </div>
+    <div class="col-md-4 text-end">
+        <div class="btn-group me-3" role="group">
+            {% for market in markets %}
+            <a href="?market={{ market }}&range={{ date_range }}" class="btn btn-sm {% if selected_market == market %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                {{ market }}
+            </a>
+            {% endfor %}
+        </div>
+        <div class="btn-group" role="group">
+            <a href="?market={{ selected_market }}&range=30" class="btn btn-sm {% if date_range == '30' %}btn-warning{% else %}btn-outline-warning{% endif %}">30d</a>
+            <a href="?market={{ selected_market }}&range=60" class="btn btn-sm {% if date_range == '60' %}btn-warning{% else %}btn-outline-warning{% endif %}">60d</a>
+            <a href="?market={{ selected_market }}&range=90" class="btn btn-sm {% if date_range == '90' %}btn-warning{% else %}btn-outline-warning{% endif %}">90d</a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0"><i class="bi bi-facebook"></i> Facebook Follower Growth</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="facebookChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+        <div class="card bg-dark border-secondary">
+            <div class="card-header border-secondary">
+                <h5 class="mb-0"><i class="bi bi-instagram"></i> Instagram Follower Growth</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="instagramChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const trendsData = {{ trends_data | tojson }};
+
+// Colors for different competitors
+const colors = [
+    '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF',
+    '#FF9F40', '#FF6384', '#C9CBCF', '#4BC0C0', '#FF6384'
+];
+
+// Facebook Chart
+const fbCtx = document.getElementById('facebookChart').getContext('2d');
+const fbDatasets = [];
+let colorIndex = 0;
+
+for (const [competitor, data] of Object.entries(trendsData.facebook_trends || {})) {
+    if (data.length > 0) {
+        fbDatasets.push({
+            label: competitor,
+            data: data.map(d => d.followers),
+            borderColor: colors[colorIndex % colors.length],
+            backgroundColor: colors[colorIndex % colors.length] + '20',
+            tension: 0.3,
+            fill: false,
+            borderWidth: 2
+        });
+        colorIndex++;
+    }
+}
+
+if (fbDatasets.length > 0) {
+    new Chart(fbCtx, {
+        type: 'line',
+        data: {
+            labels: fbDatasets[0].data.length > 0 ?
+                    trendsData.facebook_trends[Object.keys(trendsData.facebook_trends)[0]].map(d => d.date) : [],
+            datasets: fbDatasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#ccc'
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+} else {
+    document.getElementById('facebookChart').parentElement.innerHTML = '<p class="text-muted text-center py-5">No Facebook data available</p>';
+}
+
+// Instagram Chart
+const igCtx = document.getElementById('instagramChart').getContext('2d');
+const igDatasets = [];
+colorIndex = 0;
+
+for (const [competitor, data] of Object.entries(trendsData.instagram_trends || {})) {
+    if (data.length > 0) {
+        igDatasets.push({
+            label: competitor,
+            data: data.map(d => d.followers),
+            borderColor: colors[colorIndex % colors.length],
+            backgroundColor: colors[colorIndex % colors.length] + '20',
+            tension: 0.3,
+            fill: false,
+            borderWidth: 2
+        });
+        colorIndex++;
+    }
+}
+
+if (igDatasets.length > 0) {
+    new Chart(igCtx, {
+        type: 'line',
+        data: {
+            labels: igDatasets[0].data.length > 0 ?
+                    trendsData.instagram_trends[Object.keys(trendsData.instagram_trends)[0]].map(d => d.date) : [],
+            datasets: igDatasets
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#ccc'
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                },
+                x: {
+                    grid: { color: '#333' },
+                    ticks: { color: '#ccc' }
+                }
+            }
+        }
+    });
+} else {
+    document.getElementById('instagramChart').parentElement.innerHTML = '<p class="text-muted text-center py-5">No Instagram data available</p>';
+}
+</script>
+{% endblock %}

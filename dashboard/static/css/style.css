@@ -1,0 +1,300 @@
+/* Dark theme styling for ALC Competitive Intelligence Tracker */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+    --dark-bg: #1a1a1a;
+    --card-bg: #232323;
+    --border-color: #444;
+}
+
+* {
+    color-scheme: dark;
+}
+
+body.dark-theme {
+    background-color: var(--dark-bg);
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-dark {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: #999 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.nav-link.active {
+    color: var(--primary-color) !important;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Cards */
+.card.bg-dark {
+    background-color: var(--card-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+.card-header.border-secondary {
+    border-color: var(--border-color) !important;
+    background-color: var(--dark-bg) !important;
+}
+
+.card-header {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+.card h5, .card h6 {
+    color: #e0e0e0;
+}
+
+/* Tables */
+.table-dark {
+    background-color: var(--card-bg);
+    color: #e0e0e0;
+}
+
+.table-dark > thead > tr > th {
+    border-color: var(--border-color);
+    color: #b0b0b0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.table-dark > tbody > tr > td {
+    border-color: var(--border-color);
+    color: #e0e0e0;
+}
+
+.table-dark > tbody > tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.badge.bg-primary {
+    background-color: #0056b3 !important;
+}
+
+.badge.bg-secondary {
+    background-color: #555 !important;
+}
+
+.badge.bg-info {
+    background-color: #0c5460 !important;
+}
+
+.badge.bg-success {
+    background-color: #155724 !important;
+}
+
+.badge.bg-warning {
+    background-color: #856404 !important;
+    color: #fff !important;
+}
+
+.badge.bg-danger {
+    background-color: #721c24 !important;
+}
+
+/* Buttons */
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-outline-primary.active,
+.btn-outline-primary:active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+    color: #000;
+}
+
+.btn-outline-warning.active,
+.btn-outline-warning:active {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+    color: #000;
+}
+
+/* Forms */
+.form-control {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    background-color: var(--card-bg);
+    border-color: var(--primary-color);
+    color: #e0e0e0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Alerts */
+.alert {
+    border-radius: 0.5rem;
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-color: rgba(255, 193, 7, 0.3);
+    color: #ffb300;
+}
+
+.alert-info {
+    background-color: rgba(23, 162, 184, 0.1);
+    border-color: rgba(23, 162, 184, 0.3);
+    color: #17a2b8;
+}
+
+.alert-dark {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+/* Text colors */
+.text-muted {
+    color: #999 !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+.text-warning {
+    color: var(--warning-color) !important;
+}
+
+.text-danger {
+    color: var(--danger-color) !important;
+}
+
+.text-info {
+    color: var(--info-color) !important;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--border-color) !important;
+    margin-top: auto;
+}
+
+/* Display headings */
+.display-6 {
+    color: #e0e0e0;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .display-6 {
+        font-size: 2rem;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+
+    .btn-group {
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .btn-group .btn {
+        flex: 1;
+        min-width: 60px;
+    }
+}
+
+/* Chart.js customization */
+canvas {
+    max-height: 400px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dark-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.3s ease;
+}

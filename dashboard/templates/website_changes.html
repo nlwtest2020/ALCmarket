@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Website Changes - ALC Competitive Intelligence Tracker{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h1 class="display-6"><i class="bi bi-globe"></i> Website Changes</h1>
+        <p class="text-muted">Track competitor website updates and course changes</p>
+    </div>
+    <div class="col-md-4 text-end">
+        <div class="btn-group" role="group">
+            <a href="?days=7" class="btn btn-sm {% if days == 7 %}btn-warning{% else %}btn-outline-warning{% endif %}">7d</a>
+            <a href="?days=30" class="btn btn-sm {% if days == 30 %}btn-warning{% else %}btn-outline-warning{% endif %}">30d</a>
+            <a href="?days=90" class="btn btn-sm {% if days == 90 %}btn-warning{% else %}btn-outline-warning{% endif %}">90d</a>
+        </div>
+    </div>
+</div>
+
+{% if changes_by_market %}
+    {% for market, changes in changes_by_market.items() %}
+    <div class="mb-4">
+        <h5 class="mb-3">{{ market }}</h5>
+        {% for change in changes %}
+        <div class="card bg-dark border-warning border-2 mb-3">
+            <div class="card-header bg-dark border-warning">
+                <div class="row">
+                    <div class="col">
+                        <h6 class="mb-0">
+                            <i class="bi bi-exclamation-circle text-warning"></i>
+                            {{ change.competitor_name }}
+                        </h6>
+                        <small class="text-muted">{{ change.checked_at }}</small>
+                    </div>
+                    <div class="col-auto">
+                        <span class="badge bg-warning text-dark">{{ change.pages_monitored | length }} page(s) changed</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                {% for page in change.pages_monitored %}
+                <div class="mb-3 pb-3 border-bottom border-secondary">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <div>
+                            <h6 class="mb-1">
+                                <span class="badge bg-info">{{ page.page_type }}</span>
+                            </h6>
+                            <small class="text-muted">{{ page.url }}</small>
+                        </div>
+                        {% if page.change_details %}
+                        <span class="badge bg-danger">{{ page.change_details.change_percentage }}% changed</span>
+                        {% endif %}
+                    </div>
+                    {% if page.change_details %}
+                    <div class="alert alert-dark mb-0" style="font-size: 0.85rem; max-height: 300px; overflow-y: auto;">
+                        <div class="font-monospace text-muted">
+                            <small>
+                                <strong>Lines changed:</strong> {{ page.change_details.lines_changed }}<br>
+                                <strong>Content size:</strong> {{ page.change_details.old_length }} → {{ page.change_details.new_length }} chars<br>
+                                <br>
+                                <strong>Diff preview:</strong><br>
+                                <pre style="margin: 0; white-space: pre-wrap; word-wrap: break-word;">{{ page.change_details.diff_preview }}</pre>
+                            </small>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+{% else %}
+<div class="alert alert-info">
+    <i class="bi bi-info-circle"></i> No website changes detected in the last {{ days }} days.
+</div>
+{% endif %}
+{% endblock %}

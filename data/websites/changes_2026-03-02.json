@@ -1,0 +1,68 @@
+{
+  "monitored_at": "2026-03-02T15:00:00",
+  "changes_detected": [
+    {
+      "competitor_name": "Top English School",
+      "market": "Moldova",
+      "website_url": "https://www.topenglishshool.md",
+      "checked_at": "2026-03-02T15:00:00",
+      "pages_monitored": [
+        {
+          "url": "https://www.topenglishshool.md/pricing",
+          "page_type": "pricing",
+          "content_length": 3245,
+          "changed": true,
+          "change_details": {
+            "change_percentage": 12.5,
+            "old_length": 2890,
+            "new_length": 3245,
+            "lines_changed": 28,
+            "diff_preview": "- 4-week intensive course: 480 MDL\n+ 4-week intensive course: 420 MDL\n- 8-week standard course: 850 MDL\n+ 8-week standard course: 750 MDL\n+ NEW: Spring promotional discount - 15% off all courses until March 31st"
+          }
+        }
+      ]
+    },
+    {
+      "competitor_name": "The Knowledge Academy",
+      "market": "Georgia",
+      "website_url": "https://www.theknowledgeacademy.ge",
+      "checked_at": "2026-03-02T14:50:00",
+      "pages_monitored": [
+        {
+          "url": "https://www.theknowledgeacademy.ge/courses",
+          "page_type": "courses",
+          "content_length": 5120,
+          "changed": true,
+          "change_details": {
+            "change_percentage": 18.3,
+            "old_length": 4320,
+            "new_length": 5120,
+            "lines_changed": 45,
+            "diff_preview": "+ NEW COURSE: Advanced React & Node.js Full Stack (8 weeks)\n+ Advanced Data Science with Python (12 weeks)\n- Old course: jQuery Essentials (ARCHIVED)\n- Old course: Angular 4 Basics (ARCHIVED)\n+ Instructor: Dr. Ana Dolidze (5 years experience at Google)"
+          }
+        }
+      ]
+    },
+    {
+      "competitor_name": "ICLT - Yerevan",
+      "market": "Armenia",
+      "website_url": "https://www.iclt.am",
+      "checked_at": "2026-03-02T14:30:00",
+      "pages_monitored": [
+        {
+          "url": "https://www.iclt.am/courses",
+          "page_type": "courses",
+          "content_length": 4850,
+          "changed": true,
+          "change_details": {
+            "change_percentage": 10.8,
+            "old_length": 4380,
+            "new_length": 4850,
+            "lines_changed": 32,
+            "diff_preview": "+ March cohort: IELTS Intensive Prep - Limited seats (12 spots)\n+ New: Business English for Professionals\n+ Summer intensive programs now enrolling\n- Winter courses ended March 1st"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "scraped_at": "2026-03-02T15:00:00",
+  "competitors": [
+    {
+      "competitor_name": "Chisinau Language School",
+      "market": "Moldova",
+      "url": "https://www.facebook.com/ChisinauLanguageSchool",
+      "mobile_url": "https://mbasic.facebook.com/ChisinauLanguageSchool",
+      "name": "Chisinau Language School",
+      "followers": 2450,
+      "posts": [
+        {
+          "text": "New spring course enrolment now open! Classes starting April 1st.",
+          "type": "text",
+          "date": "2026-03-01T10:30:00",
+          "likes": 85,
+          "comments": 12,
+          "shares": 3
+        },
+        {
+          "text": "Check out our student success stories from Q1",
+          "type": "image",
+          "date": "2026-02-28T14:20:00",
+          "likes": 125,
+          "comments": 28,
+          "shares": 7
+        },
+        {
+          "text": "English conversation club this Friday!",
+          "type": "text",
+          "date": "2026-02-27T09:15:00",
+          "likes": 45,
+          "comments": 8,
+          "shares": 1
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 3,
+        "avg_engagement_rate": 73.33,
+        "total_likes": 255,
+        "total_comments": 48,
+        "total_shares": 11,
+        "video_percentage": 0.0,
+        "posts_per_week": 1.5
+      }
+    },
+    {
+      "competitor_name": "Top English School",
+      "market": "Moldova",
+      "url": "https://www.facebook.com/TopEnglishSchoolMD",
+      "mobile_url": "https://mbasic.facebook.com/TopEnglishSchoolMD",
+      "name": "Top English School",
+      "followers": 3850,
+      "posts": [
+        {
+          "text": "Video: How to prepare for IELTS exam - Part 1",
+          "type": "video",
+          "date": "2026-03-01T16:45:00",
+          "likes": 215,
+          "comments": 42,
+          "shares": 18
+        },
+        {
+          "text": "Graduation ceremony for Winter cohort - congratulations!",
+          "type": "image",
+          "date": "2026-02-26T12:30:00",
+          "likes": 180,
+          "comments": 35,
+          "shares": 9
+        },
+        {
+          "text": "Special offer: 30% discount on group courses this month",
+          "type": "text",
+          "date": "2026-02-24T11:00:00",
+          "likes": 320,
+          "comments": 67,
+          "shares": 28
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 3,
+        "avg_engagement_rate": 188.0,
+        "total_likes": 715,
+        "total_comments": 144,
+        "total_shares": 55,
+        "video_percentage": 33.33,
+        "posts_per_week": 2.1
+      }
+    }
+  ]
+}

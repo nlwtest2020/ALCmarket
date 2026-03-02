@@ -1,0 +1,75 @@
+{
+  "scraped_at": "2026-03-02T15:00:00",
+  "competitors": [
+    {
+      "competitor_name": "Georgian Courses",
+      "market": "Georgia",
+      "url": "https://www.facebook.com/GeorgianCoursesTbilisi",
+      "mobile_url": "https://mbasic.facebook.com/GeorgianCoursesTbilisi",
+      "name": "Georgian Courses",
+      "followers": 1650,
+      "posts": [
+        {
+          "text": "Weekly Georgian conversation club meets this Saturday",
+          "type": "text",
+          "date": "2026-03-02T09:00:00",
+          "likes": 65,
+          "comments": 14,
+          "shares": 5
+        },
+        {
+          "text": "Learn about Georgian culture while improving your language skills",
+          "type": "image",
+          "date": "2026-02-28T13:30:00",
+          "likes": 95,
+          "comments": 22,
+          "shares": 8
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 80.0,
+        "total_likes": 160,
+        "total_comments": 36,
+        "total_shares": 13,
+        "video_percentage": 0.0,
+        "posts_per_week": 1.4
+      }
+    },
+    {
+      "competitor_name": "The Knowledge Academy",
+      "market": "Georgia",
+      "url": "https://www.facebook.com/KnowledgeAcademyTbilisi",
+      "mobile_url": "https://mbasic.facebook.com/KnowledgeAcademyTbilisi",
+      "name": "The Knowledge Academy",
+      "followers": 5200,
+      "posts": [
+        {
+          "text": "New Python bootcamp cohort starts March 15",
+          "type": "video",
+          "date": "2026-03-01T10:20:00",
+          "likes": 445,
+          "comments": 78,
+          "shares": 35
+        },
+        {
+          "text": "Student project showcase: Real-world applications",
+          "type": "image",
+          "date": "2026-02-25T15:45:00",
+          "likes": 325,
+          "comments": 52,
+          "shares": 22
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 400.0,
+        "total_likes": 770,
+        "total_comments": 130,
+        "total_shares": 57,
+        "video_percentage": 50.0,
+        "posts_per_week": 2.8
+      }
+    }
+  ]
+}

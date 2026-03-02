@@ -1,0 +1,87 @@
+{
+  "scraped_at": "2026-03-02T15:00:00",
+  "competitors": [
+    {
+      "competitor_name": "ICLT - Yerevan",
+      "market": "Armenia",
+      "handle": "iclt_yerevan",
+      "url": "https://www.instagram.com/iclt_yerevan/",
+      "followers": 2800,
+      "following": 340,
+      "total_posts": 215,
+      "posts": [
+        {
+          "type": "image",
+          "likes": 145,
+          "comments": 22
+        },
+        {
+          "type": "carousel",
+          "likes": 120,
+          "comments": 18
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 130.0,
+        "total_likes": 265,
+        "total_comments": 40,
+        "video_percentage": 0.0,
+        "posts_per_week": 2.2
+      }
+    },
+    {
+      "competitor_name": "Berlitz Yerevan",
+      "market": "Armenia",
+      "handle": "berlitz_yerevan",
+      "url": "https://www.instagram.com/berlitz_yerevan/",
+      "followers": 3950,
+      "following": 280,
+      "total_posts": 285,
+      "posts": [
+        {
+          "type": "image",
+          "likes": 285,
+          "comments": 45
+        },
+        {
+          "type": "video",
+          "likes": 320,
+          "comments": 58
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 302.5,
+        "total_likes": 605,
+        "total_comments": 103,
+        "video_percentage": 50.0,
+        "posts_per_week": 2.8
+      }
+    },
+    {
+      "competitor_name": "BDG Training Center",
+      "market": "Armenia",
+      "handle": "bdg_training",
+      "url": "https://www.instagram.com/bdg_training/",
+      "followers": 1850,
+      "following": 420,
+      "total_posts": 142,
+      "posts": [
+        {
+          "type": "image",
+          "likes": 98,
+          "comments": 14
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 1,
+        "avg_engagement_rate": 98.0,
+        "total_likes": 98,
+        "total_comments": 14,
+        "video_percentage": 0.0,
+        "posts_per_week": 1.8
+      }
+    }
+  ]
+}

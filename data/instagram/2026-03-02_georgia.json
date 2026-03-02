@@ -1,0 +1,68 @@
+{
+  "scraped_at": "2026-03-02T15:00:00",
+  "competitors": [
+    {
+      "competitor_name": "Georgian Courses",
+      "market": "Georgia",
+      "handle": "georgian_courses_tbilisi",
+      "url": "https://www.instagram.com/georgian_courses_tbilisi/",
+      "followers": 2100,
+      "following": 520,
+      "total_posts": 187,
+      "posts": [
+        {
+          "type": "image",
+          "likes": 110,
+          "comments": 16
+        },
+        {
+          "type": "carousel",
+          "likes": 85,
+          "comments": 11
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 2,
+        "avg_engagement_rate": 98.0,
+        "total_likes": 195,
+        "total_comments": 27,
+        "video_percentage": 0.0,
+        "posts_per_week": 1.8
+      }
+    },
+    {
+      "competitor_name": "The Knowledge Academy",
+      "market": "Georgia",
+      "handle": "knowledge_academy_ge",
+      "url": "https://www.instagram.com/knowledge_academy_ge/",
+      "followers": 6850,
+      "following": 245,
+      "total_posts": 428,
+      "posts": [
+        {
+          "type": "video",
+          "likes": 520,
+          "comments": 85
+        },
+        {
+          "type": "image",
+          "likes": 380,
+          "comments": 62
+        },
+        {
+          "type": "carousel",
+          "likes": 295,
+          "comments": 48
+        }
+      ],
+      "engagement_metrics": {
+        "total_posts": 3,
+        "avg_engagement_rate": 431.67,
+        "total_likes": 1195,
+        "total_comments": 195,
+        "video_percentage": 33.33,
+        "posts_per_week": 3.8
+      }
+    }
+  ]
+}

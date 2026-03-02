@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}Overview - ALC Competitive Intelligence Tracker{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-8">
+        <h1 class="display-6"><i class="bi bi-speedometer2"></i> Market Overview</h1>
+        <p class="text-muted">Real-time competitive intelligence for language learning markets</p>
+    </div>
+    <div class="col-md-4 text-end">
+        <div class="btn-group" role="group">
+            {% for market in markets %}
+            <a href="?market={{ market }}" class="btn btn-sm {% if selected_market == market %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                {{ market }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% if summary %}
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+                <div class="text-muted small">Total Competitors</div>
+                <h3 class="mb-0">{{ summary.total_competitors }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+                <div class="text-muted small">With Facebook</div>
+                <h3 class="mb-0">{{ summary.facebook_competitors }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+                <div class="text-muted small">With Instagram</div>
+                <h3 class="mb-0">{{ summary.instagram_competitors }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-dark border-secondary h-100">
+            <div class="card-body">
+                <div class="text-muted small">Market</div>
+                <h5 class="mb-0">{{ selected_market }}</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card bg-dark border-secondary">
+    <div class="card-header border-secondary">
+        <h5 class="mb-0">Competitor Metrics</h5>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-dark table-striped table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Facebook</th>
+                        <th>Engagement</th>
+                        <th>Posting Freq</th>
+                        <th>Instagram</th>
+                        <th>Engagement</th>
+                        <th>Posting Freq</th>
+                        <th>Website</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for comp in summary.competitors %}
+                    <tr>
+                        <td>
+                            <strong>{{ comp.name }}</strong>
+                        </td>
+                        <td>
+                            {% if comp.facebook %}
+                            <span class="badge bg-primary">{{ comp.facebook.followers or 'N/A' }}</span>
+                            {% else %}
+                            <span class="badge bg-secondary">Not tracked</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if comp.facebook %}
+                            <span class="text-success">{{ comp.facebook.engagement_rate }}</span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if comp.facebook %}
+                            <span>{{ comp.facebook.posting_frequency }}/wk</span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if comp.instagram %}
+                            <span class="badge bg-info">{{ comp.instagram.followers or 'N/A' }}</span>
+                            {% else %}
+                            <span class="badge bg-secondary">Not tracked</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if comp.instagram %}
+                            <span class="text-success">{{ comp.instagram.engagement_rate }}</span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if comp.instagram %}
+                            <span>{{ comp.instagram.posting_frequency }}/wk</span>
+                            {% else %}
+                            <span class="text-muted">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <a href="{{ comp.website_url }}" target="_blank" class="text-muted">
+                                <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="alert alert-warning">
+    <i class="bi bi-exclamation-triangle"></i> No data available. Run the scrapers to populate the dashboard.
+</div>
+{% endif %}
+{% endblock %}

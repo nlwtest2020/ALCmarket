@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Error - ALC Competitive Intelligence Tracker{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card bg-dark border-danger">
+            <div class="card-body text-center py-5">
+                <i class="bi bi-exclamation-triangle text-danger" style="font-size: 3rem;"></i>
+                <h3 class="mt-3 text-danger">Error</h3>
+                <p class="text-muted">{{ error }}</p>
+                <a href="/" class="btn btn-primary">Return to Overview</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
