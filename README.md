@@ -1,115 +1,92 @@
-# Market Research & Campaign Advisor Tool
+# ALC Competitive Intelligence Tracker
 
-Strategic advisor for launching academic, skill-based, and language learning courses in Moldova, Georgia, and Armenia.
+## What This Project Does
 
-## Quick Start
+Monitors competitors across Moldova, Georgia, and Armenia on three fronts:
+1. **Facebook page tracking** — follower counts, posting frequency, engagement rates, content types
+2. **Instagram tracking** — follower counts, posting frequency, content mix
+3. **Website/course monitoring** — detects when competitors change their course offerings, pricing pages, or program listings
 
-### Use the Market Analysis Skill
-```
-/market-analysis python-skills moldova premium
-```
+Results feed into a local web dashboard you can check anytime.
 
-Analyzes competitive landscape for a specific course type, market, and pricing tier.
-
-### Use the Pricing Analyzer
-```
-/pricing-analyzer english-course 60-hours georgia
-```
-
-Compares pricing across all three markets and recommends optimal pricing strategy.
-
-### Generate a Lesson Plan
-```
-/lesson-plan-generator english-professional georgia 60-hours intermediate
-```
-
-Drafts market-backed lesson plans with competitive positioning.
-
-### Create a Campaign Plan
-```
-/campaign-planner python-bootcamp moldova launch-strategy
-```
-
-Generates comprehensive launch campaign strategy with market-backed positioning.
+---
 
 ## Project Structure
 
 ```
-/data/
-  - moldova-competitors.json    # Chișinău market analysis
-  - georgia-competitors.json    # Tbilisi market analysis
-  - armenia-competitors.json    # Yerevan market analysis
-
-/.claude/skills/
-  - market-analysis/            # Analyze market opportunities
-  - pricing-analyzer/           # Compare pricing strategies
-  - lesson-plan-generator/      # Generate course outlines
-  - campaign-planner/           # Create launch strategies
-
-CLAUDE.md                        # Project context and conventions
+alc-competitor-tracker/
+├── README.md                  ← You are here
+├── competitors.csv            ← Fill this in with competitor URLs
+├── CLAUDE_CODE_PROMPT.md      ← Paste this into Claude Code to build the project
+├── scrapers/
+│   ├── facebook_tracker.py    ← Facebook page scraper
+│   ├── instagram_tracker.py   ← Instagram profile scraper
+│   └── website_monitor.py     ← Website change detector
+├── dashboard/
+│   └── app.py                 ← Local web dashboard (Flask)
+├── data/                      ← Where scraped data gets stored
+│   ├── facebook/
+│   ├── instagram/
+│   └── websites/
+├── snapshots/                 ← Website page snapshots for change detection
+├── requirements.txt           ← Python dependencies
+└── config.py                  ← Central configuration
 ```
 
-## Market Data Summary
+---
 
-### Moldova (Chișinău)
-- **Budget tier**: €3/hour (group courses)
-- **Mid tier**: €15/hour (established schools)
-- **Premium tier**: €30/hour (individual lessons)
-- **Main gap**: Tech skills training underdeveloped
+## How to Get Started
 
-### Georgia (Tbilisi)
-- **Budget tier**: €12/hour (group language courses)
-- **Mid tier**: €15/hour (one-to-one instruction)
-- **Premium tier**: €100/hour (tech bootcamps)
-- **Opportunity**: Mid-tier tech skills (between bootcamp and basic courses)
+### Step 1: Fill in competitors.csv
 
-### Armenia (Yerevan)
-- **Budget tier**: $8/hour (subsidized, free programs)
-- **Mid tier**: $12/hour (established schools)
-- **Premium tier**: $25/hour (Berlitz, specialized training)
-- **Main gap**: Premium language training, niche skill combinations
+Open `competitors.csv` and add the URLs for each competitor. You need:
+- **website_url** — their main website (e.g., https://example.com)
+- **facebook_url** — their Facebook page URL (e.g., https://facebook.com/pagename)
+- **instagram_handle** — just the handle, no @ sign (e.g., linguata_md)
 
-## Key Metrics
+You don't need all three for every competitor. Fill in what you can find.
 
-All pricing is **distilled to per-academic-hour** basis:
-- 1 academic hour = 45-75 minutes of instruction
-- Normalized across all course types for fair comparison
+### Step 2: Open Claude Code in your browser
 
-**Example calculation:**
-- Course: 3 months, 6 hours/week = 72 total hours
-- Total cost: €1,200
-- **Hourly rate: €1,200 ÷ 72 = €16.67/hour**
+Go to Claude Code and paste the contents of `CLAUDE_CODE_PROMPT.md` as your first message. Claude Code will use it to build out all the scrapers, the dashboard, and the scheduling logic.
 
-## Instructor Compensation Context
+### Step 3: Run the initial scrape
 
-- **Software dev/tech**: $25-99/hour (market rate)
-- **Language instructor**: €500/month (Moldova), ~$2,000/month (Armenia)
-- **General course instructor**: 30-40% of course revenue per hour taught
+```bash
+python scrapers/facebook_tracker.py
+python scrapers/instagram_tracker.py
+python scrapers/website_monitor.py
+```
 
-## What's Included
+### Step 4: Launch the dashboard
 
-✅ **Competitive pricing data** for all major course types in capital cities
-✅ **Market tier analysis** (budget/mid/premium positioning)
-✅ **Instructor rate intelligence** for compensation modeling
-✅ **Gap identification** for underserved market segments
-✅ **Reusable skills** for ongoing analysis
-✅ **Templates** for lesson plans and campaigns
+```bash
+python dashboard/app.py
+```
 
-## Next Steps
+Then open http://localhost:5000 in your browser.
 
-1. Choose a course type (e.g., Python, English, Digital Marketing)
-2. Choose a market (Moldova, Georgia, Armenia)
-3. Run market analysis: `/market-analysis [type] [market] [tier]`
-4. Generate pricing recommendation: `/pricing-analyzer [course] [hours]`
-5. Draft lesson plan: `/lesson-plan-generator [type] [market] [hours]`
-6. Create campaign: `/campaign-planner [course] [market] launch-strategy`
+### Step 5: Set up automated runs (optional)
 
-## Data Sources
+Claude Code can help you set up a cron job or scheduled task to run the scrapers daily or weekly.
 
-Research completed February 2026 from:
-- Language course platforms (Language International, Language Course, Georgian Courses)
-- Tech training providers (The Knowledge Academy, AZTech Training)
-- Academic institutions (AUA, ICLT, Berlitz)
-- Market salary data (TimeCamp, Paylab, Trading Economics)
+---
 
-All data is public and from official institute websites and market research sources.
+## What You'll See in the Dashboard
+
+- **Market Overview** — side-by-side comparison of all competitors by market
+- **Follower Trends** — 30/60/90 day growth charts for Facebook and Instagram
+- **Posting Activity** — who's posting how often, and what type of content
+- **Engagement Comparison** — likes, comments, shares relative to follower count
+- **Website Changes** — flagged changes to competitor course/program pages
+- **ALC Benchmarks** — your accounts shown alongside competitors for direct comparison
+
+---
+
+## Important Notes
+
+- **Facebook scraping**: Uses public page data only. No login required. Facebook may rate-limit aggressive scraping, so the default is one check per day.
+- **Instagram scraping**: Public profiles only. Instagram is more restrictive — if a profile is private, it can't be tracked.
+- **Website monitoring**: Takes a snapshot of specified pages and compares them on each run. You'll get alerts when content changes significantly (not just minor HTML tweaks).
+- **Data storage**: Everything is stored locally in CSV files in the `/data` folder. Nothing is sent anywhere.
+- **No API keys needed** for the basic version. If you want deeper Facebook/Instagram analytics later, you can add Meta Graph API access.
