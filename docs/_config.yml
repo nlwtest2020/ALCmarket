@@ -1,0 +1,14 @@
+# GitHub Pages configuration
+title: ALC Competitive Intelligence Tracker
+description: Monitor competitor social media, engagement, and website changes across Moldova, Georgia, and Armenia
+author: NLW Test
+url: https://nlwtest2020.github.io/ALCmarket
+baseurl: /ALCmarket
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins: []
+
+# Show source link
+show_downloads: false
