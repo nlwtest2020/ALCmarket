@@ -2,21 +2,10 @@
   {
     "name": "British Council Tbilisi",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.357775",
+    "timestamp": "2026-03-03T18:06:56.231176",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "gebritish"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -25,21 +14,10 @@
   {
     "name": "International House Tbilisi",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.357863",
+    "timestamp": "2026-03-03T18:06:56.243525",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "ihtbilisi"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -48,21 +26,10 @@
   {
     "name": "Goethe-Institut Georgia",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.357920",
+    "timestamp": "2026-03-03T18:06:56.256044",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "goetheinstitut_georgien"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -71,21 +38,10 @@
   {
     "name": "Institut fran\u00e7ais de G\u00e9orgie",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.357990",
+    "timestamp": "2026-03-03T18:06:56.268123",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "institut_francais_de_georgie"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -94,21 +50,10 @@
   {
     "name": "Beka's School",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.358048",
+    "timestamp": "2026-03-03T18:06:56.281377",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "bekas.school"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -117,21 +62,10 @@
   {
     "name": "Levels Academy",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.358113",
+    "timestamp": "2026-03-03T18:06:56.294654",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "levelsacademy_ge"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -140,21 +74,10 @@
   {
     "name": "EMCAN",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.358166",
+    "timestamp": "2026-03-03T18:06:56.306676",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "emcantbilisi"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -163,21 +86,10 @@
   {
     "name": "Goga Askurava Language Centre",
     "market": "Georgia",
-    "timestamp": "2026-03-03T17:58:37.358216",
+    "timestamp": "2026-03-03T18:06:56.318981",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "language_centre_goga_askurava"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],

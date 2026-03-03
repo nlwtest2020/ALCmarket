@@ -2,21 +2,10 @@
   {
     "name": "ICLT",
     "market": "Armenia",
-    "timestamp": "2026-03-03T17:58:37.360230",
+    "timestamp": "2026-03-03T18:06:56.333224",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "iclt.yerevan"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -25,21 +14,10 @@
   {
     "name": "Berlitz Yerevan",
     "market": "Armenia",
-    "timestamp": "2026-03-03T17:58:37.360302",
+    "timestamp": "2026-03-03T18:06:56.345768",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "berlitz_yerevan"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
@@ -48,21 +26,10 @@
   {
     "name": "AUA",
     "market": "Armenia",
-    "timestamp": "2026-03-03T17:58:37.360354",
+    "timestamp": "2026-03-03T18:06:56.358371",
     "social": {
-      "facebook": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": []
-      },
-      "instagram": {
-        "followers": "N/A",
-        "engagement_rate": "N/A",
-        "posts_per_week": "N/A",
-        "recent_posts": [],
-        "handle": "aua_insta"
-      }
+      "facebook": null,
+      "instagram": null
     },
     "courses": [],
     "alerts": [],
