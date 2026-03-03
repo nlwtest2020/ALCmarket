@@ -70,68 +70,89 @@ class CompetitorIntelligence:
             logger.debug(f"Course scraping error for {self.competitor['name']}: {e}")
 
     def get_facebook_metrics(self):
-        """Get Facebook metrics using Graph API if credentials available"""
-        fb_token = os.getenv('FACEBOOK_API_TOKEN')
-        fb_page = self.competitor.get('facebook_url', '').split('/')[-1]
-
-        if not fb_token or not fb_page:
+        """Scrape Facebook page metrics from public page"""
+        fb_url = self.competitor.get('facebook_url', '')
+        if not fb_url:
             self.data['social']['facebook'] = None
             return
 
         try:
-            # Facebook Graph API v18.0
-            url = f"https://graph.facebook.com/v18.0/{fb_page}"
-            params = {
-                'fields': 'name,followers_count,engagement',
-                'access_token': fb_token
+            # Scrape public Facebook page with requests
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             }
-
-            resp = requests.get(url, params=params, timeout=10)
-            if resp.status_code == 200:
-                result = resp.json()
-                self.data['social']['facebook'] = {
-                    'followers': result.get('followers_count', 0),
-                    'engagement_rate': result.get('engagement', {}).get('count', 0),
-                    'posts_per_week': 'N/A',
-                    'recent_posts': []
-                }
-            else:
+            resp = requests.get(fb_url, headers=headers, timeout=10)
+            if resp.status_code != 200:
                 self.data['social']['facebook'] = None
+                return
+
+            soup = BeautifulSoup(resp.content, 'html.parser')
+
+            # Look for follower count in page text
+            page_text = soup.get_text()
+            followers = 'N/A'
+            engagement = 'N/A'
+
+            # Extract any number followed by "followers" or "likes"
+            import re
+            follower_match = re.search(r'([\d,]+)\s*(?:followers?|people like this)', page_text, re.IGNORECASE)
+            if follower_match:
+                followers = follower_match.group(1)
+
+            self.data['social']['facebook'] = {
+                'followers': followers,
+                'engagement_rate': engagement,
+                'posts_per_week': 'N/A',
+                'recent_posts': []
+            }
         except Exception as e:
-            logger.debug(f"Facebook API failed for {self.competitor['name']}: {e}")
+            logger.debug(f"Facebook scraping failed for {self.competitor['name']}: {e}")
             self.data['social']['facebook'] = None
 
     def get_instagram_metrics(self):
-        """Get Instagram metrics using Graph API if credentials available"""
-        ig_token = os.getenv('INSTAGRAM_API_TOKEN')
+        """Scrape Instagram profile metrics from public profile"""
         ig_handle = self.competitor.get('instagram_handle', '')
-
-        if not ig_token or not ig_handle:
+        if not ig_handle:
             self.data['social']['instagram'] = None
             return
 
         try:
-            # Instagram Graph API requires business account
-            url = f"https://graph.instagram.com/ig_hashtag_search"
-            params = {
-                'user_id': os.getenv('INSTAGRAM_BUSINESS_ACCOUNT_ID'),
-                'fields': 'id,name',
-                'access_token': ig_token
+            # Scrape public Instagram profile
+            url = f"https://instagram.com/{ig_handle}/"
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
             }
-
-            resp = requests.get(url, params=params, timeout=10)
-            if resp.status_code == 200:
-                self.data['social']['instagram'] = {
-                    'followers': 'requires_api',
-                    'engagement_rate': 'requires_api',
-                    'posts_per_week': 'requires_api',
-                    'recent_posts': [],
-                    'handle': ig_handle
-                }
-            else:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200:
                 self.data['social']['instagram'] = None
+                return
+
+            soup = BeautifulSoup(resp.content, 'html.parser')
+            page_text = soup.get_text()
+
+            # Extract followers and posts from page text
+            import re
+            followers = 'N/A'
+            posts = 'N/A'
+
+            # Look for patterns like "1,234 followers" or "1.2M followers"
+            follower_match = re.search(r'([\d.,MK]+)\s*followers?', page_text, re.IGNORECASE)
+            if follower_match:
+                followers = follower_match.group(1)
+
+            post_match = re.search(r'([\d,]+)\s*posts?', page_text, re.IGNORECASE)
+            if post_match:
+                posts = post_match.group(1)
+
+            self.data['social']['instagram'] = {
+                'followers': followers,
+                'engagement_rate': 'N/A',
+                'posts_per_week': posts,
+                'recent_posts': [],
+                'handle': ig_handle
+            }
         except Exception as e:
-            logger.debug(f"Instagram API failed for {self.competitor['name']}: {e}")
+            logger.debug(f"Instagram scraping failed for {ig_handle}: {e}")
             self.data['social']['instagram'] = None
 
     def detect_alerts(self):
