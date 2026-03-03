@@ -1,242 +1,300 @@
 {
-  "timestamp": "2026-03-03T17:24:39.831884",
+  "timestamp": "2026-03-03T17:34:38.132851",
   "competitors": {
     "moldova": [
       {
         "name": "Top English",
-        "website": "https://www.topenglishtv.md/",
-        "last_updated": "2026-03-03T17:24:39.831898",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://www.topenglishtv.md",
+        "facebook": "https://www.facebook.com/TopEnglish",
+        "instagram": "top_english_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135149",
+        "prices_found": []
       },
       {
         "name": "Linguata",
-        "website": "https://linguata.md/",
-        "last_updated": "2026-03-03T17:24:39.862356",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://linguata.md",
+        "facebook": "https://www.facebook.com/Linguata",
+        "instagram": "linguata_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135163",
+        "prices_found": []
       },
       {
         "name": "Oratorica",
-        "website": "https://oratorica.md/",
-        "last_updated": "2026-03-03T17:24:39.886523",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://oratorica.md",
+        "facebook": "https://www.facebook.com/Oratorica",
+        "instagram": "oratorica_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135168",
+        "prices_found": []
       },
       {
         "name": "Engleza cu Snow",
-        "website": "https://englezacusnow.md/",
-        "last_updated": "2026-03-03T17:24:39.910290",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://englezacusnow.md",
+        "facebook": "https://www.facebook.com/EnglezaCuSnow",
+        "instagram": "engleza_snow",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135172",
+        "prices_found": []
       },
       {
         "name": "Alliance Francaise",
-        "website": "https://alliancefr.md/",
-        "last_updated": "2026-03-03T17:24:39.934166",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://alliancefr.md",
+        "facebook": "https://www.facebook.com/AllianceChisinau",
+        "instagram": "alliance_francaise_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135176",
+        "prices_found": []
       },
       {
         "name": "ILTC",
-        "website": "https://iltc.md/",
-        "last_updated": "2026-03-03T17:24:39.957867",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://iltc.md",
+        "facebook": "https://www.facebook.com/ILTC",
+        "instagram": "iltc_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135179",
+        "prices_found": []
       },
       {
         "name": "Lingua Franca",
-        "website": "https://linguafranca.md/",
-        "last_updated": "2026-03-03T17:24:39.981811",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://linguafranca.md",
+        "facebook": "https://www.facebook.com/LinguaFranca",
+        "instagram": "lingua_franca_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135182",
+        "prices_found": []
       },
       {
         "name": "Terra Nova",
-        "website": "https://terranova.md/",
-        "last_updated": "2026-03-03T17:24:40.005195",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://terranova.md",
+        "facebook": "https://www.facebook.com/TerraNova",
+        "instagram": "terra_nova_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135186",
+        "prices_found": []
       },
       {
         "name": "Quo Vadis",
-        "website": "https://quovadis.md/",
-        "last_updated": "2026-03-03T17:24:40.029336",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://quovadis.md",
+        "facebook": "https://www.facebook.com/QuoVadis",
+        "instagram": "quo_vadis_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135189",
+        "prices_found": []
       },
       {
         "name": "Art House",
-        "website": "https://arthouse.md/",
-        "last_updated": "2026-03-03T17:24:40.052917",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://arthouse.md",
+        "facebook": "https://www.facebook.com/ArtHouse",
+        "instagram": "art_house_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135192",
+        "prices_found": []
       },
       {
         "name": "Fantastic",
-        "website": "https://fantastic.md/",
-        "last_updated": "2026-03-03T17:24:40.076847",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://fantastic.md",
+        "facebook": "https://www.facebook.com/Fantastic",
+        "instagram": "fantastic_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135196",
+        "prices_found": []
       },
       {
         "name": "Smile English",
-        "website": "https://smileenglish.md/",
-        "last_updated": "2026-03-03T17:24:40.100044",
-        "status": "offline",
-        "country": "Moldova",
-        "market": "moldova"
+        "market": "Moldova",
+        "website": "https://smileenglish.md",
+        "facebook": "https://www.facebook.com/SmileEnglish",
+        "instagram": "smile_english_md",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.135202",
+        "prices_found": []
       }
     ],
     "georgia": [
       {
         "name": "British Council Tbilisi",
-        "website": "https://www.britishcouncil.ge/",
-        "last_updated": "2026-03-03T17:24:40.123922",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://www.britishcouncil.ge",
+        "facebook": "https://www.facebook.com/BritishCouncilGeorgia",
+        "instagram": "bc_georgia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136389",
+        "prices_found": []
       },
       {
         "name": "International House Tbilisi",
-        "website": "https://ih.ge/",
-        "last_updated": "2026-03-03T17:24:40.147511",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://ih.ge",
+        "facebook": "https://www.facebook.com/IHTbilisi",
+        "instagram": "ih_tbilisi",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136406",
+        "prices_found": []
       },
       {
         "name": "Goethe-Institut Georgia",
-        "website": "https://www.goethe.de/ge/",
-        "last_updated": "2026-03-03T17:24:40.171199",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://www.goethe.de/ge",
+        "facebook": "https://www.facebook.com/GoetheGeorgia",
+        "instagram": "goethe_georgia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136410",
+        "prices_found": []
       },
       {
         "name": "Institut fran\u00e7ais de G\u00e9orgie",
-        "website": "https://www.ifgeorgia.ge/",
-        "last_updated": "2026-03-03T17:24:40.194687",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://www.ifgeorgia.ge",
+        "facebook": "https://www.facebook.com/IfGeorgia",
+        "instagram": "if_georgia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136413",
+        "prices_found": []
       },
       {
         "name": "Beka's School",
-        "website": "https://bekasschool.ge/",
-        "last_updated": "2026-03-03T17:24:40.218142",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://bekasschool.ge",
+        "facebook": "https://www.facebook.com/BekasSchool",
+        "instagram": "bekas_school",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136427",
+        "prices_found": []
       },
       {
         "name": "Levels Academy",
-        "website": "https://levelsacademy.ge/",
-        "last_updated": "2026-03-03T17:24:40.241737",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://levelsacademy.ge",
+        "facebook": "https://www.facebook.com/LevelsAcademy",
+        "instagram": "levels_academy",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136431",
+        "prices_found": []
       },
       {
         "name": "EMCAN",
-        "website": "https://emcan.ge/",
-        "last_updated": "2026-03-03T17:24:40.269191",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://emcan.ge",
+        "facebook": "https://www.facebook.com/EMCAN",
+        "instagram": "emcan_ge",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136434",
+        "prices_found": []
       },
       {
         "name": "English Skills",
-        "website": "https://englishskills.ge/",
-        "last_updated": "2026-03-03T17:24:40.293565",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://englishskills.ge",
+        "facebook": "https://www.facebook.com/EnglishSkills",
+        "instagram": "english_skills_ge",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136442",
+        "prices_found": []
       },
       {
         "name": "British Centre Georgia",
-        "website": "https://britishcentre.ge/",
-        "last_updated": "2026-03-03T17:24:40.317718",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://britishcentre.ge",
+        "facebook": "https://www.facebook.com/BritishCentreGeorgia",
+        "instagram": "british_centre_ge",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136446",
+        "prices_found": []
       },
       {
         "name": "Goga Askurava School",
-        "website": "https://gogaaskurava.ge/",
-        "last_updated": "2026-03-03T17:24:40.341430",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://gogaaskurava.ge",
+        "facebook": "https://www.facebook.com/GogaAskurava",
+        "instagram": "goga_askurava",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136455",
+        "prices_found": []
       },
       {
         "name": "TCS",
-        "website": "https://tcs.ge/",
-        "last_updated": "2026-03-03T17:24:40.365199",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://tcs.ge",
+        "facebook": "https://www.facebook.com/TCSGeorgia",
+        "instagram": "tcs_ge",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136459",
+        "prices_found": []
       },
       {
         "name": "Sepia",
-        "website": "https://sepia.ge/",
-        "last_updated": "2026-03-03T17:24:40.389245",
-        "status": "offline",
-        "country": "Georgia",
-        "market": "georgia"
+        "market": "Georgia",
+        "website": "https://sepia.ge",
+        "facebook": "https://www.facebook.com/SepiaGeorgia",
+        "instagram": "sepia_ge",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.136461",
+        "prices_found": []
       }
     ],
     "armenia": [
       {
         "name": "ICLT",
-        "website": "https://iclt.am/",
-        "last_updated": "2026-03-03T17:24:40.413015",
-        "status": "offline",
-        "country": "Armenia",
-        "market": "armenia"
+        "market": "Armenia",
+        "website": "https://iclt.am",
+        "facebook": "https://www.facebook.com/ICLTArmenia",
+        "instagram": "iclt_armenia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.137356",
+        "prices_found": []
       },
       {
         "name": "Berlitz Yerevan",
-        "website": "https://www.berlitz.am/",
-        "last_updated": "2026-03-03T17:24:40.436673",
-        "status": "offline",
-        "country": "Armenia",
-        "market": "armenia"
+        "market": "Armenia",
+        "website": "https://www.berlitz.am",
+        "facebook": "https://www.facebook.com/BerlitzArmenia",
+        "instagram": "berlitz_armenia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.137366",
+        "prices_found": []
       },
       {
         "name": "42 Yerevan",
-        "website": "https://42yerevan.am/",
-        "last_updated": "2026-03-03T17:24:40.460514",
-        "status": "offline",
-        "country": "Armenia",
-        "market": "armenia"
+        "market": "Armenia",
+        "website": "https://42yerevan.am",
+        "facebook": "https://www.facebook.com/42Yerevan",
+        "instagram": "42yerevan",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.137369",
+        "prices_found": []
       },
       {
         "name": "BDG Language Center",
-        "website": "https://bdg.am/",
-        "last_updated": "2026-03-03T17:24:40.484046",
-        "status": "offline",
-        "country": "Armenia",
-        "market": "armenia"
+        "market": "Armenia",
+        "website": "https://bdg.am",
+        "facebook": "https://www.facebook.com/BDGArmenia",
+        "instagram": "bdg_armenia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.137382",
+        "prices_found": []
       },
       {
         "name": "AUA",
-        "website": "https://aua.am/",
-        "last_updated": "2026-03-03T17:24:40.510293",
-        "status": "offline",
-        "country": "Armenia",
-        "market": "armenia"
+        "market": "Armenia",
+        "website": "https://aua.am",
+        "facebook": "https://www.facebook.com/AUAArmenia",
+        "instagram": "aua_armenia",
+        "status": "online",
+        "last_updated": "2026-03-03T17:34:38.137386",
+        "prices_found": []
       }
     ]
   }

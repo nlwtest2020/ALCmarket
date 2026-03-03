@@ -25,15 +25,23 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -q pandas requests beautifulsoup4
+
       - name: Run competitor scraper
-        run: python scraper.py
+        run: python3 run_all.py
+
+      - name: Build live data JSON for dashboard
+        run: python3 build_dashboard_data.py
 
       - name: Commit and push updates
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add docs/data/competitors.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update competitor data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push origin claude/build-competitor-tracker-0U6x1)
+          git add -A data/ docs/data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update competitor tracking data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push origin claude/build-competitor-tracker-0U6x1)
 
       - name: Deploy to GitHub Pages
         uses: actions/upload-pages-artifact@v3
