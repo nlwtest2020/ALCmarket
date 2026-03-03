@@ -1,30 +1,22 @@
 market,name,website_url,facebook_url,instagram_handle,notes
-Moldova,Top English,https://www.topenglishtv.md,https://www.facebook.com/TopEnglish,top_english_md,English language school
-Moldova,Linguata,https://linguata.md,https://www.facebook.com/Linguata,linguata_md,Language center
-Moldova,Oratorica,https://oratorica.md,https://www.facebook.com/Oratorica,oratorica_md,Speaking skills focus
-Moldova,Engleza cu Snow,https://englezacusnow.md,https://www.facebook.com/EnglezaCuSnow,engleza_snow,English learning platform
-Moldova,Alliance Francaise,https://alliancefr.md,https://www.facebook.com/AllianceChisinau,alliance_francaise_md,French language institute
-Moldova,ILTC,https://iltc.md,https://www.facebook.com/ILTC,iltc_md,International language center
-Moldova,Lingua Franca,https://linguafranca.md,https://www.facebook.com/LinguaFranca,lingua_franca_md,Language school
-Moldova,Terra Nova,https://terranova.md,https://www.facebook.com/TerraNova,terra_nova_md,Education provider
-Moldova,Quo Vadis,https://quovadis.md,https://www.facebook.com/QuoVadis,quo_vadis_md,Learning center
-Moldova,Art House,https://arthouse.md,https://www.facebook.com/ArtHouse,art_house_md,Arts and language education
-Moldova,Fantastic,https://fantastic.md,https://www.facebook.com/Fantastic,fantastic_md,English school
-Moldova,Smile English,https://smileenglish.md,https://www.facebook.com/SmileEnglish,smile_english_md,English language center
-Georgia,British Council Tbilisi,https://www.britishcouncil.ge,https://www.facebook.com/BritishCouncilGeorgia,bc_georgia,British language and culture
-Georgia,International House Tbilisi,https://ih.ge,https://www.facebook.com/IHTbilisi,ih_tbilisi,Language school chain
-Georgia,Goethe-Institut Georgia,https://www.goethe.de/ge,https://www.facebook.com/GoetheGeorgia,goethe_georgia,German language institute
-Georgia,Institut français de Géorgie,https://www.ifgeorgia.ge,https://www.facebook.com/IfGeorgia,if_georgia,French language institute
-Georgia,Beka's School,https://bekasschool.ge,https://www.facebook.com/BekasSchool,bekas_school,Language education
-Georgia,Levels Academy,https://levelsacademy.ge,https://www.facebook.com/LevelsAcademy,levels_academy,Language proficiency center
-Georgia,EMCAN,https://emcan.ge,https://www.facebook.com/EMCAN,emcan_ge,Education provider
-Georgia,English Skills,https://englishskills.ge,https://www.facebook.com/EnglishSkills,english_skills_ge,English training
-Georgia,British Centre Georgia,https://britishcentre.ge,https://www.facebook.com/BritishCentreGeorgia,british_centre_ge,British language center
-Georgia,Goga Askurava School,https://gogaaskurava.ge,https://www.facebook.com/GogaAskurava,goga_askurava,Language school
-Georgia,TCS,https://tcs.ge,https://www.facebook.com/TCSGeorgia,tcs_ge,Training center
-Georgia,Sepia,https://sepia.ge,https://www.facebook.com/SepiaGeorgia,sepia_ge,Education services
-Armenia,ICLT,https://iclt.am,https://www.facebook.com/ICLTArmenia,iclt_armenia,Language center
-Armenia,Berlitz Yerevan,https://www.berlitz.am,https://www.facebook.com/BerlitzArmenia,berlitz_armenia,Premium language school
-Armenia,42 Yerevan,https://42yerevan.am,https://www.facebook.com/42Yerevan,42yerevan,Programming school
-Armenia,BDG Language Center,https://bdg.am,https://www.facebook.com/BDGArmenia,bdg_armenia,Training center
-Armenia,AUA,https://aua.am,https://www.facebook.com/AUAArmenia,aua_armenia,University programs
+Moldova,Top English,https://topenglish.md/en/,https://www.facebook.com/topenglish.md/,topenglish,English language school
+Moldova,Linguata,https://linguata.md/scoli/,https://www.facebook.com/linguata/,linguata_schools_md,Language center
+Moldova,Oratorica,https://www.oratorica.md/,https://www.facebook.com/oratorica.md/,oratorica.md,Speaking skills focus
+Moldova,Engleza cu Snow,https://englezacusnow.md/,https://www.facebook.com/englezacusnow,engleza_cu_snow,English learning platform
+Moldova,Alliance Francaise,https://alfr.md/,https://www.facebook.com/afmoldavie/,af_moldavie,French language institute
+Moldova,ILTC,https://iltc.md/,https://www.facebook.com/iltcmoldova/,iltcmoldova,International language center
+Moldova,Lingua Franca,https://linguafranca.md/en/,https://www.facebook.com/313864285391695/,linguafranca.school,Language school
+Moldova,Terra Nova,https://www.terranovamd.com/,https://www.facebook.com/terranovatoefl/,terranovamd,Education provider
+Moldova,Quo Vadis,https://quo-vadis.md/en,https://www.facebook.com/quovadismd/,quo_vadis_md,Learning center
+Moldova,Fantastic English,https://fantastic-english.md/,https://www.facebook.com/fantasticenglish/,fantastic_english,English school
+Georgia,British Council Tbilisi,https://www.britishcouncil.ge/en,https://www.facebook.com/geBritish/,gebritish,British language and culture
+Georgia,International House Tbilisi,https://ihtbilisi.ge/en/,https://www.facebook.com/ihtbilisi.ge/,ihtbilisi,Language school chain
+Georgia,Goethe-Institut Georgia,https://www.goethe.de/ins/ge/en/index.html,https://www.facebook.com/goetheinstitutgeorgien/,goetheinstitut_georgien,German language institute
+Georgia,Institut français de Géorgie,https://institutfrancais.ge/fr/,https://www.facebook.com/institutfrancaisgeo/,institut_francais_de_georgie,French language institute
+Georgia,Beka's School,https://bekas.school/,https://www.facebook.com/bekas.school/,bekas.school,Language education
+Georgia,Levels Academy,https://www.levels.ge/,https://www.facebook.com/levelsacademy.ge/,levelsacademy_ge,Language proficiency center
+Georgia,EMCAN,https://www.emcaned.ge/,https://www.facebook.com/emcantbilisi/,emcantbilisi,Education provider
+Georgia,Goga Askurava Language Centre,https://www.gaiholding.com.ge/,https://www.facebook.com/gaiholding.ge/,language_centre_goga_askurava,Language school
+Armenia,ICLT,https://iclt.am/en/,https://www.facebook.com/iclt.yerevan/,iclt.yerevan,Language center
+Armenia,Berlitz Yerevan,https://www.berlitz.com/en-am/language-centers/yerevan,https://www.facebook.com/BerlitzArmenia/,berlitz_yerevan,Premium language school
+Armenia,AUA,https://aua.am/,https://www.facebook.com/American-University-of-Armenia/,aua_insta,University programs
