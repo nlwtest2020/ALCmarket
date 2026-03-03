@@ -3,7 +3,7 @@ name: Deploy ALC Presentation to GitHub Pages
 on:
   push:
     branches:
-      - claude/create-alc-presentation-MdnFb
+      - main
     paths:
       - 'alc-presentation/**'
   workflow_dispatch:

@@ -1,29 +1,93 @@
-/* Global app styles - component styles are in index.css and Tailwind */
-
-#root {
-  width: 100%;
-  min-height: 100vh;
+:root {
+  color: #eef3ff;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #0d1324;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+* { box-sizing: border-box; }
+body { margin: 0; background: linear-gradient(180deg, #0d1324 0%, #121b33 100%); }
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1a1f2e;
-}
-
-::-webkit-scrollbar-thumb {
+.hero h1 { margin: 0.5rem 0; font-size: 2rem; }
+.hero p { color: #c7d3eb; }
+.badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0b1320;
   background: #7fe5e0;
-  border-radius: 5px;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #8dd3f0;
+.scraper-grid, .kpis {
+  display: grid;
+  gap: 1rem;
+  margin: 1.4rem 0;
+}
+.scraper-grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.kpis { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+
+.panel {
+  background: rgba(19, 31, 58, 0.9);
+  border: 1px solid rgba(154, 140, 255, 0.3);
+  border-radius: 14px;
+  padding: 1rem;
+}
+.panel h2, .panel h3, .panel h4 { margin-top: 0; }
+.panel strong { font-size: 1.4rem; color: #7fe5e0; }
+
+.tabs, .range-switch {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+}
+.tabs button, .range-switch button {
+  border: 1px solid #40517f;
+  background: #1a2647;
+  color: #d8e3fb;
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+.tabs .active, .range-switch .active {
+  background: #7fe5e0;
+  color: #071323;
+  border-color: #7fe5e0;
+  font-weight: 700;
+}
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 760px; }
+th, td { padding: 0.6rem; border-bottom: 1px solid #2f3f68; text-align: left; }
+th { color: #9fb3d9; font-weight: 600; }
+
+.trend-chart {
+  width: 100%;
+  background: #111a31;
+  border: 1px solid #2f3f68;
+  border-radius: 8px;
+}
+
+.insights { margin: 0; padding-left: 1rem; }
+.insights li { margin-bottom: 0.45rem; color: #d9e2f7; }
+
+.timeline article {
+  border-left: 3px solid #7fe5e0;
+  padding: 0.4rem 0 0.8rem 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.timeline .date { color: #9fb3d9; font-size: 0.9rem; margin: 0; }
+pre {
+  background: #0b1224;
+  border: 1px solid #2f3f68;
+  border-radius: 8px;
+  padding: 0.6rem;
+  white-space: pre-wrap;
 }

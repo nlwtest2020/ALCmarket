@@ -7,7 +7,7 @@ Monitors competitors across Moldova, Georgia, and Armenia on three fronts:
 2. **Instagram tracking** — follower counts, posting frequency, content mix
 3. **Website/course monitoring** — detects when competitors change their course offerings, pricing pages, or program listings
 
-Results feed into a local web dashboard you can check anytime.
+Results feed into a dashboard JSON file (`alc-presentation/public/data/latest_summary.json`) that is rendered by the GitHub Pages site.
 
 ---
 
@@ -90,3 +90,13 @@ Claude Code can help you set up a cron job or scheduled task to run the scrapers
 - **Website monitoring**: Takes a snapshot of specified pages and compares them on each run. You'll get alerts when content changes significantly (not just minor HTML tweaks).
 - **Data storage**: Everything is stored locally in CSV files in the `/data` folder. Nothing is sent anywhere.
 - **No API keys needed** for the basic version. If you want deeper Facebook/Instagram analytics later, you can add Meta Graph API access.
+
+
+## Automated 24-hour Monitoring
+
+A GitHub Actions workflow (`.github/workflows/daily-monitor.yml`) runs every 24 hours (`cron: 0 4 * * *`) and performs:
+1. `python run_all.py`
+2. refreshes `data/*` + `alc-presentation/public/data/latest_summary.json`
+3. commits changes back to the repo
+
+This gives you continuous monitoring for Facebook, Instagram, and website changes without manual runs.

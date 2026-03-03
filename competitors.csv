@@ -1,28 +1,28 @@
 market,name,website_url,facebook_url,instagram_handle,notes
-moldova,ALC Moldova,https://alc.md,https://www.facebook.com/ALC.cursuri.engleza,alc_moldova,Our center
-moldova,Top English,https://topenglish.md,,topenglish_md,Large school with multiple locations
+moldova,ALC Moldova,https://alc.md,https://www.facebook.com/ALC.cursuri.engleza,,Our center (confirmed: no Instagram account)
+moldova,Top English,https://topenglish.md,https://www.facebook.com/topenglish_md,topenglish_md,Large school with multiple locations | Facebook URL inferred from Instagram handle; verify
 moldova,Linguata,https://linguata.md,https://www.facebook.com/LinguataSchoolsMoldova,linguata_schools_md,IELTS center partner - multiple branches
 moldova,Oratorica,https://www.oratorica.md,https://www.facebook.com/oratorica.md,oratorica.md,25K Instagram followers - strong social presence
-moldova,Engleza cu Snow,https://englezacusnow.md,,engleza_cu_snow,Online-focused school
-moldova,Alliance Francaise,,,,French language focus - needs URL research
-moldova,ILTC,https://iltc.md,,iltc.md,30 years in market - claims 85K graduates
+moldova,Engleza cu Snow,https://englezacusnow.md,https://www.facebook.com/engleza_cu_snow,engleza_cu_snow,Online-focused school | Facebook URL inferred from Instagram handle; verify
+moldova,Alliance Francaise,https://alliancefrancaise.md,,,French language focus - needs URL research | Website added from institution domain pattern; verify
+moldova,ILTC,https://iltc.md,https://www.facebook.com/iltc.md,iltc.md,30 years in market - claims 85K graduates | Facebook URL inferred from Instagram handle; verify
 moldova,Lingua Franca,,,,Needs URL research
-moldova,Terra Nova,https://www.terranovamd.com,,terranova_md,Needs social URL research
-moldova,Quo Vadis,https://quo-vadis.md,,quovadis.md,Cambridge accredited
+moldova,Terra Nova,https://www.terranovamd.com,https://www.facebook.com/terranova_md,terranova_md,Needs social URL research | Facebook URL inferred from Instagram handle; verify
+moldova,Quo Vadis,https://quo-vadis.md,https://www.facebook.com/quovadis.md,quovadis.md,Cambridge accredited | Facebook URL inferred from Instagram handle; verify
 moldova,Art House,,,,Needs URL research
 moldova,Fantastic,,,,Needs URL research
-moldova,Smile English,https://englishclub.md,,smile.english.club,Also known as Smile English Club
-moldova,Acord School,https://www.acordschool.md,,acordschool.md,Newer entrant
-georgia,ALC Georgia,https://alctbilisi.ge,,alc_tbilisi,Our center - website currently locked
+moldova,Smile English,https://englishclub.md,https://www.facebook.com/smile.english.club,smile.english.club,Also known as Smile English Club | Facebook URL inferred from Instagram handle; verify
+moldova,Acord School,https://www.acordschool.md,https://www.facebook.com/acordschool.md,acordschool.md,Newer entrant | Facebook URL inferred from Instagram handle; verify
+georgia,ALC Georgia,https://alctbilisi.ge,https://www.facebook.com/alc_tbilisi,alc_tbilisi,Our center - website currently locked | Facebook URL inferred from Instagram handle; verify
 georgia,Goethe-Institut Georgia,https://www.goethe.de/ins/ge/en/index.html,https://www.facebook.com/GoetheInstitutGeorgien,,German language focus - budget pricing
 georgia,TCS,,,,Budget tier - needs URL research
 georgia,Beka's School,,,,Budget tier - needs URL research
 georgia,British Council,https://www.britishcouncil.ge,https://www.facebook.com/BritishCouncilGeorgia,,Premium tier
 georgia,English Skills,,,,Budget tier - needs URL research
 georgia,International House,https://ihtbilisi.ge,https://www.facebook.com/IHTbilisi,ihtbilisi,Largest English school in Georgia - Cambridge center
-georgia,Institut francais,,,,French language focus - needs URL research
+georgia,Institut francais,https://institutfrancais.ge,,,French language focus - needs URL research | Website added from institution domain pattern; verify
 georgia,Levels Academy,,,,Mid tier - needs URL research
-georgia,British Centre Georgia,https://bc.ge,,british_centre_georgia,Mid tier competitor
-georgia,Goga Askurava,https://gaiholding.com.ge,,goga_askurava,Multiple language offerings
+georgia,British Centre Georgia,https://bc.ge,https://www.facebook.com/british_centre_georgia,british_centre_georgia,Mid tier competitor | Facebook URL inferred from Instagram handle; verify
+georgia,Goga Askurava,https://gaiholding.com.ge,https://www.facebook.com/goga_askurava,goga_askurava,Multiple language offerings | Facebook URL inferred from Instagram handle; verify
 georgia,EMCAN,,,,Budget tier - needs URL research
 armenia,ALC Armenia,,,,Our center - no website yet

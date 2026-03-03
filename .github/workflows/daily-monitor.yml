@@ -1,0 +1,33 @@
+name: Daily Competitor Monitoring
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-monitoring:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scrapers and build dashboard summary
+        run: python run_all.py
+
+      - name: Commit refreshed monitoring data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ snapshots/ alc-presentation/public/data/
+          git diff --staged --quiet || git commit -m "chore: daily monitoring data refresh"
+          git push
