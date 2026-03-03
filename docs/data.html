@@ -38,6 +38,18 @@
         </div>
     </section>
 
+    <!-- Alerts Section -->
+    <section class="py-5 border-top border-secondary bg-dark">
+        <div class="container-lg">
+            <h2 class="display-6 mb-4">🔔 Live Alerts</h2>
+            <div id="alerts-container" class="row g-3">
+                <div class="col-12 text-center text-muted py-4">
+                    <p>Loading alerts...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="py-5 border-top border-secondary">
         <div class="container-lg">
             <div id="data-container" class="row g-4">
@@ -59,12 +71,34 @@
 
                 const data = await response.json();
                 const container = document.getElementById('data-container');
+                const alertsContainer = document.getElementById('alerts-container');
                 container.innerHTML = '';
+                alertsContainer.innerHTML = '';
 
                 // Update last refresh time
                 const updated = new Date(data.timestamp);
                 document.getElementById('last-updated').textContent =
                     `Last updated: ${updated.toLocaleString()} UTC`;
+
+                // Display alerts
+                if (data.alerts && data.alerts.length > 0) {
+                    data.alerts.forEach(alert => {
+                        const alertDiv = document.createElement('div');
+                        alertDiv.className = 'col-lg-6';
+                        alertDiv.innerHTML = `
+                            <div class="alert alert-${alert.severity === 'critical' ? 'danger' : 'info'} border-0 rounded-3">
+                                <h6 class="alert-heading mb-2">
+                                    <i class="bi bi-exclamation-circle"></i> ${alert.competitor}
+                                </h6>
+                                <p class="mb-1">${alert.message}</p>
+                                <small class="text-muted">${alert.market} Market</small>
+                            </div>
+                        `;
+                        alertsContainer.appendChild(alertDiv);
+                    });
+                } else {
+                    alertsContainer.innerHTML = '<div class="col-12 text-center text-muted py-4"><p>✓ No new alerts</p></div>';
+                }
 
                 // Group by market
                 const markets = ['moldova', 'georgia', 'armenia'];
@@ -105,12 +139,27 @@
                                     ${comp.facebook ? `<p class="mb-2"><a href="${comp.facebook}" target="_blank" class="text-primary text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a></p>` : ''}
                                     ${comp.instagram ? `<p class="mb-2"><a href="https://instagram.com/${comp.instagram}" target="_blank" class="text-primary text-decoration-none"><i class="bi bi-instagram"></i> @${comp.instagram}</a></p>` : ''}
 
-                                    ${comp.prices_found && comp.prices_found.length > 0 ? `
+                                    ${comp.courses && comp.courses.length > 0 ? `
                                         <hr class="border-secondary">
-                                        <div class="text-muted small mb-2"><strong>Pricing Detected:</strong></div>
+                                        <div class="text-muted small mb-2"><strong>📚 Courses Found:</strong></div>
                                         <ul class="list-unstyled small">
-                                            ${comp.prices_found.map(p => `<li class="text-success">💰 ${p}</li>`).join('')}
+                                            ${comp.courses.slice(0, 3).map(c => `<li class="text-info">• ${c.raw ? c.raw.substring(0, 50) + '...' : 'Course listing'}</li>`).join('')}
                                         </ul>
+                                    ` : ''}
+
+                                    ${comp.social && comp.social.facebook && comp.social.facebook.followers ? `
+                                        <hr class="border-secondary">
+                                        <div class="text-muted small"><strong>📊 Social Metrics:</strong></div>
+                                        <div class="row g-2 mt-2">
+                                            <div class="col-6">
+                                                <small class="text-muted">FB Followers</small>
+                                                <div class="text-primary">${comp.social.facebook.followers}</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="text-muted">Engagement</small>
+                                                <div class="text-success">${comp.social.facebook.engagement_rate}</div>
+                                            </div>
+                                        </div>
                                     ` : ''}
                                 </div>
                             </div>

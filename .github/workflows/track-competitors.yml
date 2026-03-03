@@ -33,6 +33,9 @@ jobs:
       - name: Run competitor scraper
         run: python3 run_all.py
 
+      - name: Run enhanced intelligence scraper
+        run: python3 scrape_intelligence.py
+
       - name: Build live data JSON for dashboard
         run: python3 build_dashboard_data.py
 

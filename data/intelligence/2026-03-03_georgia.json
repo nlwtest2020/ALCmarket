@@ -1,0 +1,186 @@
+[
+  {
+    "name": "British Council Tbilisi",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.357775",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "gebritish"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "International House Tbilisi",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.357863",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "ihtbilisi"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "Goethe-Institut Georgia",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.357920",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "goetheinstitut_georgien"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "Institut fran\u00e7ais de G\u00e9orgie",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.357990",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "institut_francais_de_georgie"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "Beka's School",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.358048",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "bekas.school"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "Levels Academy",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.358113",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "levelsacademy_ge"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "EMCAN",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.358166",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "emcantbilisi"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  },
+  {
+    "name": "Goga Askurava Language Centre",
+    "market": "Georgia",
+    "timestamp": "2026-03-03T17:58:37.358216",
+    "social": {
+      "facebook": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": []
+      },
+      "instagram": {
+        "followers": "N/A",
+        "engagement_rate": "N/A",
+        "posts_per_week": "N/A",
+        "recent_posts": [],
+        "handle": "language_centre_goga_askurava"
+      }
+    },
+    "courses": [],
+    "alerts": [],
+    "pricing_range": null
+  }
+]

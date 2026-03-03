@@ -23,6 +23,7 @@ with open('competitors.csv', 'r') as f:
 # Build consolidated data
 data = {
     'timestamp': datetime.utcnow().isoformat(),
+    'alerts': [],
     'competitors': {
         'moldova': [],
         'georgia': [],
@@ -80,8 +81,25 @@ for market in markets:
                 'instagram': row['instagram_handle'],
                 'status': 'online',  # Default to online
                 'last_updated': datetime.utcnow().isoformat(),
-                'prices_found': []
+                'prices_found': [],
+                'alerts': [],
+                'courses': [],
+                'social': {'facebook': {}, 'instagram': {}}
             }
+
+            # Load intelligence data if available
+            intel_file = Path(f"data/intelligence/{datetime.now().strftime('%Y-%m-%d')}_{market}.json")
+            if intel_file.exists():
+                with open(intel_file) as f:
+                    try:
+                        intel_list = json.load(f)
+                        for intel in intel_list:
+                            if intel.get('name') == row['name']:
+                                comp_entry['alerts'] = intel.get('alerts', [])
+                                comp_entry['courses'] = intel.get('courses', [])
+                                comp_entry['social'] = intel.get('social', {})
+                    except:
+                        pass
 
             # Check website status
             if website_changes and 'changes' in website_changes:
@@ -89,6 +107,15 @@ for market in markets:
                     if row['name'].lower() in change.get('competitor', '').lower():
                         if change.get('status') == 'offline':
                             comp_entry['status'] = 'offline'
+
+            # Collect alerts for top-level alerts section
+            if comp_entry['alerts']:
+                for alert in comp_entry['alerts']:
+                    data['alerts'].append({
+                        'competitor': comp_entry['name'],
+                        'market': market,
+                        **alert
+                    })
 
             market_data.append(comp_entry)
 
