@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T23:57:22.105947+00:00",
+  "generated_at": "2026-03-03T05:16:46.657059+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
@@ -18,9 +18,9 @@
       "error": 13
     },
     "website": {
-      "ok": 0,
+      "ok": 16,
       "partial": 0,
-      "error": 18
+      "error": 2
     }
   },
   "competitors": [
@@ -29,213 +29,213 @@
       "name": "ALC Georgia",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /alc_tbilisi (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falc_tbilisi",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /alc_tbilisi/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falc_tbilisi%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
       "name": "British Centre Georgia",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /british_centre_georgia (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbritish_centre_georgia",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /british_centre_georgia/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='bc.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbritish_centre_georgia%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
       "name": "British Council",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /BritishCouncilGeorgia (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FBritishCouncilGeorgia",
       "website_change_ratio": null,
       "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "website_error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)"
     },
     {
       "market": "georgia",
       "name": "Goethe-Institut Georgia",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /GoetheInstitutGeorgien (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.goethe.de', port=443): Max retries exceeded with url: /ins/ge/en/index.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FGoetheInstitutGeorgien",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
       "name": "Goga Askurava",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /goga_askurava (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgoga_askurava",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /goga_askurava/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='gaiholding.com.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgoga_askurava%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
       "name": "Institut francais",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='institutfrancais.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
       "name": "International House",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /IHTbilisi (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FIHTbilisi",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /ihtbilisi/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='ihtbilisi.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fihtbilisi%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "ALC Moldova",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /ALC.cursuri.engleza (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='alc.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FALC.cursuri.engleza",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Acord School",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /acordschool.md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facordschool.md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /acordschool.md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.acordschool.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Facordschool.md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Alliance Francaise",
       "website_change_ratio": null,
       "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "website_error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o"
     },
     {
       "market": "moldova",
       "name": "Engleza cu Snow",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /engleza_cu_snow (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fengleza_cu_snow",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /engleza_cu_snow/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='englezacusnow.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fengleza_cu_snow%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "ILTC",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /iltc.md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Filtc.md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /iltc.md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='iltc.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Filtc.md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Linguata",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /LinguataSchoolsMoldova (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLinguataSchoolsMoldova",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /linguata_schools_md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='linguata.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinguata_schools_md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Oratorica",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /oratorica.md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Foratorica.md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /oratorica.md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.oratorica.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foratorica.md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Quo Vadis",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /quovadis.md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fquovadis.md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /quovadis.md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='quo-vadis.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fquovadis.md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Smile English",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /smile.english.club (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsmile.english.club",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /smile.english.club/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='englishclub.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsmile.english.club%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Terra Nova",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /terranova_md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fterranova_md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /terranova_md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.terranovamd.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fterranova_md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
       "name": "Top English",
       "facebook_followers": null,
       "facebook_status": "error",
-      "facebook_error": "HTTPSConnectionPool(host='www.facebook.com', port=443): Max retries exceeded with url: /topenglish_md (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ftopenglish_md",
       "instagram_followers": null,
       "instagram_status": "error",
-      "instagram_error": "HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /topenglish_md/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='topenglish.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftopenglish_md%2F&is_from_rle",
+      "website_change_ratio": 0.0,
+      "website_status": "ok",
+      "website_error": null
     }
   ],
   "website_changes": []
