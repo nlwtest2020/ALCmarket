@@ -1,0 +1,45 @@
+name: Track Competitors - Every 24hrs
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 2 AM UTC daily
+  workflow_dispatch:      # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: claude/build-competitor-tracker-0U6x1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run competitor scraper
+        run: python scraper.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add docs/data/competitors.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update competitor data $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push origin claude/build-competitor-tracker-0U6x1)
+
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

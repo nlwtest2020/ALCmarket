@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-03-03T17:22:17.913538",
+  "competitors": {
+    "moldova": [
+      {
+        "name": "Chi\u0219in\u0103u Language School",
+        "website": "https://www.clschool.md/",
+        "last_updated": "2026-03-03T17:22:17.913553",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Top English School Chi\u0219in\u0103u",
+        "website": "https://topenglishshool.md/",
+        "last_updated": "2026-03-03T17:22:17.946189",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "English Academy Chi\u0219in\u0103u",
+        "website": "https://www.englishacademy.md/",
+        "last_updated": "2026-03-03T17:22:17.971928",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      }
+    ],
+    "georgia": [
+      {
+        "name": "AZTech Training Tbilisi",
+        "website": "https://www.aztechtraining.ge/",
+        "last_updated": "2026-03-03T17:22:17.996576",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Georgian Language Center Tbilisi",
+        "website": "https://www.glc.ge/",
+        "last_updated": "2026-03-03T17:22:18.021035",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Teach English Georgia",
+        "website": "https://www.teachenglishgeorgia.ge/",
+        "last_updated": "2026-03-03T17:22:18.045553",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      }
+    ],
+    "armenia": [
+      {
+        "name": "ICLT Armenian Institute",
+        "website": "https://iclt.am/",
+        "last_updated": "2026-03-03T17:22:18.070592",
+        "status": "offline",
+        "country": "Armenia",
+        "market": "armenia"
+      },
+      {
+        "name": "Berlitz Yerevan",
+        "website": "https://www.berlitz.am/",
+        "last_updated": "2026-03-03T17:22:18.095928",
+        "status": "offline",
+        "country": "Armenia",
+        "market": "armenia"
+      },
+      {
+        "name": "42 Yerevan Tech School",
+        "website": "https://42yerevan.am/",
+        "last_updated": "2026-03-03T17:22:18.120871",
+        "status": "offline",
+        "country": "Armenia",
+        "market": "armenia"
+      }
+    ]
+  }
+}
