@@ -1,27 +1,99 @@
 {
-  "timestamp": "2026-03-03T17:22:17.913538",
+  "timestamp": "2026-03-03T17:24:39.831884",
   "competitors": {
     "moldova": [
       {
-        "name": "Chi\u0219in\u0103u Language School",
-        "website": "https://www.clschool.md/",
-        "last_updated": "2026-03-03T17:22:17.913553",
+        "name": "Top English",
+        "website": "https://www.topenglishtv.md/",
+        "last_updated": "2026-03-03T17:24:39.831898",
         "status": "offline",
         "country": "Moldova",
         "market": "moldova"
       },
       {
-        "name": "Top English School Chi\u0219in\u0103u",
-        "website": "https://topenglishshool.md/",
-        "last_updated": "2026-03-03T17:22:17.946189",
+        "name": "Linguata",
+        "website": "https://linguata.md/",
+        "last_updated": "2026-03-03T17:24:39.862356",
         "status": "offline",
         "country": "Moldova",
         "market": "moldova"
       },
       {
-        "name": "English Academy Chi\u0219in\u0103u",
-        "website": "https://www.englishacademy.md/",
-        "last_updated": "2026-03-03T17:22:17.971928",
+        "name": "Oratorica",
+        "website": "https://oratorica.md/",
+        "last_updated": "2026-03-03T17:24:39.886523",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Engleza cu Snow",
+        "website": "https://englezacusnow.md/",
+        "last_updated": "2026-03-03T17:24:39.910290",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Alliance Francaise",
+        "website": "https://alliancefr.md/",
+        "last_updated": "2026-03-03T17:24:39.934166",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "ILTC",
+        "website": "https://iltc.md/",
+        "last_updated": "2026-03-03T17:24:39.957867",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Lingua Franca",
+        "website": "https://linguafranca.md/",
+        "last_updated": "2026-03-03T17:24:39.981811",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Terra Nova",
+        "website": "https://terranova.md/",
+        "last_updated": "2026-03-03T17:24:40.005195",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Quo Vadis",
+        "website": "https://quovadis.md/",
+        "last_updated": "2026-03-03T17:24:40.029336",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Art House",
+        "website": "https://arthouse.md/",
+        "last_updated": "2026-03-03T17:24:40.052917",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Fantastic",
+        "website": "https://fantastic.md/",
+        "last_updated": "2026-03-03T17:24:40.076847",
+        "status": "offline",
+        "country": "Moldova",
+        "market": "moldova"
+      },
+      {
+        "name": "Smile English",
+        "website": "https://smileenglish.md/",
+        "last_updated": "2026-03-03T17:24:40.100044",
         "status": "offline",
         "country": "Moldova",
         "market": "moldova"
@@ -29,25 +101,97 @@
     ],
     "georgia": [
       {
-        "name": "AZTech Training Tbilisi",
-        "website": "https://www.aztechtraining.ge/",
-        "last_updated": "2026-03-03T17:22:17.996576",
+        "name": "British Council Tbilisi",
+        "website": "https://www.britishcouncil.ge/",
+        "last_updated": "2026-03-03T17:24:40.123922",
         "status": "offline",
         "country": "Georgia",
         "market": "georgia"
       },
       {
-        "name": "Georgian Language Center Tbilisi",
-        "website": "https://www.glc.ge/",
-        "last_updated": "2026-03-03T17:22:18.021035",
+        "name": "International House Tbilisi",
+        "website": "https://ih.ge/",
+        "last_updated": "2026-03-03T17:24:40.147511",
         "status": "offline",
         "country": "Georgia",
         "market": "georgia"
       },
       {
-        "name": "Teach English Georgia",
-        "website": "https://www.teachenglishgeorgia.ge/",
-        "last_updated": "2026-03-03T17:22:18.045553",
+        "name": "Goethe-Institut Georgia",
+        "website": "https://www.goethe.de/ge/",
+        "last_updated": "2026-03-03T17:24:40.171199",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Institut fran\u00e7ais de G\u00e9orgie",
+        "website": "https://www.ifgeorgia.ge/",
+        "last_updated": "2026-03-03T17:24:40.194687",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Beka's School",
+        "website": "https://bekasschool.ge/",
+        "last_updated": "2026-03-03T17:24:40.218142",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Levels Academy",
+        "website": "https://levelsacademy.ge/",
+        "last_updated": "2026-03-03T17:24:40.241737",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "EMCAN",
+        "website": "https://emcan.ge/",
+        "last_updated": "2026-03-03T17:24:40.269191",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "English Skills",
+        "website": "https://englishskills.ge/",
+        "last_updated": "2026-03-03T17:24:40.293565",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "British Centre Georgia",
+        "website": "https://britishcentre.ge/",
+        "last_updated": "2026-03-03T17:24:40.317718",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Goga Askurava School",
+        "website": "https://gogaaskurava.ge/",
+        "last_updated": "2026-03-03T17:24:40.341430",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "TCS",
+        "website": "https://tcs.ge/",
+        "last_updated": "2026-03-03T17:24:40.365199",
+        "status": "offline",
+        "country": "Georgia",
+        "market": "georgia"
+      },
+      {
+        "name": "Sepia",
+        "website": "https://sepia.ge/",
+        "last_updated": "2026-03-03T17:24:40.389245",
         "status": "offline",
         "country": "Georgia",
         "market": "georgia"
@@ -55,9 +199,9 @@
     ],
     "armenia": [
       {
-        "name": "ICLT Armenian Institute",
+        "name": "ICLT",
         "website": "https://iclt.am/",
-        "last_updated": "2026-03-03T17:22:18.070592",
+        "last_updated": "2026-03-03T17:24:40.413015",
         "status": "offline",
         "country": "Armenia",
         "market": "armenia"
@@ -65,15 +209,31 @@
       {
         "name": "Berlitz Yerevan",
         "website": "https://www.berlitz.am/",
-        "last_updated": "2026-03-03T17:22:18.095928",
+        "last_updated": "2026-03-03T17:24:40.436673",
         "status": "offline",
         "country": "Armenia",
         "market": "armenia"
       },
       {
-        "name": "42 Yerevan Tech School",
+        "name": "42 Yerevan",
         "website": "https://42yerevan.am/",
-        "last_updated": "2026-03-03T17:22:18.120871",
+        "last_updated": "2026-03-03T17:24:40.460514",
+        "status": "offline",
+        "country": "Armenia",
+        "market": "armenia"
+      },
+      {
+        "name": "BDG Language Center",
+        "website": "https://bdg.am/",
+        "last_updated": "2026-03-03T17:24:40.484046",
+        "status": "offline",
+        "country": "Armenia",
+        "market": "armenia"
+      },
+      {
+        "name": "AUA",
+        "website": "https://aua.am/",
+        "last_updated": "2026-03-03T17:24:40.510293",
         "status": "offline",
         "country": "Armenia",
         "market": "armenia"

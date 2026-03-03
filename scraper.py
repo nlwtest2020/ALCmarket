@@ -71,19 +71,39 @@ def track_competitor(name, website, facebook_url=None, instagram_handle=None):
 # Hardcoded real competitor data
 COMPETITORS = {
     'moldova': [
-        {'name': 'Chișinău Language School', 'website': 'https://www.clschool.md/', 'country': 'Moldova'},
-        {'name': 'Top English School Chișinău', 'website': 'https://topenglishshool.md/', 'country': 'Moldova'},
-        {'name': 'English Academy Chișinău', 'website': 'https://www.englishacademy.md/', 'country': 'Moldova'},
+        {'name': 'Top English', 'website': 'https://www.topenglishtv.md/', 'country': 'Moldova'},
+        {'name': 'Linguata', 'website': 'https://linguata.md/', 'country': 'Moldova'},
+        {'name': 'Oratorica', 'website': 'https://oratorica.md/', 'country': 'Moldova'},
+        {'name': 'Engleza cu Snow', 'website': 'https://englezacusnow.md/', 'country': 'Moldova'},
+        {'name': 'Alliance Francaise', 'website': 'https://alliancefr.md/', 'country': 'Moldova'},
+        {'name': 'ILTC', 'website': 'https://iltc.md/', 'country': 'Moldova'},
+        {'name': 'Lingua Franca', 'website': 'https://linguafranca.md/', 'country': 'Moldova'},
+        {'name': 'Terra Nova', 'website': 'https://terranova.md/', 'country': 'Moldova'},
+        {'name': 'Quo Vadis', 'website': 'https://quovadis.md/', 'country': 'Moldova'},
+        {'name': 'Art House', 'website': 'https://arthouse.md/', 'country': 'Moldova'},
+        {'name': 'Fantastic', 'website': 'https://fantastic.md/', 'country': 'Moldova'},
+        {'name': 'Smile English', 'website': 'https://smileenglish.md/', 'country': 'Moldova'},
     ],
     'georgia': [
-        {'name': 'AZTech Training Tbilisi', 'website': 'https://www.aztechtraining.ge/', 'country': 'Georgia'},
-        {'name': 'Georgian Language Center Tbilisi', 'website': 'https://www.glc.ge/', 'country': 'Georgia'},
-        {'name': 'Teach English Georgia', 'website': 'https://www.teachenglishgeorgia.ge/', 'country': 'Georgia'},
+        {'name': 'British Council Tbilisi', 'website': 'https://www.britishcouncil.ge/', 'country': 'Georgia'},
+        {'name': 'International House Tbilisi', 'website': 'https://ih.ge/', 'country': 'Georgia'},
+        {'name': 'Goethe-Institut Georgia', 'website': 'https://www.goethe.de/ge/', 'country': 'Georgia'},
+        {'name': 'Institut français de Géorgie', 'website': 'https://www.ifgeorgia.ge/', 'country': 'Georgia'},
+        {'name': 'Beka\'s School', 'website': 'https://bekasschool.ge/', 'country': 'Georgia'},
+        {'name': 'Levels Academy', 'website': 'https://levelsacademy.ge/', 'country': 'Georgia'},
+        {'name': 'EMCAN', 'website': 'https://emcan.ge/', 'country': 'Georgia'},
+        {'name': 'English Skills', 'website': 'https://englishskills.ge/', 'country': 'Georgia'},
+        {'name': 'British Centre Georgia', 'website': 'https://britishcentre.ge/', 'country': 'Georgia'},
+        {'name': 'Goga Askurava School', 'website': 'https://gogaaskurava.ge/', 'country': 'Georgia'},
+        {'name': 'TCS', 'website': 'https://tcs.ge/', 'country': 'Georgia'},
+        {'name': 'Sepia', 'website': 'https://sepia.ge/', 'country': 'Georgia'},
     ],
     'armenia': [
-        {'name': 'ICLT Armenian Institute', 'website': 'https://iclt.am/', 'country': 'Armenia'},
+        {'name': 'ICLT', 'website': 'https://iclt.am/', 'country': 'Armenia'},
         {'name': 'Berlitz Yerevan', 'website': 'https://www.berlitz.am/', 'country': 'Armenia'},
-        {'name': '42 Yerevan Tech School', 'website': 'https://42yerevan.am/', 'country': 'Armenia'},
+        {'name': '42 Yerevan', 'website': 'https://42yerevan.am/', 'country': 'Armenia'},
+        {'name': 'BDG Language Center', 'website': 'https://bdg.am/', 'country': 'Armenia'},
+        {'name': 'AUA', 'website': 'https://aua.am/', 'country': 'Armenia'},
     ]
 }
 
