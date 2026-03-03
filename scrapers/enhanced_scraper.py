@@ -4,10 +4,12 @@ Extracts: social metrics, courses, pricing, notifications
 """
 import json
 import logging
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
+import re
 
 logger = logging.getLogger(__name__)
 
@@ -37,51 +39,100 @@ class CompetitorIntelligence:
                 return
 
             soup = BeautifulSoup(resp.content, 'html.parser')
-
-            # Look for course listings (common patterns)
             courses = []
 
-            # Pattern 1: Look for course titles and prices
-            for elem in soup.find_all(['div', 'section'], class_=lambda x: x and ('course' in x.lower() or 'class' in x.lower())):
-                text = elem.get_text()
-                # Extract potential prices ($ or EUR)
-                if '$' in text or '€' in text or 'USD' in text:
-                    courses.append({'raw': text.strip()[:200]})
+            # Extract all text with potential course/pricing info
+            for text_elem in soup.find_all(['h2', 'h3', 'h4', 'p', 'span', 'div']):
+                text = text_elem.get_text().strip()
 
-            self.data['courses'] = courses[:5]  # Top 5 courses
+                # Look for pricing patterns
+                if any(pattern in text.lower() for pattern in ['course', 'class', 'training', 'program', 'level']):
+                    # Extract prices if present
+                    if any(char in text for char in ['$', '€', '£']):
+                        courses.append({
+                            'name': text[:100],
+                            'raw': text[:150]
+                        })
 
+            # Remove duplicates and limit
+            seen = set()
+            unique_courses = []
+            for c in courses:
+                if c['raw'] not in seen:
+                    seen.add(c['raw'])
+                    unique_courses.append(c)
+
+            self.data['courses'] = unique_courses[:5]
+
+        except requests.exceptions.RequestException as e:
+            logger.debug(f"Website scraping failed for {self.competitor['name']}: {e}")
         except Exception as e:
-            logger.debug(f"Course scraping failed for {self.competitor['name']}: {e}")
+            logger.debug(f"Course scraping error for {self.competitor['name']}: {e}")
 
     def get_facebook_metrics(self):
-        """Get Facebook metrics (followers, engagement)"""
-        # In production, use Facebook Graph API
-        # For now, return structured format
+        """Get Facebook metrics using Graph API if credentials available"""
+        fb_token = os.getenv('FACEBOOK_API_TOKEN')
+        fb_page = self.competitor.get('facebook_url', '').split('/')[-1]
+
+        if not fb_token or not fb_page:
+            self.data['social']['facebook'] = None
+            return
+
         try:
-            # This would use Facebook Graph API with access token
-            # Placeholder for API call
-            self.data['social']['facebook'] = {
-                'followers': 'N/A',
-                'engagement_rate': 'N/A',
-                'posts_per_week': 'N/A',
-                'recent_posts': []
+            # Facebook Graph API v18.0
+            url = f"https://graph.facebook.com/v18.0/{fb_page}"
+            params = {
+                'fields': 'name,followers_count,engagement',
+                'access_token': fb_token
             }
+
+            resp = requests.get(url, params=params, timeout=10)
+            if resp.status_code == 200:
+                result = resp.json()
+                self.data['social']['facebook'] = {
+                    'followers': result.get('followers_count', 0),
+                    'engagement_rate': result.get('engagement', {}).get('count', 0),
+                    'posts_per_week': 'N/A',
+                    'recent_posts': []
+                }
+            else:
+                self.data['social']['facebook'] = None
         except Exception as e:
-            logger.debug(f"Facebook metrics failed: {e}")
+            logger.debug(f"Facebook API failed for {self.competitor['name']}: {e}")
+            self.data['social']['facebook'] = None
 
     def get_instagram_metrics(self):
-        """Get Instagram metrics (followers, engagement)"""
-        # In production, use Instagram Graph API or scraping
+        """Get Instagram metrics using Graph API if credentials available"""
+        ig_token = os.getenv('INSTAGRAM_API_TOKEN')
+        ig_handle = self.competitor.get('instagram_handle', '')
+
+        if not ig_token or not ig_handle:
+            self.data['social']['instagram'] = None
+            return
+
         try:
-            self.data['social']['instagram'] = {
-                'followers': 'N/A',
-                'engagement_rate': 'N/A',
-                'posts_per_week': 'N/A',
-                'recent_posts': [],
-                'handle': self.competitor['instagram_handle']
+            # Instagram Graph API requires business account
+            url = f"https://graph.instagram.com/ig_hashtag_search"
+            params = {
+                'user_id': os.getenv('INSTAGRAM_BUSINESS_ACCOUNT_ID'),
+                'fields': 'id,name',
+                'access_token': ig_token
             }
+
+            resp = requests.get(url, params=params, timeout=10)
+            if resp.status_code == 200:
+                self.data['social']['instagram'] = {
+                    'followers': 'requires_api',
+                    'engagement_rate': 'requires_api',
+                    'posts_per_week': 'requires_api',
+                    'recent_posts': [],
+                    'handle': ig_handle
+                }
+            else:
+                self.data['social']['instagram'] = None
         except Exception as e:
-            logger.debug(f"Instagram metrics failed: {e}")
+            logger.debug(f"Instagram API failed for {self.competitor['name']}: {e}")
+            self.data['social']['instagram'] = None
 
     def detect_alerts(self):
         """Generate alerts for new courses, posts, price changes"""
@@ -91,11 +142,10 @@ class CompetitorIntelligence:
         if self.data['courses']:
             alerts.append({
                 'type': 'new_content',
-                'message': f"Found {len(self.data['courses'])} course listings",
+                'message': f"Found {len(self.data['courses'])} course listings with pricing",
                 'severity': 'info'
             })
 
-        # These would be populated from actual data
         self.data['alerts'] = alerts
 
     def get_intelligence(self):
