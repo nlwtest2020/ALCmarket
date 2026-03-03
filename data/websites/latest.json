@@ -1,0 +1,187 @@
+{
+  "date": "2026-03-02",
+  "count": 18,
+  "results": [
+    {
+      "market": "moldova",
+      "name": "ALC Moldova",
+      "url": "https://alc.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alc.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.032170+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Top English",
+      "url": "https://topenglish.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='topenglish.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.036648+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Linguata",
+      "url": "https://linguata.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='linguata.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.040787+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Oratorica",
+      "url": "https://www.oratorica.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.oratorica.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.044749+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Engleza cu Snow",
+      "url": "https://englezacusnow.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='englezacusnow.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.049508+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Alliance Francaise",
+      "url": "https://alliancefrancaise.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.053791+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "ILTC",
+      "url": "https://iltc.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='iltc.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.057856+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Terra Nova",
+      "url": "https://www.terranovamd.com",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.terranovamd.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.062139+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Quo Vadis",
+      "url": "https://quo-vadis.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='quo-vadis.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.066933+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Smile English",
+      "url": "https://englishclub.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='englishclub.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.071695+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "Acord School",
+      "url": "https://www.acordschool.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.acordschool.md', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.076254+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "ALC Georgia",
+      "url": "https://alctbilisi.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.080058+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "Goethe-Institut Georgia",
+      "url": "https://www.goethe.de/ins/ge/en/index.html",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.goethe.de', port=443): Max retries exceeded with url: /ins/ge/en/index.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.084032+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Council",
+      "url": "https://www.britishcouncil.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.087999+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "International House",
+      "url": "https://ihtbilisi.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='ihtbilisi.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.092591+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "Institut francais",
+      "url": "https://institutfrancais.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='institutfrancais.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.096923+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Centre Georgia",
+      "url": "https://bc.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='bc.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.100675+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "Goga Askurava",
+      "url": "https://gaiholding.com.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='gaiholding.com.ge', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "last_checked": "2026-03-02T23:57:22.104797+00:00",
+      "change_ratio": null,
+      "changed": false
+    }
+  ],
+  "changes": []
+}
