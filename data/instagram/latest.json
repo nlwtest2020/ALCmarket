@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "platform": "instagram",
   "count": 13,
   "results": [
@@ -12,9 +12,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:01.272080+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:39.516253+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftopenglish_md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -25,9 +25,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:01.838875+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:39.756114+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinguata_schools_md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -38,9 +38,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:02.918918+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:39.978261+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foratorica.md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -51,9 +51,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:04.495747+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:40.201863+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fengleza_cu_snow%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -64,9 +64,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:06.088220+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:40.444919+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Filtc.md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -77,9 +77,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:06.683822+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:40.693475+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fterranova_md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -90,9 +90,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:07.271378+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:40.946827+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fquovadis.md%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -103,9 +103,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:08.876864+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:41.202305+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsmile.english.club%2F&is_from_rle"
     },
     {
       "market": "moldova",
@@ -116,9 +116,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:09.446858+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:41.439110+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Facordschool.md%2F&is_from_rle"
     },
     {
       "market": "georgia",
@@ -129,9 +129,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:10.022635+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:41.683532+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falc_tbilisi%2F&is_from_rle"
     },
     {
       "market": "georgia",
@@ -142,9 +142,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:11.610632+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:41.927184+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fihtbilisi%2F&is_from_rle"
     },
     {
       "market": "georgia",
@@ -155,9 +155,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:13.194933+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:42.169735+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbritish_centre_georgia%2F&is_from_rle"
     },
     {
       "market": "georgia",
@@ -168,9 +168,9 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-10-13T11:31:13.586377+00:00",
-      "status": "partial",
-      "error": "followers_not_found_on_public_profile"
+      "last_checked": "2026-10-14T09:21:42.410376+00:00",
+      "status": "error",
+      "error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgoga_askurava%2F&is_from_rle"
     }
   ]
 }
