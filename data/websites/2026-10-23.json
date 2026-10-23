@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-23",
+  "count": 18,
+  "results": [
+    {
+      "market": "moldova",
+      "name": "ALC Moldova",
+      "url": "https://alc.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:30.517520+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Top English",
+      "url": "https://topenglish.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:32.589102+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Linguata",
+      "url": "https://linguata.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:36.126083+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Oratorica",
+      "url": "https://www.oratorica.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:37.457568+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Engleza cu Snow",
+      "url": "https://englezacusnow.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:43.577319+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Alliance Francaise",
+      "url": "https://alliancefrancaise.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
+      "last_checked": "2026-10-23T09:11:43.858076+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "ILTC",
+      "url": "https://iltc.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:45.234700+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Terra Nova",
+      "url": "https://www.terranovamd.com",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:46.263634+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Quo Vadis",
+      "url": "https://quo-vadis.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:46.521522+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Smile English",
+      "url": "https://englishclub.md",
+      "status": "ok",
+      "change_ratio": 0.0007,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:47.544265+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Acord School",
+      "url": "https://www.acordschool.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:11:52.464187+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "ALC Georgia",
+      "url": "https://alctbilisi.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
+      "last_checked": "2026-10-23T09:11:55.371501+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "Goethe-Institut Georgia",
+      "url": "https://www.goethe.de/ins/ge/en/index.html",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
+      "last_checked": "2026-10-23T09:11:55.574636+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Council",
+      "url": "https://www.britishcouncil.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
+      "last_checked": "2026-10-23T09:12:10.837261+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "International House",
+      "url": "https://ihtbilisi.ge",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:12:16.243913+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "Institut francais",
+      "url": "https://institutfrancais.ge",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://institutfrancais.ge/",
+      "last_checked": "2026-10-23T09:12:16.579029+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Centre Georgia",
+      "url": "https://bc.ge",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-23T09:12:17.865877+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "Goga Askurava",
+      "url": "https://gaiholding.com.ge",
+      "status": "ok",
+      "change_ratio": 0.2848,
+      "changed": true,
+      "last_checked": "2026-10-23T09:12:23.804991+00:00"
+    }
+  ],
+  "changes": [
+    {
+      "market": "georgia",
+      "name": "Goga Askurava",
+      "url": "https://gaiholding.com.ge",
+      "change_ratio": 0.2848,
+      "detected_at": "2026-10-23T09:12:23.804654+00:00",
+      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-Home - Language Skip to content Language Base HOME ABOUT US HISTORY TEAM WHAT IS BILDUNGSURLAUB? PRODUCTS RUSSIAN LANGUAGE COURSE GEORGIAN LANGUAGE COURSE ENGLISH LANGUAGE COURSE SIMULTANEOUS INTERPRETATION COURSE CORRECTION OF PRONUNCIATION LANGUAGE COURSE CALCULATOR LANGUAGE COURSE ONLINE TEST NEWS CONTACT HOME ABOUT US HISTORY TEAM WHAT IS BILDUNGSURLAUB? PRODUCTS RUSSIAN LANGUAGE COURSE GEORGIAN LANGUAGE COURSE ENGLISH LANGUAGE COURSE SIMULTANEOUS INTERPRETATION COURSE CORRECTION OF PRONUNCIATION LANGUAGE COURSE CALCULATOR LANGUAGE COURSE ONLINE TEST NEWS CONTACT Obtain the Knowledge that Guarantees Success! Language Course Price Calculator You frequently encounter obstacles because you: Have difficulty applying what you've learned in practical situations Feel anxious about speaking in a foreign language Feel disappointed by previous courses that did not deliver on the promised teaching methodologies or interaction with professional teachers Have sufficient basic knowledge but lack the ability to speak fluently Do not have enough time for a long-term course Studied in a group that was inappropriate for your knowledge level, making it difficult to internalise the material. Our Centre offers a training methodology that allows you to identify the most effective programme for your needs and ensures you don't miss out on exciting updates: Improving listening skills is crucial for maximizing results when learning a foreign language. Therefore, we provide instruction using consecutive and simultaneous interpreting methods. To overcome any apprehensions about speaking, our one-to-one and group courses include specialized exercises that accelerate skill development by three to four times. To save you time, our training programme is thoughtfully designed to minimise the time required to master each proficiency level. Based on an interview, our teachers will individually determine the programme you need and recommend materials that will increase the possibility of achieving the best results. Products RUSSIAN COURSE FOR FOREIGNERS When you apply for the Russian language course at the Goga Askurava Language Centre, you do an entry grammar and vocabulary free test that helps us to determine your level. LEARN MORE GEORGIAN COURSE FOR FOREIGNERS Georgian Language Integrated Course is intended for all students of any age and level. It covers the situations, vocabulary and grammar required to take students up to B2 level and it also covers some of the additional structures required at a more advanced level. LEARN MORE ENGLISH LANGUAGE COURSE While providing training in the training center, special attention is paid to the development of communication skills, which promotes the listeners’ self-confidence while speaking in English, as well as efficient… LEARN MORE SIMULTANEOUS INTERPRETATION COURSE The course of simultaneous interpretation allows the students to improve qualitatively their level of English language proficiency. The country’s leading simultaneous interpreters with students… LEARN MORE About Us 7632 21500 Students 22 25 Years on market 11 18 Teachers Learn More Blog/News May 5 2025 Congratulations to our students from Manchester University! May 5 2025 Congratulations to our students from Leeds University! Apr 14 2020 Online Distance Learning Courses Feb 10 2020 Georgian as a foreign language Feb 4 2020 Russian as a foreign language Nov 13 2019 5 golden rules of a professional simultaneous interpreter See Blog YOUTUBE Channel Go to YOUTUBE Channel HOW TO FIND US? SEND US A MESSAGE [] 1 Step 1 Name your full name Mobile ტელეფონი E-mail a valid email email MESSAGE MESSAGE Submit keyboard_arrow_left Previous Next keyboard_arrow_right © GAIHOLDING.COM.GE. ALL RIGHTS RESERVED Terms & Conditions Privacy Policy Footer Menu Go to Top Facebook Instagram YouTube [] 1 Step 1 სახელი your full name ტელეფონი ტელეფონი ელ. ფოსტა a valid email email გაგზავნა keyboard_arrow_left Previous Next keyboard_arrow_right დახურვა [] 1 Step 1 Name your full name Mobile ტელეფონი E-mail a valid email email Submit keyboard_arrow_left Previous Next keyboard_arrow_right Close [] 1 Step 1 имя your full name телефон ტელეფონი E. почта a valid email email Отправить keyboard_arrow_left Previous Next keyboard_arrow_right Закрыть [] 1 Step 1 Անուն your full name Բջջային ტელეფონი էլեկտրոնային հասցե a valid email email Ներկայացնել keyboard_arrow_left Previous Next keyboard_arrow_right փակել\n+Home - Language Skip to content Language Base HOME ABOUT US HISTORY TEAM WHAT IS BILDUNGSURLAUB? PRODUCTS RUSSIAN LANGUAGE COURSE GEORGIAN LANGUAGE COURSE ENGLISH LANGUAGE COURSE SIMULTANEOUS INTERPRETATION COURSE CORRECTION OF PRONUNCIATION LANGUAGE COURSE CALCULATOR LANGUAGE COURSE ONLINE TEST NEWS CONTACT HOME ABOUT US HISTORY TEAM WHAT IS BILDUNGSURLAUB? PRODUCTS RUSSIAN LANGUAGE COURSE GEORGIAN LANGUAGE COURSE ENGLISH LANGUAGE COURSE SIMULTANEOUS INTERPRETATION COURSE CORRECTION OF PRONUNCIATION LANGUAGE COURSE CALCULATOR LANGUAGE COURSE ONLINE TEST NEWS CONTACT Obtain the Knowledge that Guarantees Success! Language Course Price Calculator You frequently encounter obstacles because you: Have difficulty applying what you've learned in practical situations Feel anxious about speaking in a foreign language Feel disappointed by previous courses that did not deliver on the promised teaching methodologies or interaction with professional teachers Have sufficient basic knowledge but lack the ability to speak fluently Do not have enough time for a long-term course Studied in a group that was inappropriate for your knowledge level, making it difficult to internalise the material. Our Centre offers a training methodology that allows you to identify the most effective programme for your needs and ensures you don't miss out on exciting updates: Improving listening skills is crucial for maximizing results when learning a foreign language. Therefore, we provide instruction using consecutive and simultaneous interpreting methods. To overcome any apprehensions about speaking, our one-to-one and group courses include specialized exercises that accelerate skill development by three to four times. To save you time, our training programme is thoughtfully designed to minimise the time required to master each proficiency level. Based on an interview, our teachers will individually determine the programme you need and recommend materials that will increase the possibility of achieving the best results. Products RUSSIAN COURSE FOR FOREIGNERS When you apply for the Russian language course at the Goga Askurava Language Centre, you do an entry grammar and vocabulary free test that helps us to determine your level. LEARN MORE GEORGIAN COURSE FOR FOREIGNERS Georgian Language Integrated Course is intended for all students of any age and level. It covers the situations, vocabulary and grammar required to take students up to B2 level and it also covers some of the additional structures required at a more advanced level. LEARN MORE ENGLISH LANGUAGE COURSE While providing training in the training center, special attention is paid to the development of communication skills, which promotes the listeners’ self-confidence while speaking in English, as well as efficient… LEARN MORE SIMULTANEOUS INTERPRETATION COURSE The course of simultaneous interpretation allows the students to improve qualitatively their level of English language proficiency. The country’s leading simultaneous interpreters with students… LEARN MORE About Us [mpc_counter preset=”mpc_preset_11″ layout=”style_5″ title_font_color=”#ffffff” title_font_size=”18″ title_font_line_height=”1″ title_font_transform=”uppercase” title=”Students” counter_font_preset=”mpc_preset_29″ counter_font_color=”#888888″ counter_font_size=”50″ counter_font_line_height=”1.55″ type=”random” value=”21500″ duration=”2200″ delay=”0″ background_color=”#3f3f3f” border_css=”border-radius:10px;” padding_divider=”true” padding_css=”padding-top:35px;padding-right:100px;padding-bottom:40px;padding-left:70px;” mpc_icon__icon=”fa fa-child” mpc_icon__icon_color=”#888888″ mpc_icon__icon_size=”50″ mpc_icon__padding_divider=”true” mpc_icon__margin_divider=”true” mpc_icon__margin_css=”margin-bottom:0px;” mpc_divider__disable=”true”] [mpc_counter preset=”mpc_preset_11″ layout=”style_5″ title_font_color=”#ffffff” title_font_size=”18″ title_font_line_height=”1″ title_font_transform=”uppercase” title=”Years on market” counter_font_preset=”mpc_preset_29″ counter_font_color=”#888888″ counter_font_size=”50″ counter_font_line_height=”1.55″ type=”random” value=”25″ duration=”2200″ delay=”0″ background_color=”#3f3f3f” border_css=”border-radius:10px;” padding_divider=”true” padding_css=”padding-top:35px;padding-right:100px;padding-bottom:40px;padding-left:70px;” mpc_icon__icon=”fa fa-calendar” mpc_icon__icon_color=”#888888″ mpc_icon__icon_size=”50″ mpc_icon__padding_divider=”true” mpc_icon__margin_divider=”true” mpc_icon__margin_css=”margin-bottom:0px;” mpc_divider__disable=”true”] [mpc_counter preset=”mpc_preset_11″ layout=”style_5″ title_font_color=”#ffffff” title_font_size=”18″ title_font_line_height=”1″ title_font_transform=”uppercase” title=”Teachers” counter_font_preset=”mpc_preset_29″ counter_font_color=”#888888″ counter_font_size=”50″ counter_font_line_height=”1.55″ type=”random” value=”18″ duration=”2200″ delay=”0″ background_color=”#3f3f3f” border_css=”border-radius:10px;” padding_divider=”true” padding_css=”padding-top:35px;padding-right:100px;padding-bottom:40px;padding-left:70px;” mpc_icon__icon=”fa fa-users” mpc_icon__icon_color=”#888888″ mpc_icon__icon_size=”50″ mpc_icon__padding_divider=”true” mpc_icon__margin_divider=”true” mpc_icon__margin_css=”margin-bottom:0px;” mpc_divider__disable=”true”] Learn More Blog/News May 5 2025 Congratulations to our students from Manchester University! May 5 2025 Congratulations to our students from Leeds University! Apr 14 2020 Online Distance Learning Courses Feb 10 2020 Georgian as a foreign language Feb 4 2020 Russian as a foreign language Nov 13 2019 5 golden rules of a professional simultaneous interpreter See Blog YOUTUBE Channel Go to YOUTUBE Channel HOW TO FIND US? SEND US A MESSAGE [] 1 Step 1 Name your full name Mobile ტელეფონი E-mail a valid email email MESSAGE MESSAGE Submit keyboard_arrow_left Previous Next keyboard_arrow_right © GAIHOLDING.COM.GE. ALL RIGHTS RESERVED Terms & Conditions Privacy Policy Footer Menu Go to Top Facebook Instagram YouTube [] 1 Step 1 Անուն your full name Բջջային ტელეფონი էլեկտրոնային հասցե a valid email email Ներկայացնել keyboard_arrow_left Previous Next keyboard_arrow_right փակել [] 1 Step 1 имя your full name телефон ტელეფონი E. почта a valid email email Отправить keyboard_arrow_left Previous Next keyboard_arrow_right Закрыть [] 1 Step 1 Name your full name Mobile ტელეფონი E-mail a valid email email Submit keyboard_arrow_left Previous Next keyboard_arrow_right Close [] 1 Step 1 სახელი your full name ტელეფონი ტელეფონი ელ. ფოსტა a valid email email გაგზავნა keyboard_arrow_left Previous Next keyboard_arrow_right დახურვა"
+    }
+  ]
+}
