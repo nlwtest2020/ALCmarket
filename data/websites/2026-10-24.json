@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-24",
+  "count": 18,
+  "results": [
+    {
+      "market": "moldova",
+      "name": "ALC Moldova",
+      "url": "https://alc.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:28.273097+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Top English",
+      "url": "https://topenglish.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:29.011998+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Linguata",
+      "url": "https://linguata.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:33.110616+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Oratorica",
+      "url": "https://www.oratorica.md",
+      "status": "ok",
+      "change_ratio": 0.008,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:34.253450+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Engleza cu Snow",
+      "url": "https://englezacusnow.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:35.476974+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Alliance Francaise",
+      "url": "https://alliancefrancaise.md",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
+      "last_checked": "2026-10-24T08:44:35.612946+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "moldova",
+      "name": "ILTC",
+      "url": "https://iltc.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:36.947310+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Terra Nova",
+      "url": "https://www.terranovamd.com",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:37.656677+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Quo Vadis",
+      "url": "https://quo-vadis.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:37.954915+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Smile English",
+      "url": "https://englishclub.md",
+      "status": "ok",
+      "change_ratio": 0.0009,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:38.923936+00:00"
+    },
+    {
+      "market": "moldova",
+      "name": "Acord School",
+      "url": "https://www.acordschool.md",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:44:43.597431+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "ALC Georgia",
+      "url": "https://alctbilisi.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
+      "last_checked": "2026-10-24T08:44:49.587118+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "Goethe-Institut Georgia",
+      "url": "https://www.goethe.de/ins/ge/en/index.html",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
+      "last_checked": "2026-10-24T08:44:49.831511+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Council",
+      "url": "https://www.britishcouncil.ge",
+      "status": "error",
+      "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
+      "last_checked": "2026-10-24T08:45:05.367898+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "International House",
+      "url": "https://ihtbilisi.ge",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:45:10.840925+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "Institut francais",
+      "url": "https://institutfrancais.ge",
+      "status": "error",
+      "error": "403 Client Error: Forbidden for url: https://institutfrancais.ge/",
+      "last_checked": "2026-10-24T08:45:11.036815+00:00",
+      "change_ratio": null,
+      "changed": false
+    },
+    {
+      "market": "georgia",
+      "name": "British Centre Georgia",
+      "url": "https://bc.ge",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:45:12.200777+00:00"
+    },
+    {
+      "market": "georgia",
+      "name": "Goga Askurava",
+      "url": "https://gaiholding.com.ge",
+      "status": "ok",
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-24T08:45:20.022837+00:00"
+    }
+  ],
+  "changes": []
+}
