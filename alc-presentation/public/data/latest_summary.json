@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28T10:26:26.293755+00:00",
+  "generated_at": "2026-10-29T10:45:53.057440+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
     "websites_tracked": 18,
-    "website_changes": 0
+    "website_changes": 1
   },
   "status": {
     "facebook": {
@@ -14,13 +14,13 @@
     },
     "instagram": {
       "ok": 0,
-      "partial": 13,
-      "error": 0
+      "partial": 0,
+      "error": 13
     },
     "website": {
-      "ok": 12,
+      "ok": 14,
       "partial": 0,
-      "error": 6
+      "error": 4
     }
   },
   "competitors": [
@@ -31,8 +31,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falc_tbilisi",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falc_tbilisi%2F&is_from_rle",
       "website_change_ratio": null,
       "website_status": "error",
       "website_error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r"
@@ -44,8 +44,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbritish_centre_georgia",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fbritish_centre_georgia%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -77,8 +77,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgoga_askurava",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgoga_askurava%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -86,9 +86,9 @@
     {
       "market": "georgia",
       "name": "Institut francais",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='institutfrancais.ge', port=443): Read timed out. (read timeout=15)"
+      "website_change_ratio": 0.9911,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "georgia",
@@ -97,8 +97,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FIHTbilisi",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fihtbilisi%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -120,8 +120,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facordschool.md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Facordschool.md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -140,8 +140,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fengleza_cu_snow",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fengleza_cu_snow%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -153,8 +153,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Filtc.md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Filtc.md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -166,8 +166,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLinguataSchoolsMoldova",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinguata_schools_md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -179,11 +179,11 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Foratorica.md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
-      "website_change_ratio": null,
-      "website_status": "error",
-      "website_error": "HTTPSConnectionPool(host='www.oratorica.md', port=443): Read timed out."
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foratorica.md%2F&is_from_rle",
+      "website_change_ratio": 0.0589,
+      "website_status": "ok",
+      "website_error": null
     },
     {
       "market": "moldova",
@@ -192,8 +192,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fquovadis.md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fquovadis.md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -205,9 +205,9 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsmile.english.club",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
-      "website_change_ratio": 0.0005,
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsmile.english.club%2F&is_from_rle",
+      "website_change_ratio": 0.0004,
       "website_status": "ok",
       "website_error": null
     },
@@ -218,8 +218,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fterranova_md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fterranova_md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -231,12 +231,21 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ftopenglish_md",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftopenglish_md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
     }
   ],
-  "website_changes": []
+  "website_changes": [
+    {
+      "market": "georgia",
+      "name": "Institut francais",
+      "url": "https://institutfrancais.ge",
+      "change_ratio": 0.9911,
+      "detected_at": "2026-10-29T10:45:46.475147+00:00",
+      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-BientÃ´t en ligne â Institut franÃ§ais Notre site sera bientÃ´t en ligne\n+Institut Français Géorgie Menu Search Menu Institut Français Géorgie Cours Adultes Ado/Enfants Tarifs Inscription Livres d’apprentissage HANAF Examens Calendrier des examens Tarifs Types d’Examens DELF TCF Tout public (DAP) TEF/TEFAQ Test « Score IAE-Message » DAEFLE S’inscrire Cours de préparation aux examens Coopération culturelle et éducative Culture Universitaire et Scientifique Linguistique Nos missions Ecoles et enseignants Formations et mobilités Rendez-vous francophones Ressources pédagogiques Événements Appels à projets Étudier en France Les études et la recherche en France L’enseignement en France Recherche Santé Comment s’inscrire Choisir sa formation Candidature à une formation Procédure pré-consulaire Contactez Campus France Géorgie Programmes de bourses Mobilité étudiante Alumni Médiathèque Les ressources et activités de la médiathèque Tarifs S’inscrire à la Médiathèque La coopération dans le domaine du livre Le Programme d’aide à la publication (PAP) du nom de « Mérab Mamardashvili » Soutien à la mobilité d’un(e) auteur(e) pour une résidence de création littéraire en France Promotion des traductions publiées et soutien à la commercialisation Culturetheque Plan & Adresse Qui sommes-nous ? Missions et actions L’équipe Infos pratiques Offres d’emploi et de stage Partenaires Search Search for: Search Cours Adultes Ado/Enfants Tarifs Inscription Livres d’apprentissage HANAF Examens Calendrier des examens Tarifs Types d’Examens DELF TCF Tout public (DAP) TEF/TEFAQ Test « Score IAE-Message » DAEFLE S’inscrire Cours de préparation aux examens Coopération culturelle et éducative Culture Universitaire et Scientifique Linguistique Nos missions Ecoles et enseignants Formations et mobilités Rendez-vous francophones Ressources pédagogiques Événements Appels à projets Étudier en France Les études et la recherche en France L’enseignement en France Recherche Santé Comment s’inscrire Choisir sa formation Candidature à une formation Procédure pré-consulaire Contactez Campus France Géorgie Programmes de bourses Mobilité étudiante Alumni Médiathèque Les ressources et activités de la médiathèque Tarifs S’inscrire à la Médiathèque La coopération dans le domaine du livre Le Programme d’aide à la publication (PAP) du nom de « Mérab Mamardashvili » Soutien à la mobilité d’un(e) auteur(e) pour une résidence de création littéraire en France Promotion des traductions publiées et soutien à la commercialisation Culturetheque Plan & Adresse Qui sommes-nous ? Missions et actions L’équipe Infos pratiques Offres d’emploi et de stage Partenaires À la une Nos activités Cours → Examens → Étudier en France → Présentation de l’IFG Inscription au cours de français Inscriptions aux Examens Aucune inscription disponible. Événements à venir Etudes en France – les inscriptions sont ouvertes ! 01 octobre 2026 Appel à candidatures: Résidences d’artistes Art Explora 30 octobre 2026 APPEL A CANDIDATURES : « Lumières géorgiennes » 30 octobre 2026 Voir plus Plan d'accès Réseaux Sociaux Inscription à notre Newsletter Inscription J'accepte les conditions Ajouter un autre email Col 1 Col 2 Ciné Club Partenaires Ambassade de France Université Franco-Géorgienne Test Test Demo 4 Demo 5 Demo 6 Institut Français de Géorgie Institut français, tous droits réservés 2026 back to top"
+    }
+  ]
 }
