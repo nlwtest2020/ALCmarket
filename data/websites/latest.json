@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "count": 18,
   "results": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:08.824542+00:00"
+      "last_checked": "2026-10-30T10:44:48.118076+00:00"
     },
     {
       "market": "moldova",
@@ -18,7 +18,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:09.315500+00:00"
+      "last_checked": "2026-10-30T10:44:49.264204+00:00"
     },
     {
       "market": "moldova",
@@ -27,16 +27,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:11.464335+00:00"
+      "last_checked": "2026-10-30T10:44:53.077807+00:00"
     },
     {
       "market": "moldova",
       "name": "Oratorica",
       "url": "https://www.oratorica.md",
       "status": "ok",
-      "change_ratio": 0.0589,
+      "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:12.634768+00:00"
+      "last_checked": "2026-10-30T10:44:54.437446+00:00"
     },
     {
       "market": "moldova",
@@ -45,7 +45,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:13.938050+00:00"
+      "last_checked": "2026-10-30T10:44:56.222821+00:00"
     },
     {
       "market": "moldova",
@@ -53,7 +53,7 @@
       "url": "https://alliancefrancaise.md",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
-      "last_checked": "2026-10-29T10:45:14.095854+00:00",
+      "last_checked": "2026-10-30T10:44:56.387296+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -64,7 +64,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:15.350678+00:00"
+      "last_checked": "2026-10-30T10:44:57.847476+00:00"
     },
     {
       "market": "moldova",
@@ -73,7 +73,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:16.029077+00:00"
+      "last_checked": "2026-10-30T10:44:58.764065+00:00"
     },
     {
       "market": "moldova",
@@ -82,16 +82,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:16.300513+00:00"
+      "last_checked": "2026-10-30T10:44:59.088429+00:00"
     },
     {
       "market": "moldova",
       "name": "Smile English",
       "url": "https://englishclub.md",
       "status": "ok",
-      "change_ratio": 0.0004,
+      "change_ratio": 0.0002,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:17.177687+00:00"
+      "last_checked": "2026-10-30T10:45:00.271669+00:00"
     },
     {
       "market": "moldova",
@@ -100,7 +100,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:21.890732+00:00"
+      "last_checked": "2026-10-30T10:45:03.914552+00:00"
     },
     {
       "market": "georgia",
@@ -108,7 +108,7 @@
       "url": "https://alctbilisi.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
-      "last_checked": "2026-10-29T10:45:24.085693+00:00",
+      "last_checked": "2026-10-30T10:45:07.073571+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -118,7 +118,7 @@
       "url": "https://www.goethe.de/ins/ge/en/index.html",
       "status": "error",
       "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
-      "last_checked": "2026-10-29T10:45:24.356206+00:00",
+      "last_checked": "2026-10-30T10:45:07.320046+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -128,7 +128,7 @@
       "url": "https://www.britishcouncil.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
-      "last_checked": "2026-10-29T10:45:39.686728+00:00",
+      "last_checked": "2026-10-30T10:45:22.448254+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -139,16 +139,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:45.543439+00:00"
+      "last_checked": "2026-10-30T10:45:28.642839+00:00"
     },
     {
       "market": "georgia",
       "name": "Institut francais",
       "url": "https://institutfrancais.ge",
       "status": "ok",
-      "change_ratio": 0.9911,
-      "changed": true,
-      "last_checked": "2026-10-29T10:45:46.475892+00:00"
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-10-30T10:45:30.002999+00:00"
     },
     {
       "market": "georgia",
@@ -157,7 +157,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:47.502767+00:00"
+      "last_checked": "2026-10-30T10:45:31.091110+00:00"
     },
     {
       "market": "georgia",
@@ -166,17 +166,8 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-10-29T10:45:53.056632+00:00"
+      "last_checked": "2026-10-30T10:45:38.469867+00:00"
     }
   ],
-  "changes": [
-    {
-      "market": "georgia",
-      "name": "Institut francais",
-      "url": "https://institutfrancais.ge",
-      "change_ratio": 0.9911,
-      "detected_at": "2026-10-29T10:45:46.475147+00:00",
-      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-BientÃ´t en ligne â Institut franÃ§ais Notre site sera bientÃ´t en ligne\n+Institut Français Géorgie Menu Search Menu Institut Français Géorgie Cours Adultes Ado/Enfants Tarifs Inscription Livres d’apprentissage HANAF Examens Calendrier des examens Tarifs Types d’Examens DELF TCF Tout public (DAP) TEF/TEFAQ Test « Score IAE-Message » DAEFLE S’inscrire Cours de préparation aux examens Coopération culturelle et éducative Culture Universitaire et Scientifique Linguistique Nos missions Ecoles et enseignants Formations et mobilités Rendez-vous francophones Ressources pédagogiques Événements Appels à projets Étudier en France Les études et la recherche en France L’enseignement en France Recherche Santé Comment s’inscrire Choisir sa formation Candidature à une formation Procédure pré-consulaire Contactez Campus France Géorgie Programmes de bourses Mobilité étudiante Alumni Médiathèque Les ressources et activités de la médiathèque Tarifs S’inscrire à la Médiathèque La coopération dans le domaine du livre Le Programme d’aide à la publication (PAP) du nom de « Mérab Mamardashvili » Soutien à la mobilité d’un(e) auteur(e) pour une résidence de création littéraire en France Promotion des traductions publiées et soutien à la commercialisation Culturetheque Plan & Adresse Qui sommes-nous ? Missions et actions L’équipe Infos pratiques Offres d’emploi et de stage Partenaires Search Search for: Search Cours Adultes Ado/Enfants Tarifs Inscription Livres d’apprentissage HANAF Examens Calendrier des examens Tarifs Types d’Examens DELF TCF Tout public (DAP) TEF/TEFAQ Test « Score IAE-Message » DAEFLE S’inscrire Cours de préparation aux examens Coopération culturelle et éducative Culture Universitaire et Scientifique Linguistique Nos missions Ecoles et enseignants Formations et mobilités Rendez-vous francophones Ressources pédagogiques Événements Appels à projets Étudier en France Les études et la recherche en France L’enseignement en France Recherche Santé Comment s’inscrire Choisir sa formation Candidature à une formation Procédure pré-consulaire Contactez Campus France Géorgie Programmes de bourses Mobilité étudiante Alumni Médiathèque Les ressources et activités de la médiathèque Tarifs S’inscrire à la Médiathèque La coopération dans le domaine du livre Le Programme d’aide à la publication (PAP) du nom de « Mérab Mamardashvili » Soutien à la mobilité d’un(e) auteur(e) pour une résidence de création littéraire en France Promotion des traductions publiées et soutien à la commercialisation Culturetheque Plan & Adresse Qui sommes-nous ? Missions et actions L’équipe Infos pratiques Offres d’emploi et de stage Partenaires À la une Nos activités Cours → Examens → Étudier en France → Présentation de l’IFG Inscription au cours de français Inscriptions aux Examens Aucune inscription disponible. Événements à venir Etudes en France – les inscriptions sont ouvertes ! 01 octobre 2026 Appel à candidatures: Résidences d’artistes Art Explora 30 octobre 2026 APPEL A CANDIDATURES : « Lumières géorgiennes » 30 octobre 2026 Voir plus Plan d'accès Réseaux Sociaux Inscription à notre Newsletter Inscription J'accepte les conditions Ajouter un autre email Col 1 Col 2 Ciné Club Partenaires Ambassade de France Université Franco-Géorgienne Test Test Demo 4 Demo 5 Demo 6 Institut Français de Géorgie Institut français, tous droits réservés 2026 back to top"
-    }
-  ]
+  "changes": []
 }
