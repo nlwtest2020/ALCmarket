@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:06:18.943428+00:00",
+  "generated_at": "2026-11-03T11:43:29.810518+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
@@ -207,7 +207,7 @@
       "instagram_followers": null,
       "instagram_status": "partial",
       "instagram_error": "followers_not_found_on_public_profile",
-      "website_change_ratio": 0.0005,
+      "website_change_ratio": 0.016,
       "website_status": "ok",
       "website_error": null
     },
@@ -233,7 +233,7 @@
       "instagram_followers": null,
       "instagram_status": "partial",
       "instagram_error": "followers_not_found_on_public_profile",
-      "website_change_ratio": 0.0074,
+      "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
     }
