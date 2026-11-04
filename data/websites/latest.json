@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "count": 18,
   "results": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:45.549302+00:00"
+      "last_checked": "2026-11-04T11:55:30.139664+00:00"
     },
     {
       "market": "moldova",
@@ -18,7 +18,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:46.022458+00:00"
+      "last_checked": "2026-11-04T11:55:31.340107+00:00"
     },
     {
       "market": "moldova",
@@ -27,7 +27,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:48.104802+00:00"
+      "last_checked": "2026-11-04T11:55:34.232408+00:00"
     },
     {
       "market": "moldova",
@@ -36,7 +36,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:49.225555+00:00"
+      "last_checked": "2026-11-04T11:55:35.424996+00:00"
     },
     {
       "market": "moldova",
@@ -45,7 +45,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:50.718969+00:00"
+      "last_checked": "2026-11-04T11:55:36.900801+00:00"
     },
     {
       "market": "moldova",
@@ -53,7 +53,7 @@
       "url": "https://alliancefrancaise.md",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
-      "last_checked": "2026-11-03T11:42:50.950448+00:00",
+      "last_checked": "2026-11-04T11:55:37.068306+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -64,7 +64,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:52.082273+00:00"
+      "last_checked": "2026-11-04T11:55:38.666559+00:00"
     },
     {
       "market": "moldova",
@@ -73,7 +73,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:52.802816+00:00"
+      "last_checked": "2026-11-04T11:55:39.593530+00:00"
     },
     {
       "market": "moldova",
@@ -82,16 +82,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:53.042339+00:00"
+      "last_checked": "2026-11-04T11:55:39.783896+00:00"
     },
     {
       "market": "moldova",
       "name": "Smile English",
       "url": "https://englishclub.md",
       "status": "ok",
-      "change_ratio": 0.016,
+      "change_ratio": 0.0002,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:53.999992+00:00"
+      "last_checked": "2026-11-04T11:55:40.943897+00:00"
     },
     {
       "market": "moldova",
@@ -100,7 +100,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:42:56.124021+00:00"
+      "last_checked": "2026-11-04T11:55:46.284946+00:00"
     },
     {
       "market": "georgia",
@@ -108,7 +108,7 @@
       "url": "https://alctbilisi.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
-      "last_checked": "2026-11-03T11:42:58.532794+00:00",
+      "last_checked": "2026-11-04T11:55:49.883892+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -118,7 +118,7 @@
       "url": "https://www.goethe.de/ins/ge/en/index.html",
       "status": "error",
       "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
-      "last_checked": "2026-11-03T11:42:58.738901+00:00",
+      "last_checked": "2026-11-04T11:55:49.931043+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -128,7 +128,7 @@
       "url": "https://www.britishcouncil.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
-      "last_checked": "2026-11-03T11:43:14.010412+00:00",
+      "last_checked": "2026-11-04T11:56:05.115773+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -139,7 +139,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:43:19.348447+00:00"
+      "last_checked": "2026-11-04T11:56:10.667231+00:00"
     },
     {
       "market": "georgia",
@@ -148,7 +148,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:43:20.441748+00:00"
+      "last_checked": "2026-11-04T11:56:12.042896+00:00"
     },
     {
       "market": "georgia",
@@ -157,7 +157,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:43:21.713717+00:00"
+      "last_checked": "2026-11-04T11:56:13.277792+00:00"
     },
     {
       "market": "georgia",
@@ -166,7 +166,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-03T11:43:29.797503+00:00"
+      "last_checked": "2026-11-04T11:56:20.903487+00:00"
     }
   ],
   "changes": []
