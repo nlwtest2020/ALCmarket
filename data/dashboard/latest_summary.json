@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:59:11.355383+00:00",
+  "generated_at": "2026-11-06T11:55:40.849008+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
@@ -168,7 +168,7 @@
       "instagram_followers": null,
       "instagram_status": "partial",
       "instagram_error": "followers_not_found_on_public_profile",
-      "website_change_ratio": 0.056,
+      "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
     },
