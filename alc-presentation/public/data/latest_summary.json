@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:38:33.044192+00:00",
+  "generated_at": "2026-11-10T12:18:23.245172+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
@@ -14,8 +14,8 @@
     },
     "instagram": {
       "ok": 0,
-      "partial": 0,
-      "error": 13
+      "partial": 1,
+      "error": 12
     },
     "website": {
       "ok": 14,
@@ -31,8 +31,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falc_tbilisi",
       "instagram_followers": null,
-      "instagram_status": "error",
-      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Falc_tbilisi%2F&is_from_rle",
+      "instagram_status": "partial",
+      "instagram_error": "followers_not_found_on_public_profile",
       "website_change_ratio": null,
       "website_status": "error",
       "website_error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r"
@@ -181,7 +181,7 @@
       "instagram_followers": null,
       "instagram_status": "error",
       "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foratorica.md%2F&is_from_rle",
-      "website_change_ratio": 0.0,
+      "website_change_ratio": 0.0009,
       "website_status": "ok",
       "website_error": null
     },
@@ -207,7 +207,7 @@
       "instagram_followers": null,
       "instagram_status": "error",
       "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsmile.english.club%2F&is_from_rle",
-      "website_change_ratio": 0.0006,
+      "website_change_ratio": 0.0005,
       "website_status": "ok",
       "website_error": null
     },
