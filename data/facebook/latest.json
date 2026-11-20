@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "platform": "facebook",
   "count": 16,
   "results": [
@@ -12,7 +12,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:24.649184+00:00",
+      "last_checked": "2026-11-20T12:35:55.544912+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FALC.cursuri.engleza"
     },
@@ -25,7 +25,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:24.814321+00:00",
+      "last_checked": "2026-11-20T12:35:55.705260+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ftopenglish_md"
     },
@@ -38,7 +38,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:24.980328+00:00",
+      "last_checked": "2026-11-20T12:35:55.834563+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLinguataSchoolsMoldova"
     },
@@ -51,7 +51,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.111449+00:00",
+      "last_checked": "2026-11-20T12:35:56.020216+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Foratorica.md"
     },
@@ -64,7 +64,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.214516+00:00",
+      "last_checked": "2026-11-20T12:35:56.156359+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fengleza_cu_snow"
     },
@@ -77,7 +77,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.319224+00:00",
+      "last_checked": "2026-11-20T12:35:56.334572+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Filtc.md"
     },
@@ -90,7 +90,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.466151+00:00",
+      "last_checked": "2026-11-20T12:35:56.438325+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fterranova_md"
     },
@@ -103,7 +103,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.574786+00:00",
+      "last_checked": "2026-11-20T12:35:56.556435+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fquovadis.md"
     },
@@ -116,7 +116,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.736624+00:00",
+      "last_checked": "2026-11-20T12:35:56.682041+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fsmile.english.club"
     },
@@ -129,7 +129,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.867783+00:00",
+      "last_checked": "2026-11-20T12:35:56.780956+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Facordschool.md"
     },
@@ -142,7 +142,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:25.971141+00:00",
+      "last_checked": "2026-11-20T12:35:56.926235+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Falc_tbilisi"
     },
@@ -155,7 +155,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:26.086844+00:00",
+      "last_checked": "2026-11-20T12:35:57.077522+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FGoetheInstitutGeorgien"
     },
@@ -168,7 +168,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:26.210572+00:00",
+      "last_checked": "2026-11-20T12:35:57.271253+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FBritishCouncilGeorgia"
     },
@@ -181,7 +181,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:26.308267+00:00",
+      "last_checked": "2026-11-20T12:35:57.428205+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FIHTbilisi"
     },
@@ -194,7 +194,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:26.459570+00:00",
+      "last_checked": "2026-11-20T12:35:57.567459+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fbritish_centre_georgia"
     },
@@ -207,7 +207,7 @@
       "posts": null,
       "engagement_rate": null,
       "last_post_age_days": null,
-      "last_checked": "2026-11-19T12:36:26.558914+00:00",
+      "last_checked": "2026-11-20T12:35:57.702762+00:00",
       "status": "error",
       "error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgoga_askurava"
     }
