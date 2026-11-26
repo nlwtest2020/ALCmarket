@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:00:18.972061+00:00",
+  "generated_at": "2026-11-26T13:39:33.738901+00:00",
   "totals": {
     "facebook_tracked": 16,
     "instagram_tracked": 13,
@@ -9,13 +9,13 @@
   "status": {
     "facebook": {
       "ok": 0,
-      "partial": 0,
-      "error": 16
+      "partial": 1,
+      "error": 15
     },
     "instagram": {
       "ok": 0,
-      "partial": 1,
-      "error": 12
+      "partial": 0,
+      "error": 13
     },
     "website": {
       "ok": 14,
@@ -54,8 +54,8 @@
       "market": "georgia",
       "name": "British Council",
       "facebook_followers": null,
-      "facebook_status": "error",
-      "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FBritishCouncilGeorgia",
+      "facebook_status": "partial",
+      "facebook_error": "followers_not_found_on_public_page",
       "website_change_ratio": null,
       "website_status": "error",
       "website_error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)"
@@ -142,7 +142,7 @@
       "instagram_followers": null,
       "instagram_status": "error",
       "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fengleza_cu_snow%2F&is_from_rle",
-      "website_change_ratio": 0.0009,
+      "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
     },
@@ -166,8 +166,8 @@
       "facebook_status": "error",
       "facebook_error": "400 Client Error: Bad Request for url: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FLinguataSchoolsMoldova",
       "instagram_followers": null,
-      "instagram_status": "partial",
-      "instagram_error": "followers_not_found_on_public_profile",
+      "instagram_status": "error",
+      "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Flinguata_schools_md%2F&is_from_rle",
       "website_change_ratio": 0.0,
       "website_status": "ok",
       "website_error": null
@@ -181,7 +181,7 @@
       "instagram_followers": null,
       "instagram_status": "error",
       "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Foratorica.md%2F&is_from_rle",
-      "website_change_ratio": 0.0784,
+      "website_change_ratio": 0.0472,
       "website_status": "ok",
       "website_error": null
     },
@@ -207,7 +207,7 @@
       "instagram_followers": null,
       "instagram_status": "error",
       "instagram_error": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsmile.english.club%2F&is_from_rle",
-      "website_change_ratio": 0.0005,
+      "website_change_ratio": 0.0004,
       "website_status": "ok",
       "website_error": null
     },
