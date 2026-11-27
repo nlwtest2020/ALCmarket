@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "count": 18,
   "results": [
     {
@@ -9,7 +9,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:42.515528+00:00"
+      "last_checked": "2026-11-27T13:34:19.869135+00:00"
     },
     {
       "market": "moldova",
@@ -18,25 +18,25 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:43.449190+00:00"
+      "last_checked": "2026-11-27T13:34:20.407496+00:00"
     },
     {
       "market": "moldova",
       "name": "Linguata",
       "url": "https://linguata.md",
       "status": "ok",
-      "change_ratio": 0.0,
-      "changed": false,
-      "last_checked": "2026-11-26T13:38:46.419764+00:00"
+      "change_ratio": 0.9708,
+      "changed": true,
+      "last_checked": "2026-11-27T13:34:22.733932+00:00"
     },
     {
       "market": "moldova",
       "name": "Oratorica",
       "url": "https://www.oratorica.md",
       "status": "ok",
-      "change_ratio": 0.0472,
+      "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:47.801399+00:00"
+      "last_checked": "2026-11-27T13:34:23.887077+00:00"
     },
     {
       "market": "moldova",
@@ -45,7 +45,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:49.298817+00:00"
+      "last_checked": "2026-11-27T13:34:25.078809+00:00"
     },
     {
       "market": "moldova",
@@ -53,7 +53,7 @@
       "url": "https://alliancefrancaise.md",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
-      "last_checked": "2026-11-26T13:38:49.463791+00:00",
+      "last_checked": "2026-11-27T13:34:25.145702+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -64,7 +64,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:51.273149+00:00"
+      "last_checked": "2026-11-27T13:34:26.668627+00:00"
     },
     {
       "market": "moldova",
@@ -73,7 +73,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:52.043340+00:00"
+      "last_checked": "2026-11-27T13:34:27.366901+00:00"
     },
     {
       "market": "moldova",
@@ -82,16 +82,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:52.415724+00:00"
+      "last_checked": "2026-11-27T13:34:27.647725+00:00"
     },
     {
       "market": "moldova",
       "name": "Smile English",
       "url": "https://englishclub.md",
       "status": "ok",
-      "change_ratio": 0.0004,
+      "change_ratio": 0.0113,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:53.499561+00:00"
+      "last_checked": "2026-11-27T13:34:28.539275+00:00"
     },
     {
       "market": "moldova",
@@ -100,7 +100,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:38:58.599529+00:00"
+      "last_checked": "2026-11-27T13:34:30.844160+00:00"
     },
     {
       "market": "georgia",
@@ -108,7 +108,7 @@
       "url": "https://alctbilisi.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
-      "last_checked": "2026-11-26T13:39:01.940200+00:00",
+      "last_checked": "2026-11-27T13:34:33.458746+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -118,7 +118,7 @@
       "url": "https://www.goethe.de/ins/ge/en/index.html",
       "status": "error",
       "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
-      "last_checked": "2026-11-26T13:39:02.157111+00:00",
+      "last_checked": "2026-11-27T13:34:33.747326+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -128,7 +128,7 @@
       "url": "https://www.britishcouncil.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
-      "last_checked": "2026-11-26T13:39:17.307821+00:00",
+      "last_checked": "2026-11-27T13:34:48.945176+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -139,7 +139,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:39:21.968191+00:00"
+      "last_checked": "2026-11-27T13:34:53.442101+00:00"
     },
     {
       "market": "georgia",
@@ -148,7 +148,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:39:23.555427+00:00"
+      "last_checked": "2026-11-27T13:34:54.530664+00:00"
     },
     {
       "market": "georgia",
@@ -157,7 +157,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:39:24.880381+00:00"
+      "last_checked": "2026-11-27T13:34:55.483540+00:00"
     },
     {
       "market": "georgia",
@@ -166,8 +166,17 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-26T13:39:33.738287+00:00"
+      "last_checked": "2026-11-27T13:35:06.455810+00:00"
     }
   ],
-  "changes": []
+  "changes": [
+    {
+      "market": "moldova",
+      "name": "Linguata",
+      "url": "https://linguata.md",
+      "change_ratio": 0.9708,
+      "detected_at": "2026-11-27T13:34:22.733505+00:00",
+      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-Linguata – Scoli de Limbi Straine DESPRE NOI ISTORIC ECHIPA SEDIUL CENTRAL Cursuri ENGLEZA COPII ADOLESCENȚI PREGĂTIRE EXAMENE CAMBRIDGE IELTS TOEFL CURSURI CORPORATE ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI CURSURI ONLINE ENGLEZA COPII ADOLESCENȚI ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI PREGĂTIRE EXAMENE BAC CAMBRIDGE IELTS TOEFL CURSURI CORPORATE TESTARE ONLINE FAQs CONTACTE 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A DESPRE NOI ISTORIC ECHIPA SEDIUL CENTRAL Cursuri ENGLEZA COPII ADOLESCENȚI PREGĂTIRE EXAMENE CAMBRIDGE IELTS TOEFL CURSURI CORPORATE ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI CURSURI ONLINE ENGLEZA COPII ADOLESCENȚI ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI PREGĂTIRE EXAMENE BAC CAMBRIDGE IELTS TOEFL CURSURI CORPORATE TESTARE ONLINE FAQs CONTACTE Programe avizate de Ministerul Educației și Cercetării al Republicii Moldova Centru de Limbi Străine acreditat de către Agenția Națională de Asigurare a Calității în Educație și Cercetare (ANACEC) pentru o perioadă de 5 ani, prin Ordinul nr. 57 din 26.01.2021 al Ministerului Educației, Culturii și Cercetării al Republicii Moldova Centru autorizat de pregătire și susținere a examenului internațional Cambridge Mai multe… Centru autorizat de pregătire și testare a examenului internațional IELTS Mai multe… NOUTĂȚI Cursuri de limbi străine de dimineață cu reducere de 30% la înscriere! Oferta valabilă din 01 noiembrie până în data de 30 noiembrie. Prindeți un loc acum! Învață o limbă străină offline sau online cu Linguata, cea mai mare rețea de Școli de Limbi Străine din Moldova +373 68555662 De 30 de ani suntem orientați spre succes! Centru GOLD de pregătire Cambridge Linguata – Centru de Pregătire și Testare a examenului IELTS examen cu recunoaștere internațională! oriunde; oricând profesori de top grupe mici cursuri individuale plata în rate! <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Școala de Limbi Străine Linguata își extinde activitatea în or. Comrat! Începând cu 1 octombrie 2026 , Școala de Limbi Străine Linguata își extinde activitatea în UTA Găgăuzia, deschizând un nou sediu în incinta Universității de Stat din Comrat . Deschiderea noului sediu are loc în baza acordului de colaborare și a parteneriatului dintre Școala de Limbi Străine Linguata și Universitatea de Stat din Comrat, oferind locuitorilor municipiului Comrat și ai întregii regiuni acces la programe moderne și eficiente de studiere a limbilor străine într-un mediu academic accesibil. În cadrul noului sediu vor fi organizate cursuri de: Engleză • Germană • Franceză • Italiană Programele sunt destinate copiilor, adolescenților și adulților , iar instruirea va fi disponibilă în două formate: offline – în incinta Universității de Stat din Comrat; online – pentru cursanții din toate localitățile UTA Găgăuzia și raionul Taraclia. Odată cu deschiderea sediului din or. Comrat, Școala de Limbi Străine Linguata își consolidează rețeaua de centre educaționale, fiind deja prezentă în 8 orașe din Republica Moldova , continuând să ofere acces la educație lingvistică de calitate copiilor, adolescenților și adulților din diferite regiuni ale țării. Parteneriatul cu Universitatea de Stat din Comrat reprezintă un nou pas în dezvoltarea oportunităților educaționale din regiune și va contribui la formarea și perfecționarea competențelor lingvistice ale copiilor, tinerilor și adulților din UTA Găgăuzia și raionul Taraclia. Începând cu 1 octombrie, vă așteaptăm la noul sediu L inguata din incinta Universității de Stat din Comrat! <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Cambridge Day Moldova, Conferință Internațională în Engleză! Școala de Limbi Străine Linguata a fost decernată cu Certificat de Excelență! Ne bucurăm pentru realizările remarcabile și marele premiu acordat partenerului nostru EECentre România de către Centrul Cambridge Press and Assessment pentru abordare proactivă și angajament față de calitate și excelență profesională. Suntem mândri de colaborarea Centrului de Limbi Străine LINGUATA cu EECentre România , unul dintre cele mai mari și renumite centre de susținere a examenelor Cambridge . Vă dorim mult succes pe viitor! ACTIVITĂȚI DIN CADRUL LECTIILOR partenerii noștri de ce să ne alegi pe noi? <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span><span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Pregătire examene Studiați la Linguata pentru a stăpâni tehnicile de examen ... Mai mult Calificări Cambridge. Nr. 1 în Moldova Linguata - CENTRU DE AUR ÎN PREGĂTIREA PENTRU EXAMENUL CAMBRIDGE... Mai mult 30 Ani de activitate Mai mult 49 Programe și cursuri Mai mult 90 Profesori calificați Mai mult 56736 Cursanți fericiți Mai mult Alege limba pe care dorești să o studiezi ENGLEZA FRANCEZA GERMANA ITALIANA Printre clienții noștri Program de lucru: luni - vineri de la 9:00 până la 17:00. Centru Str. Vlaicu Pârcălab 52 (ULIM) Tel/Fax: +373 22 211023; + 373 68555662 centruoffice@linguata.md Ciocana bd. Mircea cel Bătrân 22/5, of. 209 Tel: + 373 68600133 ciocana1office@linguata.md Ciocana bd. Mircea cel Bătrân 41B Tel: + 373 60488855 ciocanaoffice15@linguata.md Ciocana Tel: + 373 68555662 Botanica bd. Decebal 80/1, scara 3, et. 2 Tel: + 373 68600134 botanica1office@linguata.md Botanica str. Independenţei 40, et. 2, of. 213 Tel: + 373 68600138 linguataindependentii@yahoo.com Buiucani str. Alba Iulia 75 (clădirea ALFA), etajul 4 Tel: + 373 68600136 buiucanioffice@linguata.md Buiucani str. Ion Creangă 66, of. 18 Tel: + 373 69994114 buiucanioffice14@linguata.md Râșcani str. Kiev 16/1, et. 3 Tel: + 373 68600137 rascanioffice@linguata.md Ialoveni str. Alexandru cel Bun 5A Tel: + 373 68600132 ialovenioffice@linguata.md Bălți str. Ştefan cel Mare 72/2 Tel: + 373 68555661 baltioffice@linguata.md Cahul str. Seliviorstov 18 Tel: +373 68230223 cahuloffice@linguata.md Criuleni bd. Biruința 21, of. 314 Tel: +373 68229011 Linguata_criuleni@yahoo.com Orhei str. V. Lupu 34, et. 2 Tel: + 373 68555663 orheioffice@linguata.md Telenești str. Renașterii 69 (în incinta Centrului de Creație pentru Copii și Tineret) Tel: + 373 68555112 telenestioffice@linguata.md Comrat str. Galațana 17, of. 314 (în incinta USC) Tel: + 373 60999716 comrat@linguata.md Linguata | Scoli de Limbi Straine ©2020-2026 Linguata.md\n+LINGUATA – Școli de Limbi Străine × Home Despre Noi Despre Noi Mărturii Cursuri Engleza Franceza Germana Italiana Pregătire Examene BAC Cambridge IELTS TOEFL FAQs Contacte Alege să zâmbești Alege LINGUATA ÎMPREUNĂ DIN 1996 Mai Mult Oferte speciale ENGLEZA FRANCEZA GERMANA ITALIANA ONLINE EXAMENE CORPORATE 30 ani de experiență; ÎMPREUNĂ DIN 1996 LINGUATA cea mai mare rețea de Școli de Limbi Străine Cei mai buni profesori; Cel mai înalt nivel de predare; Lecții online și offline; Cele mai interactive metode; Oferte variate. 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A Cursuri Pentru Adulți alegerea inteligentă! Mai Mult Learn Online Popular Courses Italiana 4.0€ Italiana – Adulți – Mediu-Avansat La finele cursului, formabilii vor putea stăpâni o gamă vastă a limbii pentru a reuși descrieri clare... Read More Italiana 3.9€ Italiana – Adulți – Mediu La finele cursului, formabilii vor putea stăpâni un vocabular suficient pentru a se exprima cu ajutorul parafrazelor asupra majorităţii subiectelor privind viaţa sa cotidiană cum ar fi... Read More Italiana 3.1€ Italiana – Adulți – Mediu – Elementar La finele cursului, formabilii vor putea produce scurte expresii curente pentru a răspunde unor necesităţi simple de tip concret... Read More Italiana 3.1€ Italiana – Adulți – Elementar A finele cursului, formabilii vor putea identifica și pronunța sunete şi unele grupuri de sunete, specifice limbii străine,rostite izolat şi în cuvinte... Read More De 30 de ani le lărgim elevilor orizonturile, apropiindu-i de culturi și limbi străine. 30 Ani de activitate 49 Programe și cursuri 90 Profesori calificați 56.7 K Cursanți fericiți Hai să discutăm Completați formularul Succesul şi reuşitele reţelei de Şcoli de Limbi Străine LINGUATA se datorează în mare parte profesorilor noştri, care, datorită experienţei, devotamentului şi profesionalismului, oferă cursanţilor lecţii interactive de calitate. Read More Select Course English French German Italian Echipa noastră Faceți cunoștință cu profesorii noștri. Succesul şi reuşitele reţelei de Şcoli de Limbi Străine LINGUATA se datorează în mare parte profesorilor noştri, care, datorită experienţei, devotamentului şi profesionalismului, oferă cursanţilor lecţii interactive de calitate. Administrația – Echipa Linguata Linguata Sediul 1 Linguata Sediul 2 Linguata Sediul 3 Linguata Sediul 4 Linguata Sediul 5 Linguata Sediul 6 Linguata Sediul 7 Linguata Sediul 8 Linguata Sediul 9 Linguata Sediul 10 Linguata Sediul 11 Linguata Sediul 12 Linguata Sediul 14 Linguata Sediul 15 Linguata Sediul 20 Linguata Mai Mult Mărturii Ce spun elevii noștri despre cursuri. This language school was a marvelous environment for developing new skills in English with wise and well prepared teachers. I loved: teacher's. Sorin Ipati Experiența însușirii limbii engleze la linguata a fost plăcută pe tot parcursul anului de studii. Am reușit să obțin rezultate înalte la. Dan Lefter Would totally recommend this amazing language school. Great teachers with entertaining, useful techniques and a friendly environment.. Vitalina Varlan Definitely recommended!!! It was such a great and wonderful experience with amazing people🤩. Thanks for effort and knowledge🫶…. Arama Mihaella O școală de limbi străine pur și simplu MINUNATĂ ,profesori excepționali , lecții captivante și experiențe plăcute.Aici am reușit să obțin rezultate. Doina Ursu Eu de fapt nu vorbesc engleza, e abilitatea de a scrie în EN a lui fiu-meu după primul an de studii. Dna. Codreanu Eugen Abonează-te la newsletter-ul nostru Subscribe Leave this field empty if you're human: Întrebări frecvente despre LINGUATA De ce Linguata? 30 de ani de experiență în predarea limbilor străine în Moldova; Profesori experți în predarea limbilor străine; Promovabilitatea la examenele internaționale de 98.5 %; Puteți studia de acasă, folosind platformele online; Test de plasare și prima oră (de probă) gratuite; O varietate de programe; Grupe mici de studiu; Suport de curs și toate materialele educaționale necesare; Certificatele de absolvire sunt recunoscute de Ministerul Educației. Care este cea mai potrivită vârstă pentru a începe studierea unei limbi străine? Viitorul e cu siguranţă al celor care vorbesc limbile străine, iar tendinţa internaţională este ca studierea acestora să înceapă la o vârstă cât mai fragedă. De ce? Pedagogii și psihologii cu renume mondial afirmă că cei care învață limbile străine de mici se bucură de unele avantaje extrem de importante care facilitează cu mult procesul educațional. Învățând limbile străine de la o vârstă fragedă, copiii dezvoltă o pronunțare corectă și frumoasă, asemănătoare vorbitorilor nativi. Spre deosebire de cei maturi, cei mici nu se tem sa facă greșeli și încearcă de multe ori; de aceea copiii își dezvoltă mai ușor fluența într-o limbă străină. Cum are loc testarea? Testarea are loc în două moduri: pentru copii claselor primare se face în formă orală și pentru adolescenți și adulți în formă scrisă. Testarea nivelului de cunoştinţe se face gratuit şi oferim o lecţie de probă la fel gratuită. Cât timp durează un curs pentru copiii de vărsta 7-10 ani? Cursul durează un an şcolar, septembrie-mai, cu vacanţe incluse, 2 şedinţe pe săptămână a câte 65 minute fiecare şedinţă. Care este numărul de persoane în grupă? grupe obişnuite: 6-12 persoane; grupe mici: 2-5 persoane. Ce manuale utilizaţi? Utilizăm manualele renumitei edituri Cambridge University Press, National Geographic (l. engleză), Hueber (l. germană), Hachette (l. franceză), Edilingua (l. italiană), care sunt foarte interactive şi corespund în întregime cerinţelor internaţionale pentru studierea limbilor străine. Mai Mult Alătură-te școlii noastre Ești gata să înveți? Înscrie-te acum! Mai Mult Centru Str. Vlaicu Pârcălab 52 (ULIM) Tel/Fax: +373 22 211023; + 373 68555662 centruoffice@linguata.md Deschide harta Ciocana bd. Mircea cel Bătrân 22/5, of. 209 Tel: + 373 68600133 ciocana1office@linguata.md Deschide harta Ciocana bd. Mircea cel Bătrân 41B Tel: + 373 60488855 ciocanaoffice15@linguata.md Deschide harta Ciocana Bulevardul Mircea cel Bătrîn 22/5 Tel: + 373 68555662 ciocana2office@linguata.md Deschide harta Botanica bd. Decebal 80/1, scara 3, et. 2 Tel: + 373 68600134 botanica1office@linguata.md Deschide harta Botanica str. Independenţei 40, et. 2, of. 213 Tel: + 373 68600138 botanica2office@linguata.md Deschide harta Buiucani str. Alba Iulia 75 (clădirea ALFA), etajul 4 Tel: + 373 68600136 buiucanioffice@linguata.md Deschide harta Buiucani str. Ion Creangă 66, of. 18 Tel: + 373 69994114 buiucanioffice14@linguata.md Deschide harta Râșcani str. Kiev 16/1, et. 3 Tel: + 373 68600137 rascanioffice@linguata.md Deschide harta Ialoveni str. Alexandru cel Bun 5A Tel: + 373 68600132 ialovenioffice@linguata.md Deschide harta Bălți str. Ştefan cel Mare 72/2 Tel: + 373 68555661 baltioffice@linguata.md Deschide harta Cahul str. Seliviorstov 18 Tel: +373 68230223 cahuloffice@linguata.md Deschide harta Criuleni bd. Biruința 21, of. 314 Tel: +373 68229011 criulenioffice@linguata.md Deschide harta Orhei str. V. Lupu 34, et. 2 Tel: + 373 68555663 orheioffice@linguata.md Deschide harta Telenești str. Renașterii 69 (în incinta Centrului de Creație pentru Copii și Tineret) Tel: + 373 68555112 telenestioffice@linguata.md Deschide harta Comrat str. Galațana 17, of. 314 (în incinta USC) Tel: + 373 60999716 comrat@linguata.md Deschide harta 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A Program de lucru: luni – vineri de la 9:00 până la 17:00. LINGUATA ©2026"
+    }
+  ]
 }
