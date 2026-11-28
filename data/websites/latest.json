@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "count": 18,
   "results": [
     {
@@ -7,9 +7,9 @@
       "name": "ALC Moldova",
       "url": "https://alc.md",
       "status": "ok",
-      "change_ratio": 0.0,
-      "changed": false,
-      "last_checked": "2026-11-27T13:34:19.869135+00:00"
+      "change_ratio": 0.9863,
+      "changed": true,
+      "last_checked": "2026-11-28T12:46:45.767619+00:00"
     },
     {
       "market": "moldova",
@@ -18,16 +18,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:20.407496+00:00"
+      "last_checked": "2026-11-28T12:46:46.356814+00:00"
     },
     {
       "market": "moldova",
       "name": "Linguata",
       "url": "https://linguata.md",
       "status": "ok",
-      "change_ratio": 0.9708,
-      "changed": true,
-      "last_checked": "2026-11-27T13:34:22.733932+00:00"
+      "change_ratio": 0.0,
+      "changed": false,
+      "last_checked": "2026-11-28T12:46:47.682439+00:00"
     },
     {
       "market": "moldova",
@@ -36,16 +36,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:23.887077+00:00"
+      "last_checked": "2026-11-28T12:46:48.535732+00:00"
     },
     {
       "market": "moldova",
       "name": "Engleza cu Snow",
       "url": "https://englezacusnow.md",
       "status": "ok",
-      "change_ratio": 0.0,
-      "changed": false,
-      "last_checked": "2026-11-27T13:34:25.078809+00:00"
+      "change_ratio": 0.9927,
+      "changed": true,
+      "last_checked": "2026-11-28T12:46:49.376857+00:00"
     },
     {
       "market": "moldova",
@@ -53,7 +53,7 @@
       "url": "https://alliancefrancaise.md",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alliancefrancaise.md', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alliancefrancaise.md', port=443): Failed to resolve 'alliancefrancaise.md' ([Errno -2] Name o",
-      "last_checked": "2026-11-27T13:34:25.145702+00:00",
+      "last_checked": "2026-11-28T12:46:49.533373+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -64,7 +64,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:26.668627+00:00"
+      "last_checked": "2026-11-28T12:46:50.556102+00:00"
     },
     {
       "market": "moldova",
@@ -73,7 +73,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:27.366901+00:00"
+      "last_checked": "2026-11-28T12:46:51.152679+00:00"
     },
     {
       "market": "moldova",
@@ -82,16 +82,16 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:27.647725+00:00"
+      "last_checked": "2026-11-28T12:46:51.356894+00:00"
     },
     {
       "market": "moldova",
       "name": "Smile English",
       "url": "https://englishclub.md",
       "status": "ok",
-      "change_ratio": 0.0113,
+      "change_ratio": 0.0004,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:28.539275+00:00"
+      "last_checked": "2026-11-28T12:46:52.121300+00:00"
     },
     {
       "market": "moldova",
@@ -100,7 +100,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:30.844160+00:00"
+      "last_checked": "2026-11-28T12:46:56.599798+00:00"
     },
     {
       "market": "georgia",
@@ -108,7 +108,7 @@
       "url": "https://alctbilisi.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='alctbilisi.ge', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='alctbilisi.ge', port=443): Failed to resolve 'alctbilisi.ge' ([Errno -3] Temporary failure in name r",
-      "last_checked": "2026-11-27T13:34:33.458746+00:00",
+      "last_checked": "2026-11-28T12:46:59.211052+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -118,7 +118,7 @@
       "url": "https://www.goethe.de/ins/ge/en/index.html",
       "status": "error",
       "error": "403 Client Error: Forbidden for url: https://www.goethe.de/ins/ge/en/index.html",
-      "last_checked": "2026-11-27T13:34:33.747326+00:00",
+      "last_checked": "2026-11-28T12:46:59.398680+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -128,7 +128,7 @@
       "url": "https://www.britishcouncil.ge",
       "status": "error",
       "error": "HTTPSConnectionPool(host='www.britishcouncil.ge', port=443): Read timed out. (read timeout=15)",
-      "last_checked": "2026-11-27T13:34:48.945176+00:00",
+      "last_checked": "2026-11-28T12:47:14.467773+00:00",
       "change_ratio": null,
       "changed": false
     },
@@ -139,7 +139,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:53.442101+00:00"
+      "last_checked": "2026-11-28T12:47:18.271983+00:00"
     },
     {
       "market": "georgia",
@@ -148,7 +148,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:54.530664+00:00"
+      "last_checked": "2026-11-28T12:47:19.204671+00:00"
     },
     {
       "market": "georgia",
@@ -157,7 +157,7 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:34:55.483540+00:00"
+      "last_checked": "2026-11-28T12:47:20.287338+00:00"
     },
     {
       "market": "georgia",
@@ -166,17 +166,25 @@
       "status": "ok",
       "change_ratio": 0.0,
       "changed": false,
-      "last_checked": "2026-11-27T13:35:06.455810+00:00"
+      "last_checked": "2026-11-28T12:47:28.146599+00:00"
     }
   ],
   "changes": [
     {
       "market": "moldova",
-      "name": "Linguata",
-      "url": "https://linguata.md",
-      "change_ratio": 0.9708,
-      "detected_at": "2026-11-27T13:34:22.733505+00:00",
-      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-Linguata – Scoli de Limbi Straine DESPRE NOI ISTORIC ECHIPA SEDIUL CENTRAL Cursuri ENGLEZA COPII ADOLESCENȚI PREGĂTIRE EXAMENE CAMBRIDGE IELTS TOEFL CURSURI CORPORATE ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI CURSURI ONLINE ENGLEZA COPII ADOLESCENȚI ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI PREGĂTIRE EXAMENE BAC CAMBRIDGE IELTS TOEFL CURSURI CORPORATE TESTARE ONLINE FAQs CONTACTE 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A DESPRE NOI ISTORIC ECHIPA SEDIUL CENTRAL Cursuri ENGLEZA COPII ADOLESCENȚI PREGĂTIRE EXAMENE CAMBRIDGE IELTS TOEFL CURSURI CORPORATE ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI CURSURI ONLINE ENGLEZA COPII ADOLESCENȚI ADULȚI FRANCEZA COPII ADOLESCENȚI ADULȚI GERMANA COPII ADOLESCENȚI ADULȚI ITALIANA ADOLESCENȚI ADULȚI PREGĂTIRE EXAMENE BAC CAMBRIDGE IELTS TOEFL CURSURI CORPORATE TESTARE ONLINE FAQs CONTACTE Programe avizate de Ministerul Educației și Cercetării al Republicii Moldova Centru de Limbi Străine acreditat de către Agenția Națională de Asigurare a Calității în Educație și Cercetare (ANACEC) pentru o perioadă de 5 ani, prin Ordinul nr. 57 din 26.01.2021 al Ministerului Educației, Culturii și Cercetării al Republicii Moldova Centru autorizat de pregătire și susținere a examenului internațional Cambridge Mai multe… Centru autorizat de pregătire și testare a examenului internațional IELTS Mai multe… NOUTĂȚI Cursuri de limbi străine de dimineață cu reducere de 30% la înscriere! Oferta valabilă din 01 noiembrie până în data de 30 noiembrie. Prindeți un loc acum! Învață o limbă străină offline sau online cu Linguata, cea mai mare rețea de Școli de Limbi Străine din Moldova +373 68555662 De 30 de ani suntem orientați spre succes! Centru GOLD de pregătire Cambridge Linguata – Centru de Pregătire și Testare a examenului IELTS examen cu recunoaștere internațională! oriunde; oricând profesori de top grupe mici cursuri individuale plata în rate! <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Școala de Limbi Străine Linguata își extinde activitatea în or. Comrat! Începând cu 1 octombrie 2026 , Școala de Limbi Străine Linguata își extinde activitatea în UTA Găgăuzia, deschizând un nou sediu în incinta Universității de Stat din Comrat . Deschiderea noului sediu are loc în baza acordului de colaborare și a parteneriatului dintre Școala de Limbi Străine Linguata și Universitatea de Stat din Comrat, oferind locuitorilor municipiului Comrat și ai întregii regiuni acces la programe moderne și eficiente de studiere a limbilor străine într-un mediu academic accesibil. În cadrul noului sediu vor fi organizate cursuri de: Engleză • Germană • Franceză • Italiană Programele sunt destinate copiilor, adolescenților și adulților , iar instruirea va fi disponibilă în două formate: offline – în incinta Universității de Stat din Comrat; online – pentru cursanții din toate localitățile UTA Găgăuzia și raionul Taraclia. Odată cu deschiderea sediului din or. Comrat, Școala de Limbi Străine Linguata își consolidează rețeaua de centre educaționale, fiind deja prezentă în 8 orașe din Republica Moldova , continuând să ofere acces la educație lingvistică de calitate copiilor, adolescenților și adulților din diferite regiuni ale țării. Parteneriatul cu Universitatea de Stat din Comrat reprezintă un nou pas în dezvoltarea oportunităților educaționale din regiune și va contribui la formarea și perfecționarea competențelor lingvistice ale copiilor, tinerilor și adulților din UTA Găgăuzia și raionul Taraclia. Începând cu 1 octombrie, vă așteaptăm la noul sediu L inguata din incinta Universității de Stat din Comrat! <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Cambridge Day Moldova, Conferință Internațională în Engleză! Școala de Limbi Străine Linguata a fost decernată cu Certificat de Excelență! Ne bucurăm pentru realizările remarcabile și marele premiu acordat partenerului nostru EECentre România de către Centrul Cambridge Press and Assessment pentru abordare proactivă și angajament față de calitate și excelență profesională. Suntem mândri de colaborarea Centrului de Limbi Străine LINGUATA cu EECentre România , unul dintre cele mai mari și renumite centre de susținere a examenelor Cambridge . Vă dorim mult succes pe viitor! ACTIVITĂȚI DIN CADRUL LECTIILOR partenerii noștri de ce să ne alegi pe noi? <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span><span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> Pregătire examene Studiați la Linguata pentru a stăpâni tehnicile de examen ... Mai mult Calificări Cambridge. Nr. 1 în Moldova Linguata - CENTRU DE AUR ÎN PREGĂTIREA PENTRU EXAMENUL CAMBRIDGE... Mai mult 30 Ani de activitate Mai mult 49 Programe și cursuri Mai mult 90 Profesori calificați Mai mult 56736 Cursanți fericiți Mai mult Alege limba pe care dorești să o studiezi ENGLEZA FRANCEZA GERMANA ITALIANA Printre clienții noștri Program de lucru: luni - vineri de la 9:00 până la 17:00. Centru Str. Vlaicu Pârcălab 52 (ULIM) Tel/Fax: +373 22 211023; + 373 68555662 centruoffice@linguata.md Ciocana bd. Mircea cel Bătrân 22/5, of. 209 Tel: + 373 68600133 ciocana1office@linguata.md Ciocana bd. Mircea cel Bătrân 41B Tel: + 373 60488855 ciocanaoffice15@linguata.md Ciocana Tel: + 373 68555662 Botanica bd. Decebal 80/1, scara 3, et. 2 Tel: + 373 68600134 botanica1office@linguata.md Botanica str. Independenţei 40, et. 2, of. 213 Tel: + 373 68600138 linguataindependentii@yahoo.com Buiucani str. Alba Iulia 75 (clădirea ALFA), etajul 4 Tel: + 373 68600136 buiucanioffice@linguata.md Buiucani str. Ion Creangă 66, of. 18 Tel: + 373 69994114 buiucanioffice14@linguata.md Râșcani str. Kiev 16/1, et. 3 Tel: + 373 68600137 rascanioffice@linguata.md Ialoveni str. Alexandru cel Bun 5A Tel: + 373 68600132 ialovenioffice@linguata.md Bălți str. Ştefan cel Mare 72/2 Tel: + 373 68555661 baltioffice@linguata.md Cahul str. Seliviorstov 18 Tel: +373 68230223 cahuloffice@linguata.md Criuleni bd. Biruința 21, of. 314 Tel: +373 68229011 Linguata_criuleni@yahoo.com Orhei str. V. Lupu 34, et. 2 Tel: + 373 68555663 orheioffice@linguata.md Telenești str. Renașterii 69 (în incinta Centrului de Creație pentru Copii și Tineret) Tel: + 373 68555112 telenestioffice@linguata.md Comrat str. Galațana 17, of. 314 (în incinta USC) Tel: + 373 60999716 comrat@linguata.md Linguata | Scoli de Limbi Straine ©2020-2026 Linguata.md\n+LINGUATA – Școli de Limbi Străine × Home Despre Noi Despre Noi Mărturii Cursuri Engleza Franceza Germana Italiana Pregătire Examene BAC Cambridge IELTS TOEFL FAQs Contacte Alege să zâmbești Alege LINGUATA ÎMPREUNĂ DIN 1996 Mai Mult Oferte speciale ENGLEZA FRANCEZA GERMANA ITALIANA ONLINE EXAMENE CORPORATE 30 ani de experiență; ÎMPREUNĂ DIN 1996 LINGUATA cea mai mare rețea de Școli de Limbi Străine Cei mai buni profesori; Cel mai înalt nivel de predare; Lecții online și offline; Cele mai interactive metode; Oferte variate. 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A Cursuri Pentru Adulți alegerea inteligentă! Mai Mult Learn Online Popular Courses Italiana 4.0€ Italiana – Adulți – Mediu-Avansat La finele cursului, formabilii vor putea stăpâni o gamă vastă a limbii pentru a reuși descrieri clare... Read More Italiana 3.9€ Italiana – Adulți – Mediu La finele cursului, formabilii vor putea stăpâni un vocabular suficient pentru a se exprima cu ajutorul parafrazelor asupra majorităţii subiectelor privind viaţa sa cotidiană cum ar fi... Read More Italiana 3.1€ Italiana – Adulți – Mediu – Elementar La finele cursului, formabilii vor putea produce scurte expresii curente pentru a răspunde unor necesităţi simple de tip concret... Read More Italiana 3.1€ Italiana – Adulți – Elementar A finele cursului, formabilii vor putea identifica și pronunța sunete şi unele grupuri de sunete, specifice limbii străine,rostite izolat şi în cuvinte... Read More De 30 de ani le lărgim elevilor orizonturile, apropiindu-i de culturi și limbi străine. 30 Ani de activitate 49 Programe și cursuri 90 Profesori calificați 56.7 K Cursanți fericiți Hai să discutăm Completați formularul Succesul şi reuşitele reţelei de Şcoli de Limbi Străine LINGUATA se datorează în mare parte profesorilor noştri, care, datorită experienţei, devotamentului şi profesionalismului, oferă cursanţilor lecţii interactive de calitate. Read More Select Course English French German Italian Echipa noastră Faceți cunoștință cu profesorii noștri. Succesul şi reuşitele reţelei de Şcoli de Limbi Străine LINGUATA se datorează în mare parte profesorilor noştri, care, datorită experienţei, devotamentului şi profesionalismului, oferă cursanţilor lecţii interactive de calitate. Administrația – Echipa Linguata Linguata Sediul 1 Linguata Sediul 2 Linguata Sediul 3 Linguata Sediul 4 Linguata Sediul 5 Linguata Sediul 6 Linguata Sediul 7 Linguata Sediul 8 Linguata Sediul 9 Linguata Sediul 10 Linguata Sediul 11 Linguata Sediul 12 Linguata Sediul 14 Linguata Sediul 15 Linguata Sediul 20 Linguata Mai Mult Mărturii Ce spun elevii noștri despre cursuri. This language school was a marvelous environment for developing new skills in English with wise and well prepared teachers. I loved: teacher's. Sorin Ipati Experiența însușirii limbii engleze la linguata a fost plăcută pe tot parcursul anului de studii. Am reușit să obțin rezultate înalte la. Dan Lefter Would totally recommend this amazing language school. Great teachers with entertaining, useful techniques and a friendly environment.. Vitalina Varlan Definitely recommended!!! It was such a great and wonderful experience with amazing people🤩. Thanks for effort and knowledge🫶…. Arama Mihaella O școală de limbi străine pur și simplu MINUNATĂ ,profesori excepționali , lecții captivante și experiențe plăcute.Aici am reușit să obțin rezultate. Doina Ursu Eu de fapt nu vorbesc engleza, e abilitatea de a scrie în EN a lui fiu-meu după primul an de studii. Dna. Codreanu Eugen Abonează-te la newsletter-ul nostru Subscribe Leave this field empty if you're human: Întrebări frecvente despre LINGUATA De ce Linguata? 30 de ani de experiență în predarea limbilor străine în Moldova; Profesori experți în predarea limbilor străine; Promovabilitatea la examenele internaționale de 98.5 %; Puteți studia de acasă, folosind platformele online; Test de plasare și prima oră (de probă) gratuite; O varietate de programe; Grupe mici de studiu; Suport de curs și toate materialele educaționale necesare; Certificatele de absolvire sunt recunoscute de Ministerul Educației. Care este cea mai potrivită vârstă pentru a începe studierea unei limbi străine? Viitorul e cu siguranţă al celor care vorbesc limbile străine, iar tendinţa internaţională este ca studierea acestora să înceapă la o vârstă cât mai fragedă. De ce? Pedagogii și psihologii cu renume mondial afirmă că cei care învață limbile străine de mici se bucură de unele avantaje extrem de importante care facilitează cu mult procesul educațional. Învățând limbile străine de la o vârstă fragedă, copiii dezvoltă o pronunțare corectă și frumoasă, asemănătoare vorbitorilor nativi. Spre deosebire de cei maturi, cei mici nu se tem sa facă greșeli și încearcă de multe ori; de aceea copiii își dezvoltă mai ușor fluența într-o limbă străină. Cum are loc testarea? Testarea are loc în două moduri: pentru copii claselor primare se face în formă orală și pentru adolescenți și adulți în formă scrisă. Testarea nivelului de cunoştinţe se face gratuit şi oferim o lecţie de probă la fel gratuită. Cât timp durează un curs pentru copiii de vărsta 7-10 ani? Cursul durează un an şcolar, septembrie-mai, cu vacanţe incluse, 2 şedinţe pe săptămână a câte 65 minute fiecare şedinţă. Care este numărul de persoane în grupă? grupe obişnuite: 6-12 persoane; grupe mici: 2-5 persoane. Ce manuale utilizaţi? Utilizăm manualele renumitei edituri Cambridge University Press, National Geographic (l. engleză), Hueber (l. germană), Hachette (l. franceză), Edilingua (l. italiană), care sunt foarte interactive şi corespund în întregime cerinţelor internaţionale pentru studierea limbilor străine. Mai Mult Alătură-te școlii noastre Ești gata să înveți? Înscrie-te acum! Mai Mult Centru Str. Vlaicu Pârcălab 52 (ULIM) Tel/Fax: +373 22 211023; + 373 68555662 centruoffice@linguata.md Deschide harta Ciocana bd. Mircea cel Bătrân 22/5, of. 209 Tel: + 373 68600133 ciocana1office@linguata.md Deschide harta Ciocana bd. Mircea cel Bătrân 41B Tel: + 373 60488855 ciocanaoffice15@linguata.md Deschide harta Ciocana Bulevardul Mircea cel Bătrîn 22/5 Tel: + 373 68555662 ciocana2office@linguata.md Deschide harta Botanica bd. Decebal 80/1, scara 3, et. 2 Tel: + 373 68600134 botanica1office@linguata.md Deschide harta Botanica str. Independenţei 40, et. 2, of. 213 Tel: + 373 68600138 botanica2office@linguata.md Deschide harta Buiucani str. Alba Iulia 75 (clădirea ALFA), etajul 4 Tel: + 373 68600136 buiucanioffice@linguata.md Deschide harta Buiucani str. Ion Creangă 66, of. 18 Tel: + 373 69994114 buiucanioffice14@linguata.md Deschide harta Râșcani str. Kiev 16/1, et. 3 Tel: + 373 68600137 rascanioffice@linguata.md Deschide harta Ialoveni str. Alexandru cel Bun 5A Tel: + 373 68600132 ialovenioffice@linguata.md Deschide harta Bălți str. Ştefan cel Mare 72/2 Tel: + 373 68555661 baltioffice@linguata.md Deschide harta Cahul str. Seliviorstov 18 Tel: +373 68230223 cahuloffice@linguata.md Deschide harta Criuleni bd. Biruința 21, of. 314 Tel: +373 68229011 criulenioffice@linguata.md Deschide harta Orhei str. V. Lupu 34, et. 2 Tel: + 373 68555663 orheioffice@linguata.md Deschide harta Telenești str. Renașterii 69 (în incinta Centrului de Creație pentru Copii și Tineret) Tel: + 373 68555112 telenestioffice@linguata.md Deschide harta Comrat str. Galațana 17, of. 314 (în incinta USC) Tel: + 373 60999716 comrat@linguata.md Deschide harta 068-555-662 Str. Vlaicu Pîrcălab 52 (ULIM), of. 100-A Program de lucru: luni – vineri de la 9:00 până la 17:00. LINGUATA ©2026"
+      "name": "ALC Moldova",
+      "url": "https://alc.md",
+      "change_ratio": 0.9863,
+      "detected_at": "2026-11-28T12:46:45.757365+00:00",
+      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-English Courses Chișinău | ALC Moldova Courses Pricing FAQ 079 222 447 RO RU EN Level Test Courses Pricing FAQ 079 222 447 RO RU EN English Level Test ENGLISH COURSES CHIȘINĂU. English for adults, teens and professionals — online or in-person, in Chișinău. Register Now View Courses NEW COURSES ✕ START — OCTOBER 8, 2026 Conversation Club with Lucy Poulson (Native Speaker) 🗓️ Every Thursday, 18:30–20:00 📍 In person ⏳ October 8 – December 17, 2026 2,500 MDL Register → START — OCTOBER 19, 2026 Artificial Intelligence Course (AI for Productivity) 🗓️ Tue/Thu, 18:30–19:30 📍 In person ⏳ 4 weeks 3,500 MDL Register → START — NOVEMBER 2, 2026 English Courses — Beginner Level 🗓️ 9:00 / 17:00 / 18:30 📍 In person ⏳ 3 months 6,000 MDL Register → START — NOVEMBER 2, 2026 New Course! English Through News & Current Events 🗓️ 9:00 / 14:00 / 18:30 📍 Online ⏳ 1 month (one module) 2,200 MDL Register → Limited spots — register now to secure your place 6,000+ Students Trained 25+ Certified Teachers 80+ Partner Companies 1,000+ Exam-Ready Students OUR COURSES From everyday conversation to exam mastery and corporate fluency. Most Popular General English Learn to speak and write fluently. Small groups, practical lessons, real progress. Morning 9:00 Adults Perfect your English at a balanced pace, in a relaxed and motivating environment. 2 sessions/week · 2h15 per session Small groups and personalised feedback 10% discount for morning programme 5,400 MDL · 72 hrs · 3 months Afternoon 16:00 Teens Improve your English beyond school hours. Real progress, better exam results. Focus on conversations and real communication Interactive lessons with projects and presentations Free assessment test 6,000 MDL · 72 hrs · 3 months Evening 18:30 Adults Develop your fluency for personal and professional life — meetings, presentations, emails. Flexible schedule after work hours Small groups and personalised attention Practical English used directly at work 6,000 MDL · 72 hrs · 3 months Register → Individual Exam Preparation Course Cambridge B2/C1 · IELTS · SAT 5000 MDL 10 sessions · online (flexible schedule) Register → New Course! English Through News & Current Events — Online Learn English using real news and media content. 2200 MDL 16 academic hours · twice/week · limited spots Register → New Course! English for Professional Communication — Online Practical English for real workplace situations. 2000 MDL 16 academic hours · twice/week · limited spots Register → Romanian & Russian Fast integration and effective communication. Courses for expats and professionals, online or in-person. 5000 MDL 48 hours · 3 months Register → Specialized English One-to-one courses for law, medicine, business, accountancy and other professional fields. 500 MDL per 60-min session Register → Why Choose ALC Qualified & Experienced Teachers Learn from education experts who know how to turn theory into real communication. Real Results Achieve visible results — fluency, confidence and measurable progress in a short time. Total Flexibility Organize your lessons around your schedule: morning, afternoon or evening, online or in-person, group or individual. Fair & Accessible Pricing Market-rate pricing, no hidden fees. Quality education at an accessible cost. PRICING Transparent pricing. No hidden fees. Group Course 6000 MDL · 72 hours · 3 months 8–10 students per group Online or face-to-face Mon/Wed or Tue/Thu 10% discount for returning students Register Now Individual Course 500 MDL · per 60-min session Flexible schedule Online or offline Content tailored to your goals Study materials included Call to Book Discounts 10% Returning students who pay in full within the first week of the new course. 250 MDL Refer a friend who enrolls and get 250 MDL off your next course. Free Trial Anyone can attend a trial lesson. Register in advance to reserve your spot. FAQ When do lessons take place? Two semesters per year: January–May and September–December. Monday/Wednesday or Tuesday/Thursday, 2h15 per session. Times: 9:00 / 11:00 / 16:30 / 18:30. Summer intensive also available (Mon/Wed/Fri, 2 months). Do I need to take a placement test? Yes — unless you have zero English. The test has two parts: a written grammar test (~30–40 min) followed by an oral test at our premises. Call 079 222 447 to schedule. How many students per group? Maximum 8–10 students per group. Small groups are essential to our teaching philosophy — more speaking time, more feedback, faster progress. Can I have individual lessons? Yes. Individual lessons are 60 minutes and cost 500 MDL. We recommend a set of 10 sessions (5000 MDL). Schedule is agreed with your teacher. Available online and offline. Can I attend a free trial lesson? Yes — anyone can attend a trial lesson free of charge. Register in advance to secure your place. Call 079 222 447 or use the registration form. What are the school's opening hours? Monday to Friday, 9:00–19:00. Located at Mihai Eminescu Street 41/1, Chișinău. Call us at 079 222 447 . What Our Students Say ★★★★★ \"It is a great center, for teachers and students. Everyone has the chance to share emotions and experience, to discover new things and to improve your level of English. Great job, team ALC!\" Ala ★★★★★ \"I always found passionate teachers here who constantly strive to improve. A great center with comfortable rooms, always creating an interesting atmosphere with diverse events. I recommend ALC.\" Eugeniu ★★★★★ \"A language school that cares about the quality of studies and creates a friendly atmosphere. I go there with pleasure!\" Mircea 5/5 Reviews Ready to start? Spots are limited. Reserve yours today. Register Now 079 222 447 A Program of American Councils American Learning Center Moldova — excellence in language education since 1994. 079 222 447 alc.md@americancouncils.org Courses General English (Group) Exam Preparation News & Current Events Professional Communication Romanian & Russian Specialized English Quick Links Pricing FAQ Level Test Register Call Us © 2026 American Learning Center. ALC. Privacy Statement ↑\n+One moment, please... Loader Please wait while your request is being verified..."
+    },
+    {
+      "market": "moldova",
+      "name": "Engleza cu Snow",
+      "url": "https://englezacusnow.md",
+      "change_ratio": 0.9927,
+      "detected_at": "2026-11-28T12:46:49.376571+00:00",
+      "diff_preview": "--- \n+++ \n@@ -1 +1 @@\n-Cursuri de Engleză la - Engleza Cu Snow Skip to content Cursuri Alte produse Echipa Recenzii Contacte Cursuri Alte produse Echipa Recenzii Contacte Începe acum Nu rata șansa! Înscrie-te acum la cursul: Scapă de Frica de Vorbire și începe să comunici cu încredere în engleză! Days Hours Minutes Seconds Nu rata șansa! Înscrie-te acum la cursul: Scapă de Frica de Vorbire și începe să comunici cu încredere în engleză! Days Hours Minutes Seconds Învață să vorbești engleza liber | Completează formularul pentru a participa la o lecție de probă gratuită sau pentru a-ți testa nivelul de engleză, în funcție de preferința ta. name email phone installments Vreau sa achit în rate Te contactăm telefonic, prin SMS sau pe WhatsApp în legătură cu solicitarea ta. Nu îți trimitem marketing. Datele sunt prelucrate de S.R.L. „EDUSPARK ACADEMY\" · office@englezacusnow.com · Politica de confidențialitate Trimite Învață să vorbești engleza liber | Completează formularul pentru a participa la o lecție de probă gratuită sau pentru a-ți testa nivelul de engleză, în funcție de preferința ta. name email phone installments Vreau sa achit în rate Te contactăm telefonic, prin SMS sau pe WhatsApp în legătură cu solicitarea ta. Nu îți trimitem marketing. Datele sunt prelucrate de S.R.L. „EDUSPARK ACADEMY\" · office@englezacusnow.com · Politica de confidențialitate Trimite De ce noi? Inovativ. Flexibil. Modern. La Engleza cu Snow, îți oferim o experiență unică de învățare a limbii engleze, special creată pentru cei care își doresc mai mult decât un simplu curs – un partener în drumul spre succes. Orar flexibil Înțelegem că fiecare cursant are un program diferit, așa că stabilim împreună orele care ți se potrivesc cel mai bine. Lecții online Învață engleză din orice colț al lumii, indiferent unde te afli, fără compromisuri. Tot ce ai nevoie este o conexiune stabilă la internet și dorința de a avansa. Grupuri mici În grupuri de 6 - 10 participanți, îți oferim atenție personalizată și un mediu prietenos, care te ajută să evoluezi într-un ritm natural, fără presiune. Metodologie de predare modernă Folosim metode moderne și interactive care te ajută să asimilezi rapid și eficient noile cunoștințe, făcându-ți drumul spre fluență mai ușor ca niciodată. Abonați 0 k+ Ani experiență 0 + Studenți fericiți 0 k+ Studenți certificați 0 k+ Cursurile noastre A1 Nivel Starter Vei învăța vocabular de bază, propoziții simple și cum să comunici în viața de zi cu zi. Frecvență: 2–3 lecții pe săptămână Durata cursului: 20 de lecții 230 € / curs (≈ 4.500 MDL | ≈ 1.140 RON) Vezi Detalii A2 Nivel Elementary Îți vei extinde vocabularul și vei comunica în conversații simple, folosind timpurile de bază. Frecvență: 2–3 lecții pe săptămână Durata cursului: 20 de lecții 230 € / curs (≈ 4.500 MDL | ≈ 1.140 RON) Vezi Detalii A2-B1 Nivel Pre-Intermediate Vei discuta subiecte variate și vei stăpâni forme modale și condiționale în conversații. Frecvență: 2–3 lecții pe săptămână Durata cursului: 20 de lecții 230 € / curs (≈ 4.500 MDL | ≈ 1.140 RON) Vezi Detalii B1-B2 Nivel Intermediate Vei deveni mai fluent, învățând vocabular de afaceri și stăpânind timpuri complexe. Frecvență: 2–3 lecții pe săptămână Durata cursului: 20 de lecții 230 € / curs (≈ 4.500 MDL | ≈ 1.140 RON) Vezi Detalii B2 Nivel Upper-Intermediate Vei participa la discuții complexe și vei folosi vocabular avansat și fraze gramaticale dificile. Frecvență: 2–3 lecții pe săptămână Durata cursului: 20 de lecții 230 € / curs (≈ 4.500 MDL | ≈ 1.140 RON) Vezi Detalii A1-C1 Curs Individual Cursul este personalizat pentru nevoile tale, adaptat la nivelul și obiectivele tale. Frecvență: 2–3 lecții pe săptămână Durata cursului: 10 lecții 280 € / pachet (≈ 5.500 MDL | ≈ 1.390 RON) Vezi Detalii Alătură-te nouă Te așteptăm la curs! Completează formularul de mai jos și fă primul pas către îmbunătățirea abilităților tale de engleză. Echipa noastră te va contacta în cel mai scurt timp, conform programului de lucru, pentru a stabili toate detaliile. name email phone Te contactăm telefonic, prin SMS sau pe WhatsApp în legătură cu solicitarea ta. Nu îți trimitem marketing. Datele sunt prelucrate de S.R.L. „EDUSPARK ACADEMY\" · office@englezacusnow.com · Politica de confidențialitate Trimite Echipa noastră Profesori acreditați și pasionați Îmbunătățește-ți engleza cu cursuri interactive, adaptate nevoilor tale! Fiecare lecție este gândită să te ajute să înveți rapid și eficient, într-un mod ușor și plăcut. Vino alături de noi și învață engleza mai simplu ca niciodată! Mrs. Veronica Nickname: Linguistic Ninja 🥷 Veronica are super-puterea de a transforma orice întrebare dificilă într-un joc de cuvinte. E cunoscută pentru testele ei neobișnuite – cine știa că învățarea englezei poate include un pic de umor britanic și multe zâmbete? Ms. Natalia Nickname: Sarcastic Queen 👑 Natalia este cunoscută pentru glumele ei inteligente și pentru talentul de a explica gramatica cu analogii nebune. Dacă te-ai întrebat vreodată cum ar suna engleza dacă ar fi o poveste de dragoste cu final neașteptat, Natalia are răspunsul! Mrs. Tamara Nickname: Personal Psychologist 🧠 Tamara este convinsă că engleza ar trebui să fie la fel de relaxantă ca o după-amiază la cafenea. Lecțiile ei sunt pline de discuții amuzante și conversații relaxante care te fac să uiți că înveți! Mrs. Tatiana Nickname: Stand-up Guru 🧘‍♂️ Tatiana crede cu tărie că fiecare lecție trebuie să includă cel puțin un moment de râs. Cu Tatiana, vei învăța engleză râzând de glumele ei pline de autoironie despre cum 'a supraviețuit' conjugării verbelor neregulate. Ms. Valeria Nickname: Study Fairy 🧚 Prezența ei schimbă ritmul lecției. Lucrurile se clarifică natural, fără presiune, iar engleza apare firesc — idee cu idee. Cu ea, înveți fără să simți că „înveți”. Ms. Daria Nickname: Wildflower Polyglot 🌼 Daria aduce în clasă energia unui câmp de flori în iunie - veselă, deschisă la orice subiect. Vorbește și germana, așa că are mereu o comparație surprinzătoare când engleza pare complicată. Recenzii Ce cred studenții despre noi? Vezi ce spun studenții despre cursurile Engleza cu Snow! Citește recenziile și experiențele lor pentru a descoperi cum i-am ajutat să-și atingă obiectivele. Job bine plătit Engleza este adesea cerută în joburi internaționale și companii multinaționale. Examene internaționale Obții certificări recunoscute la nivel global, precum IELTS, TOEFL sau Cambridge. Călătorii mai ușoare Cunoașterea englezei face călătoriile mai plăcute, fiind larg vorbită în toată lumea. Conexiune globală Te poți conecta cu oameni, prieteni și culturi diverse, din orice colț al lumii. Beneficiile tale Engleza îți deschide noi oportunități Stăpânirea limbii engleze îți oferă acces la o lume plină de noi posibilități. Îți deschide drumul către experiențe inedite și oportunități diverse. Începe acum Testează-ți nivelul gratuit! name phone Te contactăm telefonic, prin SMS sau pe WhatsApp în legătură cu solicitarea ta. Nu îți trimitem marketing. Datele sunt prelucrate de S.R.L. „EDUSPARK ACADEMY\" · office@englezacusnow.com · Politica de confidențialitate Trimite Procesul de înscriere Înscrie-te cu ușurință printr-un proces intuitiv și eficient Procesul nostru de aplicare se desfășoară în pași simpli și eficienți, pentru a asigura o experiență de înaltă calitate și fără dificultăți. Pasul 1 Aplicarea Completează formularul Pentru o experiență bună, asigură-te că toate datele indicate sunt corecte. Pasul 2 Contactarea Facem cunoștință Consilierul educațional al școlii te va suna pentru a discuta despre nevoile tale și a-ți răspunde la întrebări. Pasul 3 Evaluarea Testăm nivelul Vom evalua gratuit cunoștințele tale de engleză pentru a te plasa în grupa potrivită. Pasul 4 Orarul Stabilim orarul După stabilirea nivelului, vom selecta împreună orarul perfect, adaptat nevoilor tale. Te provocăm! 😎 Stăpânește 12 Timpuri în 15 Minute Apasă pentru a reda. Videoclipul se încarcă de la YouTube (Google LLC, SUA), care poate primi adresa ta IP și seta cookie-uri. Detalii în politica de confidențialitate Apariții media Află mai multe despre noi... Explorează prezența noastră în mediul digital! Am fost invitați în podcasturi și interviuri unde am discutat despre metodele noastre inovatoare de predare și impactul limbii engleze în educație. Apasă pentru a reda. Videoclipul se încarcă de la YouTube (Google LLC, SUA), care poate primi adresa ta IP și seta cookie-uri. Detalii în politica de confidențialitate Nota Doi | De ce Elevii NU Vorbesc Engleza după 11 ani și cum să o Vorbească într-o Zi? Apasă pentru a reda. Videoclipul se încarcă de la YouTube (Google LLC, SUA), care poate primi adresa ta IP și seta cookie-uri. Detalii în politica de confidențialitate Matinal | Snejana Bîrcu – Engleza la şcoală VS engleza învățată la cursuri Apasă pentru a reda. Videoclipul se încarcă de la YouTube (Google LLC, SUA), care poate primi adresa ta IP și seta cookie-uri. Detalii în politica de confidențialitate Radio Chișinău | Oameni și Idei cu Mihaela Iorgu și profesoara de engleză Snejana Bîrcu Vorbește engleza fluent cu ajutorul nostru. Instagram Tiktok Youtube Facebook-f Pagini Acasă Cursuri Recenzii Contacte Linkuri importante Formular de înregistrare Procesul de aplicare Echipă Contacte office@englezacusnow.com @engleza_cu_snow Politica de confidențialitate Termeni și condiții ⚠️ Rambursările se fac timp de 14 zile calendaristice. © 2025 Compania Engleza cu Snow. Toate drepturile rezervate. Cookie-uri de publicitate Am vrea să folosim pixelul Meta (Facebook) ca să măsurăm cât de bine merg reclamele noastre. Pornește doar dacă accepți, iar datele ajung la Meta Platforms, inclusiv în Statele Unite. Dacă refuzi, nu se încarcă nimic și site-ul funcționează la fel. Îți poți schimba alegerea oricând. Politica de confidențialitate Refuz Accept Cookie-uri\n+One moment, please... Loader Please wait while your request is being verified..."
     }
   ]
 }
